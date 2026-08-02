@@ -14,12 +14,11 @@ PDFを一つずつ追加しながら引用ネットワークを育てる、ブ�
 ## 特徴
 
 - 台帳操作は単一の実行ファイルだけで動作
-- Python、pip、conda、Node.js、Goのインストールは不要
+- 追加の言語ランタイムやパッケージ管理ツールのインストールは不要
 - Windows、WSL/Linux、Intel Mac、Apple Silicon Mac用バイナリ
 - 台帳は可読なUTF-8 `ledger.json` として原子的に更新
 - PDFはプロジェクト内の `pdfs/` にコピー
 - CSV、JSON、Graphviz DOT形式で書き出し
-- Python版 Citation Network Ledger 2.1 の書き出しZIPを移行可能
 - ザリガニ神経行動学の既存台帳をサンプルとして実行ファイルに内蔵
 
 ## 実行ファイルの選択
@@ -152,26 +151,6 @@ ZIPには `ledger.json`、`papers.csv`、`raw_references.csv`、`citations.csv`�
 ./citation-ledger-go --data-dir PROJECT validate
 ```
 
-## Python版2.1から移行する
-
-Python版で書き出します。
-
-```sh
-./citation-ledger --data-dir OLD_PROJECT export -o old_ledger.zip
-```
-
-Go版で取り込みます。
-
-```sh
-./citation-ledger-go --data-dir NEW_PROJECT import-legacy old_ledger.zip
-./citation-ledger-go --data-dir NEW_PROJECT validate
-./citation-ledger-go --data-dir NEW_PROJECT status
-```
-
-移行ZIPにはPython版が管理していたPDF本体が含まれないため、必要なら旧プロジェクトの `pdfs/` を新プロジェクトへコピーしてください。Google DriveのURLなどの書誌情報は移行されます。
-
-既存のGo台帳を置き換える場合だけ `--reset`を指定します。
-
 ## データ形式
 
 ```text
@@ -185,7 +164,7 @@ PROJECT/
 
 ## 依存関係
 
-台帳操作、検索、照合、移行、書き出しには追加依存がありません。
+台帳操作、検索、照合、書き出しには追加依存がありません。
 
 | プログラム | 必須性 | 用途 |
 |---|---|---|
