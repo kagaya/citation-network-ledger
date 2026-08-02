@@ -1,0 +1,9 @@
+# Local citation-ledger project data
+citation-ledger-data/
+
+# User-supplied PDFs
+pdfs/
+*.pdf
+
+# Generated release archives
+*.zip
