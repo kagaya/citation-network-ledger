@@ -1,0 +1,17 @@
+Citation Network Ledger Go — curation and documentation notice
+
+Copyright (c) 2026 Katsushi Kagaya
+
+The original documentation, original citation-edge curation, original matching
+decisions, and original annotations created for this distribution are licensed
+under Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution should name Katsushi Kagaya, link to the license, and indicate
+whether changes were made.
+
+This notice does not grant rights to third-party works. In particular,
+publisher-hosted PDFs are not included in this distribution. Bibliographic
+records and raw reference strings may identify or quote third-party works and
+are supplied only as part of the ledger; users are responsible for complying
+with applicable publisher terms, database rights, copyright, and other rights.

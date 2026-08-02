@@ -1,0 +1,29 @@
+Citation Network Ledger Go 3.0.2
+Author: Katsushi Kagaya
+Contact: kkagaya@excyberlab.com
+Copyright: Copyright (c) 2026 Katsushi Kagaya
+Code and executables: MIT License; see LICENSE.txt.
+Original documentation and curation: CC BY 4.0; see DATA_LICENSE.txt.
+Third-party literature content and PDFs: not included and not licensed by this distribution.
+Build date: 2026-08-02
+Compiler: Go 1.26.5
+Source dependencies: Go standard library only
+CGO: disabled
+
+Targets:
+- linux/amd64 (statically linked; intended for WSL and 64-bit Linux)
+- windows/amd64
+- darwin/amd64
+- darwin/arm64
+
+Verification performed:
+- gofmt
+- go test ./... (8 tests)
+- go vet ./...
+- Python 2.1 export migration: 12 papers, 450 raw references, 21 edges
+- Bundled crayfish seed integrity: 12 papers, 450 raw references, 21 edges
+- Real Wine & Krasne 1972 PDF extraction through pdftotext: 35 candidates
+- Real PDF registration, ledger validation, JSON output, DOT output, and ZIP export
+- Cross-build file-format inspection for Linux, Windows, and macOS targets
+
+Checksums are in bin/SHA256SUMS.txt.

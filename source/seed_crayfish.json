@@ -1,0 +1,4782 @@
+{
+  "format_version": 1,
+  "project_name": "Crayfish Neuroethology",
+  "next_reference_id": 451,
+  "papers": [
+    {
+      "id": "wine_krasne_1972",
+      "title": "The organization of escape behaviour in the crayfish",
+      "authors": "Wine, J. J.; Krasne, F. B.",
+      "year": 1972,
+      "venue": "Journal of Experimental Biology 56:1-18",
+      "tags": "escape;command neuron;reflex",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "bowerman_larimer_1974a",
+      "title": "Command fibres in the circumoesophageal connectives of crayfish: I. Tonic fibres",
+      "authors": "Bowerman, R. F.; Larimer, J. L.",
+      "year": 1974,
+      "venue": "Journal of Experimental Biology 60:95-117",
+      "tags": "command fibre;posture;tonic",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "bowerman_larimer_1974b",
+      "title": "Command fibres in the circumoesophageal connectives of crayfish: II. Phasic fibres",
+      "authors": "Bowerman, R. F.; Larimer, J. L.",
+      "year": 1974,
+      "venue": "Journal of Experimental Biology 60:119-134",
+      "tags": "command fibre;movement;phasic",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "wine_mistick_1977",
+      "title": "Temporal organization of crayfish escape behavior: Delayed recruitment of peripheral inhibition",
+      "authors": "Wine, J. J.; Mistick, D. C.",
+      "year": 1977,
+      "venue": "Journal of Neurophysiology 40:904-925",
+      "tags": "escape;corollary discharge;inhibition",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "kagaya_takahata_2010",
+      "title": "Readiness discharge for spontaneous initiation of walking in crayfish",
+      "authors": "Kagaya, K.; Takahata, M.",
+      "year": 2010,
+      "venue": "Journal of Neuroscience 30:1348-1362",
+      "tags": "walking;readiness;descending neuron",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "okada_chapter_2010",
+      "title": "Biology of Crayfish - Okada chapter",
+      "authors": "Okada, Y.",
+      "year": 2010,
+      "venue": "Biology of Crayfish",
+      "tags": "vision;oculomotor;nonspiking interneuron",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "nagayama_chapter_2010",
+      "title": "Biology of Crayfish - Nagayama chapter",
+      "authors": "Nagayama, T.",
+      "year": 2010,
+      "venue": "Biology of Crayfish",
+      "tags": "uropod;local circuit;nonspiking interneuron",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "takahata_chapter_2010",
+      "title": "Biology of Crayfish - Takahata chapter",
+      "authors": "Takahata, M.",
+      "year": 2010,
+      "venue": "Biology of Crayfish",
+      "tags": "statocyst;context;local circuit",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "kagaya_takahata_2011",
+      "title": "Sequential synaptic excitation and inhibition shape readiness discharge for voluntary behavior",
+      "authors": "Kagaya, K.; Takahata, M.",
+      "year": 2011,
+      "venue": "Science 332:365-368",
+      "tags": "readiness;walking;recurrent circuit",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "kagaya_2012",
+      "title": "Neural circuit mechanisms of spontaneous behavior control in crayfish",
+      "authors": "Kagaya, K.",
+      "year": 2012,
+      "venue": "Comparative Physiology and Biochemistry 29:3-10",
+      "tags": "review;spontaneity;recurrent circuit",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "kagaya_2022_ai",
+      "title": "Brain-Body System Open to Environment: Crayfish and Soft Robotic Octopus Arm",
+      "authors": "Kagaya, K.",
+      "year": 2022,
+      "venue": "Journal of the Japanese Society for Artificial Intelligence 37:721-726",
+      "tags": "review;embodiment;physical reservoir",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "id": "kagaya_kubota_nakajima_2024",
+      "title": "Self-Organized Criticality Explains Readiness Potential",
+      "authors": "Kagaya, K.; Kubota, T.; Nakajima, K.",
+      "year": 2024,
+      "venue": "arXiv:2209.09075v2",
+      "tags": "criticality;readiness;spontaneity",
+      "status": "collected",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 1,
+      "raw_text": "1. Arechiga, H. & Wiersma, C. A. G. (1969). The effect of motor activity on the reactivity of single visual units in the crayfish. Journal of Neurobiology, 1, 53-69.",
+      "year": 1969,
+      "first_author": "Arechiga",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 2,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 2,
+      "raw_text": "2. Atwood, H. L. & Wiersma, C. A. G. (1967). Command interneurons in the crayfish central nervous system. Journal of Experimental Biology, 46, 249-261.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 3,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 3,
+      "raw_text": "3. von Bethe, A. (1897). Vergleichende Untersuchungen über die Functionen des Centralnervensystems der Arthropoden. Pflügers Archiv für die gesamte Physiologie, 68, 449-545.",
+      "year": 1897,
+      "first_author": "von Bethe",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 4,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 4,
+      "raw_text": "4. Dagan, D. & Parnas, I. (1970). Giant-fibre and small-fibre pathways involved in the evasive response of the cockroach, Periplaneta americana. Journal of Experimental Biology, 52, 313-324.",
+      "year": 1970,
+      "first_author": "Dagan",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 5,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 5,
+      "raw_text": "5. Davis, W. J. (1969a). The neural control of swimmeret beating in the lobster. Journal of Experimental Biology, 50, 99-117.",
+      "year": 1969,
+      "first_author": "Davis",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 6,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 6,
+      "raw_text": "6. Davis, W. J. (1969b). Reflex organization in the swimmeret system of the lobster. I. Intrasegmental reflexes. Journal of Experimental Biology, 51, 547-563.",
+      "year": 1969,
+      "first_author": "Davis",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 7,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 7,
+      "raw_text": "7. Davis, W. J. (1970). Motoneuron morphology and synaptic contacts: Determination by intracellular dye injection. Science, 168, 1358-1361.",
+      "year": 1970,
+      "first_author": "Davis",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 8,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 8,
+      "raw_text": "8. Evoy, W. H. & Kennedy, D. (1967). The central nervous organization underlying control of antagonistic muscles in the crayfish. I. Types of command fibres. Journal of Experimental Zoology, 165(2), 223-228.",
+      "year": 1967,
+      "first_author": "Evoy",
+      "confidence": 0.22857142857142856,
+      "status": "unresolved"
+    },
+    {
+      "id": 9,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 9,
+      "raw_text": "9. van Harreveld, A. (1936). A physiological solution for freshwater crustaceans. Proceedings of the Society for Experimental Biology and Medicine, 34, 428-432.",
+      "year": 1936,
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 10,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 10,
+      "raw_text": "10. Horiuchi, E., Hayashi, H. & Takahashi, I. (1966). Median giant fibre system in crayfish cephalic ganglion. Nature, 212, 821-822.",
+      "year": 1966,
+      "first_author": "Horiuchi",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 11,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 11,
+      "raw_text": "11. Ikeda, K. & Wiersma, C. A. G. (1964). Autogenic rhythmicity in the abdominal ganglia of the crayfish: The control of swimmeret movements. Comparative Biochemistry and Physiology, 12, 107-115.",
+      "year": 1964,
+      "first_author": "Ikeda",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 12,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 12,
+      "raw_text": "12. Johnson, G. E. (1924). Giant nerve fibres in crustaceans with special reference to Cambarus and Palaemonetes. Journal of Comparative Neurology, 36, 323-373.",
+      "year": 1924,
+      "first_author": "Johnson",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 13,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 13,
+      "raw_text": "13. Kao, C. Y. (1960). Postsynaptic electrogenesis in septate giant axons. II. Comparison of medial and lateral giant axons of crayfish. Journal of Neurophysiology, 23, 618-636.",
+      "year": 1960,
+      "first_author": "Kao",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 14,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 14,
+      "raw_text": "14. Kennedy, D., Evoy, W. H., Dane, B. & Hanawalt, J. T. (1967). The central nervous organization underlying control of antagonistic muscles in the crayfish. II. Coding of position by command fibres. Journal of Experimental Zoology, 165(2), 239-248.",
+      "year": 1967,
+      "first_author": "Kennedy",
+      "confidence": 0.22857142857142856,
+      "status": "unresolved"
+    },
+    {
+      "id": 15,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 15,
+      "raw_text": "15. Kennedy, D. & Takeda, K. (1965). Reflex control of abdominal flexor muscles in the crayfish. I. The twitch system. Journal of Experimental Biology, 43, 211-227.",
+      "year": 1965,
+      "first_author": "Kennedy",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 16,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 16,
+      "raw_text": "16. Krasne, F. B. (1965). Escape from recurring tactile stimulation in Branchiomma vesiculosum. Journal of Experimental Biology, 42, 307-322.",
+      "year": 1965,
+      "first_author": "Krasne",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 17,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 17,
+      "raw_text": "17. Krasne, F. B. (1969). Excitation and habituation of the crayfish escape reflex: The depolarizing response in lateral giant fibres of the isolated abdomen. Journal of Experimental Biology, 50, 29-46.",
+      "year": 1969,
+      "first_author": "Krasne",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 18,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 18,
+      "raw_text": "18. Krasne, F. B. & Woodsmall, K. S. (1969). Waning of the crayfish escape response as a result of repeated stimulation. Animal Behaviour, 17, 416-424.",
+      "year": 1969,
+      "first_author": "Krasne",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 19,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 19,
+      "raw_text": "19. Krasne, F. B. & Stirling, C. A. (1971). Synapses of crayfish abdominal ganglia with special attention to afferent and efferent connections of the lateral giant fibers. In preparation. Later publication: Krasne, F. B. & Stirling, C. A. (1972). Zeitschrift für Zellforschung und Mikroskopische Anatomie, 127, 526-544. doi:10.1007/BF00306869",
+      "doi": "10.1007/BF00306869",
+      "year": 1971,
+      "first_author": "Krasne",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 20,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 20,
+      "raw_text": "20. Kusano, K. & Grundfest, H. (1965). Circus reexcitation as a cause of repetitive activity in crayfish lateral giant axons. Journal of Cellular and Comparative Physiology, 65, 325-336.",
+      "year": 1965,
+      "first_author": "Kusano",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 21,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 21,
+      "raw_text": "21. Larimer, J. L., Eggleston, A. C., Masukawa, L. M. & Kennedy, D. (1971). The different connections and motor outputs of lateral and medial giant fibres in the crayfish. Journal of Experimental Biology, 54(2), 391-404. doi:10.1242/jeb.54.2.391 (Listed as \"in press\" in the 1972 source article.)",
+      "doi": "10.1242/jeb.54.2.391",
+      "year": 1971,
+      "first_author": "Larimer",
+      "confidence": 0.49142857142857144,
+      "status": "unresolved"
+    },
+    {
+      "id": 22,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 22,
+      "raw_text": "22. Larimer, J. L. & Kennedy, D. (1969). The central nervous control of complex movements in the uropods of crayfish. Journal of Experimental Biology, 51, 135-150.",
+      "year": 1969,
+      "first_author": "Larimer",
+      "confidence": 0.37714285714285717,
+      "status": "unresolved"
+    },
+    {
+      "id": 23,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 23,
+      "raw_text": "23. Payton, B. W., Bennett, M. V. L. & Pappas, G. D. (1969). Permeability and structure of junctional membranes at an electrotonic synapse. Science, 166, 1641-1643.",
+      "year": 1969,
+      "first_author": "Payton",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 24,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 24,
+      "raw_text": "24. Remler, M., Selverston, A. & Kennedy, D. (1968). Lateral giant fibers of crayfish: Location of somata by dye injection. Science, 162, 281-283.",
+      "year": 1968,
+      "first_author": "Remler",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 25,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 25,
+      "raw_text": "25. Roberts, A. (1968). Recurrent inhibition in the giant-fibre system of the crayfish and its effect on the excitability of the escape response. Journal of Experimental Biology, 48, 545-567.",
+      "year": 1968,
+      "first_author": "Roberts",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 26,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 26,
+      "raw_text": "26. Schrameck, J. E. (1970). Crayfish swimming: Alternating motor output and giant fiber activity. Science, 169, 698-700. doi:10.1126/science.169.3946.698",
+      "doi": "10.1126/science.169.3946.698",
+      "year": 1970,
+      "first_author": "Schrameck",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 27,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 27,
+      "raw_text": "27. Selverston, A. I. & Kennedy, D. (1969). Structure and function of identified nerve cells in the crayfish. Endeavour, 28, 107-113.",
+      "year": 1969,
+      "first_author": "Selverston",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 28,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 28,
+      "raw_text": "28. Takeda, K. & Kennedy, D. (1964). Soma potentials and modes of activation of crayfish motoneurons. Journal of Cellular and Comparative Physiology, 64, 165-182.",
+      "year": 1964,
+      "first_author": "Takeda",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 29,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 29,
+      "raw_text": "29. Wiersma, C. A. G. (1947). Giant nerve fiber system of the crayfish: A contribution to comparative physiology of synapse. Journal of Neurophysiology, 10, 23-38.",
+      "year": 1947,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 30,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 30,
+      "raw_text": "30. Wiersma, C. A. G. (1961). Reflexes and the central nervous system. In T. H. Waterman (Ed.), The Physiology of Crustacea (Vol. 2, pp. 241-279).",
+      "year": 1961,
+      "first_author": "Wiersma",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 31,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 31,
+      "raw_text": "31. Wiersma, C. A. G. & Hughes, G. M. (1961). On the functional anatomy of neuronal units in the abdominal cord of the crayfish, Procambarus clarkii (Girard). Journal of Comparative Neurology, 116, 209-228.",
+      "year": 1961,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 32,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 32,
+      "raw_text": "32. Wiersma, C. A. G. & Ikeda, K. (1964). Interneurones commanding swimmeret movements in the crayfish Procambarus clarkii (Girard). Comparative Biochemistry and Physiology, 12, 509-525.",
+      "year": 1964,
+      "first_author": "Wiersma",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 33,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 33,
+      "raw_text": "33. Wiersma, C. A. G. & Mill, P. (1965). \"Descending\" neuronal units in the commissure of the crayfish central nervous system; and their integration of visual, tactile, and proprioceptive stimuli. Journal of Comparative Neurology, 125, 67-94.",
+      "year": 1965,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 34,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 34,
+      "raw_text": "34. Wiersma, C. A. G. & Schalleck, W. (1947). Potentials from motor roots of the crustacean central nervous system. Journal of Neurophysiology, 10, 323-329.",
+      "year": 1947,
+      "first_author": "Wiersma",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 35,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 35,
+      "raw_text": "35. Wine, J. J. (1971). Supersensitivity in the central nervous system of an invertebrate. In preparation.",
+      "year": 1971,
+      "first_author": "Wine",
+      "confidence": 0.32,
+      "status": "unresolved"
+    },
+    {
+      "id": 36,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 36,
+      "raw_text": "36. Wine, J. J. & Krasne, F. B. (1969). Independence of inhibition and habituation in the crayfish lateral giant fiber escape reflex. Proceedings of the 77th Annual Convention of the American Psychological Association, 237-238.",
+      "year": 1969,
+      "first_author": "Wine",
+      "confidence": 0.45333333333333337,
+      "status": "unresolved"
+    },
+    {
+      "id": 37,
+      "source_paper_id": "wine_krasne_1972",
+      "ordinal": 37,
+      "raw_text": "37. Zucker, R. S., Kennedy, D. & Selverston, A. I. (1971). A neuronal circuit mediating escape responses in crayfish. Science, 173, 645-650. doi:10.1126/science.173.3997.645 (Listed as \"in press\" in the 1972 source article.) In-text material not included in the formal References section: - Krasne, unpublished observations. - D. Kennedy, personal communication. - Wine & Krasne, \"in preparation\" (in the discussion's comparison with reduced preparations).",
+      "doi": "10.1126/science.173.3997.645",
+      "year": 1971,
+      "first_author": "Zucker",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 38,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 1,
+      "raw_text": "1. Atwood, H. L. & Wiersma, C. A. G. (1967). Command interneurons in the crayfish central nervous system. Journal of Experimental Biology 46, 249-261.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 39,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 2,
+      "raw_text": "2. Baumann, M. (1917). Das cor frontale bei decapoden Krebsen. Zoologischer Anzeiger 49, 137-144.",
+      "year": 1917,
+      "first_author": "Baumann",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 40,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 3,
+      "raw_text": "3. Bowerman, R. F. & Larimer, J. L. (1974b). Command fibres in the circumoesophageal connectives of crayfish: II. Phasic fibres. Journal of Experimental Biology 60, 119-134. https://doi.org/10.1242/jeb.60.1.119",
+      "doi": "10.1242/jeb.60.1.119",
+      "year": 1974,
+      "first_author": "Bowerman",
+      "matched_paper_id": "bowerman_larimer_1974b",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 41,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 4,
+      "raw_text": "4. Davis, W. J. (1968). Lobster righting responses and their neural control. Proceedings of the Royal Society B 170, 435-456.",
+      "year": 1968,
+      "first_author": "Davis",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 42,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 5,
+      "raw_text": "5. Davis, W. J. (1969). The neural control of swimmeret beating in the lobster. Journal of Experimental Biology 50, 99-117.",
+      "year": 1969,
+      "first_author": "Davis",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 43,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 6,
+      "raw_text": "6. Davis, W. J. & Kennedy, D. (1972a). Command interneurons controlling swimmeret movements in the lobster. I. Types of effects on motoneurons. Journal of Neurophysiology 35, 1-12.",
+      "year": 1972,
+      "first_author": "Davis",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 44,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 7,
+      "raw_text": "7. Davis, W. J. & Kennedy, D. (1972b). Command interneurons controlling swimmeret movements in the lobster. II. Interaction of effects on motoneurons. Journal of Neurophysiology 35, 13-19.",
+      "year": 1972,
+      "first_author": "Davis",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 45,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 8,
+      "raw_text": "8. Davis, W. J. & Kennedy, D. (1972c). Command interneurons controlling swimmeret movements in the lobster. III. Temporal relationships among bursts in different motoneurons. Journal of Neurophysiology 35, 20-29.",
+      "year": 1972,
+      "first_author": "Davis",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 46,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 9,
+      "raw_text": "9. Evoy, W. H. & Kennedy, D. (1967). Central nervous organization underlying control of antagonistic muscles in crayfish. I. Types of command fibres. Journal of Experimental Zoology 165, 223-238.",
+      "year": 1967,
+      "first_author": "Evoy",
+      "confidence": 0.22857142857142856,
+      "status": "unresolved"
+    },
+    {
+      "id": 47,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 10,
+      "raw_text": "10. Godden, D. H. (1972). The motor innervation of the leg musculature and motor output during thanatosis in the stick insect Carausius morosus. British Journal of Comparative and Physiological Psychology 80, 201-225.",
+      "year": 1972,
+      "first_author": "Godden",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 48,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 11,
+      "raw_text": "11. Huber, F. (1960). Central nervous control of sound production in crickets and some speculations on its evolution. Evolution 14, 429-442.",
+      "year": 1960,
+      "first_author": "Huber",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 49,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 12,
+      "raw_text": "12. Kennedy, D., Evoy, W. H. & Hanawalt, J. T. (1966). Release of coordinated behavior in crayfish by single central neurons. Science 143, 917-919.",
+      "year": 1966,
+      "first_author": "Kennedy",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 50,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 13,
+      "raw_text": "13. Kennedy, D., Evoy, W. H., Dane, B. & Hanawalt, J. T. (1967). Central nervous organization underlying control of antagonistic muscles in crayfish. II. Coding of position by command fibres. Journal of Experimental Zoology 165, 239-248.",
+      "year": 1967,
+      "first_author": "Kennedy",
+      "confidence": 0.22857142857142856,
+      "status": "unresolved"
+    },
+    {
+      "id": 51,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 14,
+      "raw_text": "14. Kupfermann, I. & Kandel, E. R. (1969). Neuronal controls of a behavioral response mediated by the abdominal ganglion of Aplysia. Science 164, 847-850.",
+      "year": 1969,
+      "first_author": "Kupfermann",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 52,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 15,
+      "raw_text": "15. Larimer, J. L. & Kennedy, D. (1969a). Innervation patterns of fast and slow muscle in the uropods of crayfish. Journal of Experimental Biology 51, 119-133.",
+      "year": 1969,
+      "first_author": "Larimer",
+      "confidence": 0.37714285714285717,
+      "status": "unresolved"
+    },
+    {
+      "id": 53,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 16,
+      "raw_text": "16. Larimer, J. L. & Kennedy, D. (1969b). The central nervous control of complex movements in the uropods of crayfish. Journal of Experimental Biology 51, 135-150.",
+      "year": 1969,
+      "first_author": "Larimer",
+      "confidence": 0.37714285714285717,
+      "status": "unresolved"
+    },
+    {
+      "id": 54,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 17,
+      "raw_text": "17. Larimer, J. L., Eggleston, A. C., Masukawa, L. M. & Kennedy, D. (1971). The different connections and motor outputs of lateral and medial giant fibres in the crayfish. Journal of Experimental Biology 54, 391-404.",
+      "year": 1971,
+      "first_author": "Larimer",
+      "confidence": 0.49142857142857144,
+      "status": "unresolved"
+    },
+    {
+      "id": 55,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 18,
+      "raw_text": "18. Maynard, D. (1960). Circulation and heart function. In T. Waterman (Ed.), The Physiology of Crustacea, Vol. 1: Metabolism and Growth (pp. 161-214). Academic Press.",
+      "year": 1960,
+      "first_author": "Maynard",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 56,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 19,
+      "raw_text": "19. Page, C. H. & Sokolove, P. G. (1972). Crayfish muscle receptor organ: role in regulation of postural flexion. Science 175, 647-650.",
+      "year": 1972,
+      "first_author": "Page",
+      "confidence": 0.38,
+      "status": "unresolved"
+    },
+    {
+      "id": 57,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 20,
+      "raw_text": "20. Peretz, B. (1969). Central neuron initiation of periodic gill movements. Science 166, 1167-1172.",
+      "year": 1969,
+      "first_author": "Peretz",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 58,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 21,
+      "raw_text": "21. van Harreveld, A. (1936). A physiological solution for freshwater crustaceans. Proceedings of the Society for Experimental Biology and Medicine 34, 428-432.",
+      "year": 1936,
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 59,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 22,
+      "raw_text": "22. Wiersma, C. A. G. (1938). Function of the giant fibres of the central nervous system of the crayfish. Proceedings of the Society for Experimental Biology and Medicine 38, 661-662.",
+      "year": 1938,
+      "first_author": "Wiersma",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 60,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 23,
+      "raw_text": "23. Wiersma, C. A. G. (1952). Neurons of arthropods. Cold Spring Harbor Symposia on Quantitative Biology 17, 155-163.",
+      "year": 1952,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 61,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 24,
+      "raw_text": "24. Wiersma, C. A. G. (1958). On the functional connections of single units in the central nervous system of the crayfish, Procambarus clarkii (Girard). Journal of Comparative Neurology 110, 421-471.",
+      "year": 1958,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 62,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 25,
+      "raw_text": "25. Wiersma, C. A. G. & Ikeda, K. (1964). Interneurons commanding swimmeret movements in the crayfish Procambarus clarkii (Girard). Comparative Biochemistry and Physiology 12, 509-525.",
+      "year": 1964,
+      "first_author": "Wiersma",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 63,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 26,
+      "raw_text": "26. Wiersma, C. A. G. & Mill, P. J. (1965). Descending neuronal units in the commissure of the crayfish central nervous system; integration of visual, tactile and proprioceptive stimuli. Journal of Comparative Neurology 125, 67-94.",
+      "year": 1965,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 64,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 27,
+      "raw_text": "27. Wiersma, C. A. G. & Novitski, E. (1942). The mechanism of nervous regulation of the crayfish heart. Journal of Experimental Biology 19, 255-265.",
+      "year": 1942,
+      "first_author": "Wiersma",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 65,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 28,
+      "raw_text": "28. Willows, A. O. D. (1968). Behavioral acts elicited by stimulation of single identifiable nerve cells. In F. D. Carlson (Ed.), Physiological and Biochemical Aspects of Nervous Integration (pp. 217-244). Prentice Hall.",
+      "year": 1968,
+      "first_author": "Willows",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 66,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 29,
+      "raw_text": "29. Willows, A. O. D. & Hoyle, G. (1968). Correlation of behavior with the activity of single identifiable neurons in the brain of Tritonia. In J. Salanki (Ed.), Neurobiology of Invertebrates (p. 443). Plenum Press.",
+      "year": 1968,
+      "first_author": "Willows",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 67,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 30,
+      "raw_text": "30. Wilson, D. M. (1964). The origin of the flight-motor command in grasshoppers. In Neural Theory and Modelling (pp. 331-345). Stanford University Press.",
+      "year": 1964,
+      "first_author": "Wilson",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 68,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 31,
+      "raw_text": "31. Wilson, D. M. (1965). The nervous co-ordination of insect locomotion. In The Physiology of the Insect Central Nervous System (pp. 125-140). Academic Press.",
+      "year": 1965,
+      "first_author": "Wilson",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 69,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 32,
+      "raw_text": "32. Wine, J. J. & Krasne, F. B. (1969). Independence of inhibition and habituation in the crayfish lateral giant fibre escape reflex. Proceedings of the 77th Annual Convention of the American Psychological Association, 237-238.",
+      "year": 1969,
+      "first_author": "Wine",
+      "confidence": 0.52,
+      "status": "unresolved"
+    },
+    {
+      "id": 70,
+      "source_paper_id": "bowerman_larimer_1974a",
+      "ordinal": 33,
+      "raw_text": "33. Wine, J. J. & Krasne, F. B. (1972). The organization of escape behaviour in the crayfish. Journal of Experimental Biology 56, 1-18.",
+      "year": 1972,
+      "first_author": "Wine",
+      "matched_paper_id": "wine_krasne_1972",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 71,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 1,
+      "raw_text": "1. Atwood, H. L. & Wiersma, C. A. G. (1967). Command interneurons in the crayfish central nervous system. Journal of Experimental Biology 46, 249-261.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 72,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 2,
+      "raw_text": "2. Barnes, W. J. P., Spirito, C. P. & Evoy, W. H. (1972). Nervous control of walking in the crab Cardisoma guanhumi. II. Role of resistance reflexes in walking. Zeitschrift fur vergleichende Physiologie 76, 16-31.",
+      "year": 1972,
+      "first_author": "Barnes",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 73,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 3,
+      "raw_text": "3. von Bethe, A. (1897). Vergleichende Untersuchungen uber die Functionen des Centralnervensystems der Arthropoden. Pflugers Archiv 68, 449-545.",
+      "year": 1897,
+      "first_author": "von Bethe",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 74,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 4,
+      "raw_text": "4. Bowerman, R. F. & Larimer, J. L. (1974a). Command fibres in the circumoesophageal connectives of crayfish: I. Tonic fibres. Journal of Experimental Biology 60, 95-117. https://doi.org/10.1242/jeb.60.1.95",
+      "doi": "10.1242/jeb.60.1.95",
+      "year": 1974,
+      "first_author": "Bowerman",
+      "matched_paper_id": "bowerman_larimer_1974a",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 75,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 5,
+      "raw_text": "5. Davis, W. J. (1969a). Reflex organization in swimmeret system of lobster. I. Intrasegmental reflexes. Journal of Experimental Biology 51, 547-563.",
+      "year": 1969,
+      "first_author": "Davis",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 76,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 6,
+      "raw_text": "6. Davis, W. J. (1969b). Neural control of swimmeret beating in the lobster. Journal of Experimental Biology 50, 99-117.",
+      "year": 1969,
+      "first_author": "Davis",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 77,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 7,
+      "raw_text": "7. Davis, W. J. & Kennedy, D. (1972a). Command interneurons controlling swimmeret movements in the lobster. I. Types of effects on motoneurons. Journal of Neurophysiology 35, 1-12.",
+      "year": 1972,
+      "first_author": "Davis",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 78,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 8,
+      "raw_text": "8. Davis, W. J. & Kennedy, D. (1972b). Command interneurons controlling swimmeret movements in the lobster. II. Interaction of effects on motoneurons. Journal of Neurophysiology 35, 13-19.",
+      "year": 1972,
+      "first_author": "Davis",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 79,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 9,
+      "raw_text": "9. Davis, W. J. & Kennedy, D. (1972c). Command interneurons controlling swimmeret movements in the lobster. III. Temporal relationships among bursts in different motoneurons. Journal of Neurophysiology 35, 20-29.",
+      "year": 1972,
+      "first_author": "Davis",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 80,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 10,
+      "raw_text": "10. Evarts, E. V. (1967). Representation of movements and muscles by pyramidal tract neurons of the precentral motor cortex. In M. D. Yahr & D. P. Purpura (Eds.), Neurophysiological Basis of Normal and Abnormal Motor Activities (pp. 215-252). Raven Press.",
+      "year": 1967,
+      "first_author": "Evarts",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 81,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 11,
+      "raw_text": "11. Evoy, W. H. & Cohen, M. J. (1969). Sensory and motor interaction in locomotor reflexes of crabs. Journal of Experimental Biology 51, 151-169.",
+      "year": 1969,
+      "first_author": "Evoy",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 82,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 12,
+      "raw_text": "12. Evoy, W. H. & Kennedy, D. (1967). Central nervous organization underlying control of antagonistic muscles in crayfish. I. Types of command fibres. Journal of Experimental Zoology 165, 223-238.",
+      "year": 1967,
+      "first_author": "Evoy",
+      "confidence": 0.22857142857142856,
+      "status": "unresolved"
+    },
+    {
+      "id": 83,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 13,
+      "raw_text": "13. Kennedy, D., Selverston, A. I. & Remler, M. P. (1967). Central nervous organization underlying control of antagonistic muscles in crayfish. II. Coding of position by command fibres. Journal of Experimental Zoology 165, 239-248.",
+      "year": 1967,
+      "first_author": "Kennedy",
+      "confidence": 0.22857142857142856,
+      "status": "unresolved"
+    },
+    {
+      "id": 84,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 14,
+      "raw_text": "14. Land, M. F. (1972). Stepping movements made by jumping spiders during turns mediated by the lateral eyes. Journal of Experimental Biology 57, 15-40.",
+      "year": 1972,
+      "first_author": "Land",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 85,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 15,
+      "raw_text": "15. Larimer, J. L. & Eggleston, A. C. (1971). Motor programs for abdominal positioning in crayfish. Zeitschrift fur vergleichende Physiologie 74, 388-402.",
+      "year": 1971,
+      "first_author": "Larimer",
+      "confidence": 0.37714285714285717,
+      "status": "unresolved"
+    },
+    {
+      "id": 86,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 16,
+      "raw_text": "16. Larimer, J. L., Eggleston, A. C., Masukawa, L. M. & Kennedy, D. (1971). Different connections and motor outputs of lateral and medial giant fibres in crayfish. Journal of Experimental Biology 54, 391-404.",
+      "year": 1971,
+      "first_author": "Larimer",
+      "confidence": 0.49142857142857144,
+      "status": "unresolved"
+    },
+    {
+      "id": 87,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 17,
+      "raw_text": "17. Paul, D. H. (1971). Swimming behavior of the sand crab, Emerita analoga (Crustacea, Anomura). III. Neuronal organization of uropod beating. Zeitschrift fur vergleichende Physiologie 75, 286-302.",
+      "year": 1971,
+      "first_author": "Paul",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 88,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 18,
+      "raw_text": "18. Pearson, K. G. (1972). Central programming and reflex control of walking in the cockroach. Journal of Experimental Biology 56, 173-193.",
+      "year": 1972,
+      "first_author": "Pearson",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 89,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 19,
+      "raw_text": "19. Runion, H. I. & Usherwood, P. N. R. (1968). Tarsal receptors and leg reflexes in the locust. Journal of Experimental Biology 49, 421-436.",
+      "year": 1968,
+      "first_author": "Runion",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 90,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 20,
+      "raw_text": "20. Schrameck, J. E. (1970). Crayfish swimming: alternating motor output and giant fiber activity. Science 169, 698-700.",
+      "year": 1970,
+      "first_author": "Schrameck",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 91,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 21,
+      "raw_text": "21. Usherwood, P. N. R., Runion, H. I. & Campbell, J. I. (1968). Structure and physiology of a chordotonal organ in the locust leg. Journal of Experimental Biology 48, 305-323.",
+      "year": 1968,
+      "first_author": "Usherwood",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 92,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 22,
+      "raw_text": "22. van Harreveld, A. (1936). A physiological solution for freshwater crustaceans. Proceedings of the Society for Experimental Biology and Medicine 34, 428-432.",
+      "year": 1936,
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 93,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 23,
+      "raw_text": "23. Wiersma, C. A. G. (1938). Function of the giant fibers of the central nervous system of crayfish. Proceedings of the Society for Experimental Biology and Medicine 38, 661-662.",
+      "year": 1938,
+      "first_author": "Wiersma",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 94,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 24,
+      "raw_text": "24. Wiersma, C. A. G. (1958). On functional connections of single units in the central nervous system of the crayfish, Procambarus clarkii (Girard). Journal of Comparative Neurology 110, 421-471.",
+      "year": 1958,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 95,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 25,
+      "raw_text": "25. Wiersma, C. A. G. & Mill, P. J. (1965). Descending neuronal units in the commissure of the crayfish central nervous system; integration of visual, tactile and proprioceptive stimuli. Journal of Comparative Neurology 125, 67-94.",
+      "year": 1965,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 96,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 26,
+      "raw_text": "26. Wilson, D. M. (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38, 471-490.",
+      "year": 1961,
+      "first_author": "Wilson",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 97,
+      "source_paper_id": "bowerman_larimer_1974b",
+      "ordinal": 27,
+      "raw_text": "27. Wine, J. J. & Krasne, F. B. (1972). The organization of escape behaviour in the crayfish. Journal of Experimental Biology 56, 1-18.",
+      "year": 1972,
+      "first_author": "Wine",
+      "matched_paper_id": "wine_krasne_1972",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 98,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 1,
+      "raw_text": "1. Adrian, R. H. & Freygang, W. H. (1962). Potassium and chloride permeability of frog muscle membrane. Journal of Physiology 163, 61-103.",
+      "year": 1962,
+      "first_author": "Adrian",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 99,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 2,
+      "raw_text": "2. Atwood, H. L., Parnas, I. & Wiersma, C. A. G. (1967). Inhibition in crustacean phasic neuromuscular systems. Comparative Biochemistry and Physiology 20, 163-177.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 100,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 3,
+      "raw_text": "3. Baylor, D. A. & Nicholls, J. G. (1969). Chemical and electrical synaptic connexions between cutaneous mechanoreceptor neurones in the central nervous system of the leech. Journal of Physiology 203, 591-609.",
+      "year": 1969,
+      "first_author": "Baylor",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 101,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 4,
+      "raw_text": "4. Burrows, M. (1973). The role of delayed excitation in the coordination of some metathoracic flight motoneurons of a locust. Journal of Comparative Physiology 83, 139-164.",
+      "year": 1973,
+      "first_author": "Burrows",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 102,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 5,
+      "raw_text": "5. Calabrese, R. L. (1976). Crayfish mechanoreceptive interneurons. I. The nature of ipsilateral excitatory inputs. Journal of Comparative Physiology 105, 83-102.",
+      "year": 1976,
+      "first_author": "Calabrese",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 103,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 6,
+      "raw_text": "6. Carew, T. J. & Kandel, E. R. (1976). Two functional effects of decreased conductance EPSPs: synaptic augmentation and increased electrotonic coupling. Science 192, 150-153.",
+      "year": 1976,
+      "first_author": "Carew",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 104,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 7,
+      "raw_text": "7. Furshpan, E. J. & Potter, D. D. (1959a). Transmission at the giant motor synapses of the crayfish. Journal of Physiology 145, 289-325.",
+      "year": 1959,
+      "first_author": "Furshpan",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 105,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 8,
+      "raw_text": "8. Furshpan, E. J. & Potter, D. D. (1959b). Slow postsynaptic potentials recorded from the giant motor fibre of the crayfish. Journal of Physiology 145, 326-335.",
+      "year": 1959,
+      "first_author": "Furshpan",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 106,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 9,
+      "raw_text": "9. Iles, J. F. & Mulloney, B. (1971). Procion yellow staining of cockroach motor neurones without the use of microelectrodes. Brain Research 30, 397-400.",
+      "year": 1971,
+      "first_author": "Iles",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 107,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 10,
+      "raw_text": "10. Kandel, E. R. & Tauc, L. (1966). Anomalous rectification in the metacerebral giant cells and its consequences for synaptic transmission. Journal of Physiology 183, 287-304.",
+      "year": 1966,
+      "first_author": "Kandel",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 108,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 11,
+      "raw_text": "11. Kennedy, D., Calabrese, R. & Wine, J. J. (1974). Presynaptic inhibition: primary afferent depolarization in crayfish neurons. Science 186, 451-454.",
+      "year": 1974,
+      "first_author": "Kennedy",
+      "confidence": 0.3371428571428572,
+      "status": "unresolved"
+    },
+    {
+      "id": 109,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 12,
+      "raw_text": "12. Kennedy, D. & Takeda, K. (1965). Reflex control of abdominal flexor muscles in the crayfish. I. The twitch system. Journal of Experimental Biology 43, 211-227.",
+      "year": 1965,
+      "first_author": "Kennedy",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 110,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 13,
+      "raw_text": "13. Kidokoro, Y. (1969). Cerebellar and vestibular control of fish oculomotor neurons. In R. Llinas (Ed.), Neurobiology of Cerebellar Evolution and Development. American Medical Association Education and Research Foundation.",
+      "year": 1969,
+      "first_author": "Kidokoro",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 111,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 14,
+      "raw_text": "14. Kramer, A. P. (1976). New motor coordinating interneurons used by giant and non-giant escape systems in the crayfish, Procambarus clarkii. Neuroscience Abstracts 2, 327.",
+      "year": 1976,
+      "first_author": "Kramer",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 112,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 15,
+      "raw_text": "15. Krasne, F. B. & Bryan, J. S. (1973). Habituation: regulation through presynaptic inhibition. Science 182, 590-592.",
+      "year": 1973,
+      "first_author": "Krasne",
+      "confidence": 0.32,
+      "status": "unresolved"
+    },
+    {
+      "id": 113,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 16,
+      "raw_text": "16. Krasne, F. B., Wine, J. J. & Kramer, A. (1977). The control of crayfish escape behavior. In G. Hoyle (Ed.), Identified Neurons and Behavior of Arthropods. Plenum Press. [In press in the cited paper.]",
+      "year": 1977,
+      "first_author": "Krasne",
+      "confidence": 0.52,
+      "status": "unresolved"
+    },
+    {
+      "id": 114,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 17,
+      "raw_text": "17. Magherini, P. C., Pignet, W. & Schwindt, P. C. (1976). Evidence for electrotonic coupling between frog motoneurons in the in situ spinal cord. Journal of Neurophysiology 39, 474-483.",
+      "year": 1976,
+      "first_author": "Magherini",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 115,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 18,
+      "raw_text": "18. Mellon, D., Jr. & Kaars, C. (1974). Role of regional cellular geometry in conduction of excitation along a sensory neuron. Journal of Neurophysiology 37, 1228-1238.",
+      "year": 1974,
+      "first_author": "Mellon",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 116,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 19,
+      "raw_text": "19. Mittenthal, J. E. & Wine, J. J. (1973). Connectivity patterns of crayfish giant interneurons: visualization of synaptic regions with cobalt dye. Science 179, 182-184.",
+      "year": 1973,
+      "first_author": "Mittenthal",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 117,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 20,
+      "raw_text": "20. Mulloney, B. & Selverston, A. (1972). Antidromic action potentials fail to demonstrate known interactions between neurons. Science 177, 69-72.",
+      "year": 1972,
+      "first_author": "Mulloney",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 118,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 21,
+      "raw_text": "21. Otsuka, M., Kravitz, E. A. & Potter, D. D. (1967). Physiological and chemical architecture of a lobster ganglion with particular reference to gamma-aminobutyrate and glutamate. Journal of Neurophysiology 30, 725-752.",
+      "year": 1967,
+      "first_author": "Otsuka",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 119,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 22,
+      "raw_text": "22. Parnas, I. & Atwood, H. L. (1966). Phasic and tonic neuromuscular systems in the abdominal extensor muscles of the crayfish and rock lobster. Comparative Biochemistry and Physiology 18, 701-723.",
+      "year": 1966,
+      "first_author": "Parnas",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 120,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 23,
+      "raw_text": "23. Pitman, R. M., Tweedle, C. D. & Cohen, M. J. (1972). Branching of central neurons: intracellular cobalt injection for light and electron microscopy. Science 176, 412-414.",
+      "year": 1972,
+      "first_author": "Pitman",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 121,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 24,
+      "raw_text": "24. Rayner, M. D. & Wiersma, C. A. G. (1967). Mechanisms of the crayfish tail flick. Nature 213, 1231-1233.",
+      "year": 1967,
+      "first_author": "Rayner",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 122,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 25,
+      "raw_text": "25. Roberts, A. (1968a). Recurrent inhibition in the giant-fibre system of the crayfish and its effect on the excitability of the escape response. Journal of Experimental Biology 48, 545-567.",
+      "year": 1968,
+      "first_author": "Roberts",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 123,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 26,
+      "raw_text": "26. Roberts, A. (1968b). Some features of the central coordination of a fast movement in the crayfish. Journal of Experimental Biology 49, 645-656.",
+      "year": 1968,
+      "first_author": "Roberts",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 124,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 27,
+      "raw_text": "27. Selverston, A. I. & Remler, M. P. (1972). Neural geometry and activation of crayfish fast flexor motoneurons. Journal of Neurophysiology 35, 797-814.",
+      "year": 1972,
+      "first_author": "Selverston",
+      "confidence": 0.38,
+      "status": "unresolved"
+    },
+    {
+      "id": 125,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 28,
+      "raw_text": "28. Takeda, K. & Kennedy, D. (1964). Soma potentials and modes of activation of crayfish motoneurons. Journal of Cellular and Comparative Physiology 64, 165-182.",
+      "year": 1964,
+      "first_author": "Takeda",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 126,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 29,
+      "raw_text": "29. van Harreveld, A. (1936). A physiological solution for fresh water crustaceans. Proceedings of the Society for Experimental Biology and Medicine 34, 428-432.",
+      "year": 1936,
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 127,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 30,
+      "raw_text": "30. Weight, F. F. & Votava, J. (1970). Slow synaptic excitation in sympathetic ganglion cells: evidence for synaptic inactivation of potassium conductance. Science 170, 755-758.",
+      "year": 1970,
+      "first_author": "Weight",
+      "confidence": 0.08888888888888889,
+      "status": "unresolved"
+    },
+    {
+      "id": 128,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 31,
+      "raw_text": "31. Wiersma, C. A. G. (1947). Giant nerve fiber system of the crayfish: a contribution to comparative physiology of synapse. Journal of Neurophysiology 10, 23-38.",
+      "year": 1947,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 129,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 32,
+      "raw_text": "32. Wiersma, C. A. G. & Hughes, G. M. (1961). On the functional anatomy of neuronal units in the abdominal cord of the crayfish, Procambarus clarkii Girard. Journal of Comparative Neurology 116, 209-228.",
+      "year": 1961,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 130,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 33,
+      "raw_text": "33. Wiese, K. (1976). Mechanoreceptors for near-field water displacements in crayfish. Journal of Neurophysiology 39, 816-833.",
+      "year": 1976,
+      "first_author": "Wiese",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 131,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 34,
+      "raw_text": "34. Wine, J. J. (1971). Escape reflex circuit in crayfish: interganglionic interneurons activated by the giant command neurons. Biological Bulletin 141, 408.",
+      "year": 1971,
+      "first_author": "Wine",
+      "confidence": 0.52,
+      "status": "unresolved"
+    },
+    {
+      "id": 132,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 35,
+      "raw_text": "35. Wine, J. J. (1975). Crayfish neurons with electrogenic cell bodies: correlations with function and dendritic properties. Brain Research 85, 92-98.",
+      "year": 1975,
+      "first_author": "Wine",
+      "confidence": 0.42000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 133,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 36,
+      "raw_text": "36. Wine, J. J. & Krasne, F. B. (1972). Organization of escape behaviour in the crayfish. Journal of Experimental Biology 56, 1-18.",
+      "year": 1972,
+      "first_author": "Wine",
+      "matched_paper_id": "wine_krasne_1972",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 134,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 37,
+      "raw_text": "37. Wine, J. J., Krasne, F. B. & Chen, L. (1975). Habituation and inhibition of the crayfish lateral giant fibre escape response. Journal of Experimental Biology 62, 771-782.",
+      "year": 1975,
+      "first_author": "Wine",
+      "confidence": 0.52,
+      "status": "unresolved"
+    },
+    {
+      "id": 135,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 38,
+      "raw_text": "38. Wine, J. J., Mittenthal, J. E. & Kennedy, D. (1974). The structure of tonic flexor motoneurons in crayfish abdominal ganglia. Journal of Comparative Physiology 93, 315-335.",
+      "year": 1974,
+      "first_author": "Wine",
+      "confidence": 0.42000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 136,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 39,
+      "raw_text": "39. Zucker, R. S. (1972a). Crayfish escape behavior and central synapses. I. Neural circuit exciting lateral giant fiber. Journal of Neurophysiology 35, 599-620.",
+      "year": 1972,
+      "first_author": "Zucker",
+      "confidence": 0.48000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 137,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 40,
+      "raw_text": "40. Zucker, R. S. (1972b). Crayfish escape behavior and central synapses. II. Physiological mechanisms underlying behavioral habituation. Journal of Neurophysiology 35, 621-637.",
+      "year": 1972,
+      "first_author": "Zucker",
+      "confidence": 0.48000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 138,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 41,
+      "raw_text": "41. Zucker, R. S. (1972c). Crayfish escape behavior and central synapses. III. Electrical junctions and dendrite spikes in fast flexor motoneurons. Journal of Neurophysiology 35, 638-651.",
+      "year": 1972,
+      "first_author": "Zucker",
+      "confidence": 0.48000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 139,
+      "source_paper_id": "wine_mistick_1977",
+      "ordinal": 42,
+      "raw_text": "42. Zucker, R. S., Kennedy, D. & Selverston, A. I. (1971). Neuronal circuit mediating escape responses in crayfish. Science 173, 645-650.",
+      "year": 1971,
+      "first_author": "Zucker",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 140,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 1,
+      "raw_text": "1. Akaike, H. (1974). A new look at statistical model identification. IEEE Transactions on Automatic Control, 19, 716-723.",
+      "year": 1974,
+      "first_author": "Akaike",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 141,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 2,
+      "raw_text": "2. Atwood, H. L. & Wiersma, C. A. G. (1967). Command interneurons in the crayfish central nervous system. Journal of Experimental Biology, 46, 249-261.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 142,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 3,
+      "raw_text": "3. Bizzi, E., Tresch, M. C., Saltiel, P. & d'Avella, A. (2000). New perspectives on spinal motor systems. Nature Reviews Neuroscience, 1, 101-108.",
+      "year": 2000,
+      "first_author": "Bizzi",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 143,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 4,
+      "raw_text": "4. Bowerman, R. F. & Larimer, J. L. (1974a). Command fibers in the circumesophageal connectives of crayfish: I. Tonic fibres. Journal of Experimental Biology, 60, 95-117.",
+      "year": 1974,
+      "first_author": "Bowerman",
+      "matched_paper_id": "bowerman_larimer_1974a",
+      "confidence": 0.942857142857143,
+      "status": "confirmed"
+    },
+    {
+      "id": 144,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 5,
+      "raw_text": "5. Bowerman, R. F. & Larimer, J. L. (1974b). Command fibers in the circumesophageal connectives of crayfish: II. Phasic fibres. Journal of Experimental Biology, 60, 119-134.",
+      "year": 1974,
+      "first_author": "Bowerman",
+      "matched_paper_id": "bowerman_larimer_1974b",
+      "confidence": 0.942857142857143,
+      "status": "confirmed"
+    },
+    {
+      "id": 145,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 6,
+      "raw_text": "6. Brodfuehrer, P. D. & Thorogood, M. S. E. (2001). Identified neurons and leech swimming behavior. Progress in Neurobiology, 63, 371-381.",
+      "year": 2001,
+      "first_author": "Brodfuehrer",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 146,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 7,
+      "raw_text": "7. Burrows, M. (1996). The neurobiology of an insect brain. Oxford: Oxford University Press.",
+      "year": 1996,
+      "first_author": "Burrows",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 147,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 8,
+      "raw_text": "8. Chikamoto, K., Kagaya, K. & Takahata, M. (2008). Electromyographic characterization of walking behavior initiated spontaneously in crayfish. Zoological Science, 25, 783-792.",
+      "year": 2008,
+      "first_author": "Chikamoto",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 148,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 9,
+      "raw_text": "9. Chrachri, A. & Clarac, F. (1990). Fictive locomotion in the fourth thoracic ganglion of the crayfish, Procambarus clarkii. Journal of Neuroscience, 10, 707-719.",
+      "year": 1990,
+      "first_author": "Chrachri",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 149,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 10,
+      "raw_text": "10. Clarac, F. (2008). Some historical reflections on the neural control of locomotion. Brain Research Reviews, 57, 13-21.",
+      "year": 2008,
+      "first_author": "Clarac",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 150,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 11,
+      "raw_text": "11. Clarac, F. & Pearlstein, E. (2007). Invertebrate preparations and their contribution to neurobiology in the second half of the 20th century. Brain Research Reviews, 54, 113-161.",
+      "year": 2007,
+      "first_author": "Clarac",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 151,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 12,
+      "raw_text": "12. Crapse, T. B. & Sommer, M. A. (2008). Corollary discharge across the animal kingdom. Nature Reviews Neuroscience, 9, 587-600.",
+      "year": 2008,
+      "first_author": "Crapse",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 152,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 13,
+      "raw_text": "13. Davis, W. J. (1979). Behavioural hierarchies. Trends in Neurosciences, 2, 5-7.",
+      "year": 1979,
+      "first_author": "Davis",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 153,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 14,
+      "raw_text": "14. Edwards, D. H., Heitler, W. J. & Krasne, F. B. (1999). Fifty years of a common neuron: the neurobiology of escape behavior in the crayfish. Trends in Neurosciences, 22, 153-161.",
+      "year": 1999,
+      "first_author": "Edwards",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 154,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 15,
+      "raw_text": "15. Esch, T., Mesce, K. A. & Kristan, W. B. (2002). Evidence for sequential decision making in the medicinal leech. Journal of Neuroscience, 22, 11045-11054.",
+      "year": 2002,
+      "first_author": "Esch",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 155,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 16,
+      "raw_text": "16. Flash, T. & Hochner, B. (2005). Motor primitives in vertebrates and invertebrates. Current Opinion in Neurobiology, 15, 660-666.",
+      "year": 2005,
+      "first_author": "Flash",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 156,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 17,
+      "raw_text": "17. Garcia-Perez, E., Mazzoni, A. & Torre, V. (2007). Spontaneous electrical activity and behavior in the leech Hirudo medicinalis. Frontiers in Integrative Neuroscience, 1, 8.",
+      "year": 2007,
+      "first_author": "Garcia-Perez",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 157,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 18,
+      "raw_text": "18. Gomes, G. (1999). Volition and the readiness potential. Journal of Consciousness Studies, 6, 59-76.",
+      "year": 1999,
+      "first_author": "Gomes",
+      "confidence": 0.13333333333333333,
+      "status": "unresolved"
+    },
+    {
+      "id": 158,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 19,
+      "raw_text": "19. Grillner, S., Wallén, P., Saitoh, K., Kozlov, A. & Robertson, B. (2008). Neural bases of goal-directed locomotion in vertebrates - an overview. Brain Research Reviews, 57, 2-12.",
+      "year": 2008,
+      "first_author": "Grillner",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 159,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 20,
+      "raw_text": "20. Hama, N., Tsuchida, Y. & Takahata, M. (2007). Behavioral context-dependent modulation of descending statocyst pathways during free walking, as revealed by optical telemetry in crayfish. Journal of Experimental Biology, 210, 2199-2211.",
+      "year": 2007,
+      "first_author": "Hama",
+      "confidence": 0.30000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 160,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 21,
+      "raw_text": "21. Jing, J., Cropper, E. C., Hurwitz, I. & Weiss, K. R. (2004). The construction of movement with behavior-specific and behavior-independent modules. Journal of Neuroscience, 24, 6315-6325.",
+      "year": 2004,
+      "first_author": "Jing",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 161,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 22,
+      "raw_text": "22. Jordan, L. M., Liu, J., Hedlund, P. B., Akay, T. & Pearson, K. G. (2008). Descending command systems for the initiation of locomotion in mammals. Brain Research Reviews, 57, 183-191.",
+      "year": 2008,
+      "first_author": "Jordan",
+      "confidence": 0.08888888888888889,
+      "status": "unresolved"
+    },
+    {
+      "id": 162,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 23,
+      "raw_text": "23. Kawato, M. (1999). Internal models for motor control and trajectory planning. Current Opinion in Neurobiology, 9, 718-727.",
+      "year": 1999,
+      "first_author": "Kawato",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 163,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 24,
+      "raw_text": "24. Kitagawa, G., Takanami, T. & Matsumoto, N. (2001). Signal extraction problems in seismology. International Statistical Review, 69, 129-152.",
+      "year": 2001,
+      "first_author": "Kitagawa",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 164,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 25,
+      "raw_text": "25. Kornhuber, H. H. & Deecke, L. (1965). Hirnpotentialänderungen bei Willkürbewegungen und Passiven Bewegungen des Menschen: Bereitschaftspotential und Reafferente Potentiale. Pflügers Archiv, 284, 1-17.",
+      "year": 1965,
+      "first_author": "Kornhuber",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 165,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 26,
+      "raw_text": "26. Kristan, W. & Gillette, R. (2007). Behavioral choice. In G. North & R. J. Greenspan (Eds.), Invertebrate neurobiology (pp. 533-553). Cold Spring Harbor, NY: Cold Spring Harbor Laboratory Press.",
+      "year": 2007,
+      "first_author": "Kristan",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 166,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 27,
+      "raw_text": "27. Maimon, G. & Assad, J. A. (2006). Parietal area 5 and the initiation of self-timed movements versus simple reactions. Journal of Neuroscience, 26, 2487-2498.",
+      "year": 2006,
+      "first_author": "Maimon",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 167,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 28,
+      "raw_text": "28. Martin, J. R. (2003). Locomotor activity: a complex behavioural trait to unravel. Behavioural Processes, 64, 145-160.",
+      "year": 2003,
+      "first_author": "Martin",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 168,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 29,
+      "raw_text": "29. Martin, J. R. (2004). A portrait of locomotor behaviour in Drosophila determined by a video-tracking paradigm. Behavioural Processes, 67, 207-219.",
+      "year": 2004,
+      "first_author": "Martin",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 169,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 30,
+      "raw_text": "30. Martin, J. R., Ernst, R. & Heisenberg, M. (1998). Mushroom bodies suppress locomotor activity in Drosophila melanogaster. Learning & Memory, 5, 179-191.",
+      "year": 1998,
+      "first_author": "Martin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 170,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 31,
+      "raw_text": "31. Martin, J. R., Ernst, R. & Heisenberg, M. (1999a). Temporal pattern of locomotor activity in Drosophila melanogaster. Journal of Comparative Physiology A, 184, 73-84.",
+      "year": 1999,
+      "first_author": "Martin",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 171,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 32,
+      "raw_text": "32. Martin, J. R., Raabe, T. & Heisenberg, M. (1999b). Central complex substructures are required for the maintenance of locomotor activity in Drosophila melanogaster. Journal of Comparative Physiology A, 185, 277-288.",
+      "year": 1999,
+      "first_author": "Martin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 172,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 33,
+      "raw_text": "33. Maye, A., Hsieh, C.-H., Sugihara, G. & Brembs, B. (2007). Order in spontaneous behavior. PLoS ONE, 2, e443.",
+      "year": 2007,
+      "first_author": "Maye",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 173,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 34,
+      "raw_text": "34. Pearson, K. G. & Ramirez, J. (1997). Sensory modulation of pattern-generating circuits. In P. S. G. Stein, S. Grillner, A. I. Selverston & D. G. Stuart (Eds.), Neurons, networks, and motor behavior (pp. 225-235). Cambridge, MA: MIT Press.",
+      "year": 1997,
+      "first_author": "Pearson",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 174,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 35,
+      "raw_text": "35. Perrins, R., Walford, A. & Roberts, A. (2002). Sensory activation and role of inhibitory reticulospinal neurons that stop swimming in hatching frog tadpoles. Journal of Neuroscience, 22, 4229-4240.",
+      "year": 2002,
+      "first_author": "Perrins",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 175,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 36,
+      "raw_text": "36. Purzner, J., Paradiso, G. O., Cunic, D., Saint-Cyr, J. A., Hoque, T., Lozano, A. M., Lang, A. E., Moro, E., Hodaie, M., Mazzella, F. & Chen, R. (2007). Involvement of the basal ganglia and cerebellar motor pathways in the preparation of self-initiated and externally triggered movements in humans. Journal of Neuroscience, 27, 6029-6036.",
+      "year": 2007,
+      "first_author": "Purzner",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 176,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 37,
+      "raw_text": "37. Ramirez, J. M. & Pearson, K. G. (1988). Generation of motor patterns for walking and flight in motoneurones supplying bifunctional muscles in the locust. Journal of Neurobiology, 19, 257-282.",
+      "year": 1988,
+      "first_author": "Ramirez",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 177,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 38,
+      "raw_text": "38. Robertson, R. M. (1986). Neuronal circuits controlling flight in the locust: central generation of the rhythm. Trends in Neurosciences, 9, 278-280.",
+      "year": 1986,
+      "first_author": "Robertson",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 178,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 39,
+      "raw_text": "39. Sandeman, H., Sandeman, R., Derby, C. & Schmidt, M. (1992). Morphology of the brain of crayfish, crabs, and spiny lobsters: a common nomenclature for homologous structures. Biological Bulletin, 183, 304-326.",
+      "year": 1992,
+      "first_author": "Sandeman",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 179,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 40,
+      "raw_text": "40. Schall, J. D. (2001). Neural basis of deciding, choosing and acting. Nature Reviews Neuroscience, 2, 33-42.",
+      "year": 2001,
+      "first_author": "Schall",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 180,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 41,
+      "raw_text": "41. Schultz, W. (2000). Multiple reward signals in the brain. Nature Reviews Neuroscience, 1, 199-207.",
+      "year": 2000,
+      "first_author": "Schultz",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 181,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 42,
+      "raw_text": "42. Schultz, W. & Romo, R. (1992). Role of primate basal ganglia and frontal cortex in the internal generation of movements. I. Preparatory activity in the anterior striatum. Experimental Brain Research, 91, 363-384.",
+      "year": 1992,
+      "first_author": "Schultz",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 182,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 43,
+      "raw_text": "43. Schultz, W., Tremblay, L., Hollerman, J. R. & Mirenowicz, J. (1997). Delayed responding and reward signals: neurons coding component processes of goal-directed behavior in primate basal ganglia and orbitofrontal cortex. In H. Sakata, A. Mikami & J. M. Fuster (Eds.), The association cortex - structure and function. Amsterdam: Harwood.",
+      "year": 1997,
+      "first_author": "Schultz",
+      "confidence": 0.08888888888888889,
+      "status": "unresolved"
+    },
+    {
+      "id": 183,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 44,
+      "raw_text": "44. Tanji, J. & Hoshi, E. (2008). Role of the lateral prefrontal cortex in executive behavioral control. Physiological Reviews, 88, 37-57.",
+      "year": 2008,
+      "first_author": "Tanji",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 184,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 45,
+      "raw_text": "45. Tautz, J. & Müller-Tautz, R. (1983). Antennal neuropile in the brain of the crayfish: morphology of neurons. Journal of Comparative Neurology, 218, 415-425.",
+      "year": 1983,
+      "first_author": "Tautz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 185,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 46,
+      "raw_text": "46. Tinbergen, N. (1951). The study of instinct. Oxford: Clarendon Press.",
+      "year": 1951,
+      "first_author": "Tinbergen",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 186,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 47,
+      "raw_text": "47. Venables, W. N. & Ripley, B. D. (2002). Modern applied statistics with S (4th ed.). New York: Springer.",
+      "year": 2002,
+      "first_author": "Venables",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 187,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 48,
+      "raw_text": "48. Webb, B. (2004). Neural mechanisms for prediction: do insects have forward models? Trends in Neurosciences, 27, 278-282.",
+      "year": 2004,
+      "first_author": "Webb",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 188,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 49,
+      "raw_text": "49. Wiersma, C. A. (1958). On the functional connections of single units in the central nervous system of the crayfish, Procambarus clarkii Girard. Journal of Comparative Neurology, 110, 421-471.",
+      "year": 1958,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 189,
+      "source_paper_id": "kagaya_takahata_2010",
+      "ordinal": 50,
+      "raw_text": "50. Yamane, S. & Takahata, M. (2002). Experimental modification of stepping course in spontaneously initiated locomotor behavior in the crayfish Procambarus clarkii Girard. Journal of Comparative Physiology A, 188, 13-23.",
+      "year": 2002,
+      "first_author": "Yamane",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 190,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 1,
+      "raw_text": "1. Roskies, A. L. (2010). Annu. Rev. Neurosci., 33, 109.",
+      "year": 2010,
+      "first_author": "Roskies",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 191,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 2,
+      "raw_text": "2. Okano, K. & Tanji, J. (1987). Exp. Brain Res., 66, 155.",
+      "year": 1987,
+      "first_author": "Okano",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 192,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 3,
+      "raw_text": "3. Schultz, W. & Romo, R. (1992). Exp. Brain Res., 91, 363.",
+      "year": 1992,
+      "first_author": "Schultz",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 193,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 4,
+      "raw_text": "4. Maimon, G. & Assad, J. A. (2006). J. Neurosci., 26, 2487.",
+      "year": 2006,
+      "first_author": "Maimon",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 194,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 5,
+      "raw_text": "5. Hyland, B. (1998). Behav. Brain Res., 94, 255.",
+      "year": 1998,
+      "first_author": "Hyland",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 195,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 6,
+      "raw_text": "6. Chapin, J. K., Moxon, K. A., Markowitz, R. S. & Nicolelis, M. A. (1999). Nat. Neurosci., 2, 664.",
+      "year": 1999,
+      "first_author": "Chapin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 196,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 7,
+      "raw_text": "7. Isomura, Y., Harukuni, R., Takekawa, T., Aizawa, H. & Fukai, T. (2009). Nat. Neurosci., 12, 1586.",
+      "year": 2009,
+      "first_author": "Isomura",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 197,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 8,
+      "raw_text": "8. Kagaya, K. & Takahata, M. (2010). J. Neurosci., 30, 1348.",
+      "year": 2010,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_takahata_2010",
+      "confidence": 0.6000000000000001,
+      "status": "suggested"
+    },
+    {
+      "id": 198,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 9,
+      "raw_text": "9. Chrachri, A. & Clarac, F. (1990). J. Neurosci., 10, 707.",
+      "year": 1990,
+      "first_author": "Chrachri",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 199,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 10,
+      "raw_text": "10. Chikamoto, K., Kagaya, K. & Takahata, M. (2008). Zoolog. Sci., 25, 783.",
+      "year": 2008,
+      "first_author": "Chikamoto",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 200,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 11,
+      "raw_text": "11. Martin, J. R., Raabe, T. & Heisenberg, M. (1999). J. Comp. Physiol. A, 185, 277.",
+      "year": 1999,
+      "first_author": "Martin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 201,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 12,
+      "raw_text": "12. Bender, J. A., Pollack, A. J. & Ritzmann, R. E. (2010). Curr. Biol., 20, 921.",
+      "year": 2010,
+      "first_author": "Bender",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 202,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 13,
+      "raw_text": "13. Sandeman, D., Sandeman, R., Derby, C. & Schmidt, M. (1992). Biol. Bull., 183, 304.",
+      "year": 1992,
+      "first_author": "Sandeman",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 203,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 14,
+      "raw_text": "14. Wiersma, C. A. G. (1958). J. Comp. Neurol., 110, 421.",
+      "year": 1958,
+      "first_author": "Wiersma",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 204,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 15,
+      "raw_text": "15. Atwood, H. L. & Wiersma, C. A. G. (1967). J. Exp. Biol., 46, 249.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 205,
+      "source_paper_id": "kagaya_takahata_2011",
+      "ordinal": 16,
+      "raw_text": "16. Bowerman, R. F. & Larimer, J. L. (1974). J. Exp. Biol., 60, 119. Supporting online material: supporting references S1. Kitagawa, G., Takanami, T. & Matsumoto, N. (2001). Signal extraction problems in seismology. International Statistical Review, 69, 129-152. S2. Akaike, H. (1974). A new look at statistical model identification. IEEE Transactions on Automatic Control, 19, 716-723. Note: the citation detail in the main article's References and Notes section is abbreviated in the source PDF; it is retained in that form rather than completed from external databases.",
+      "year": 1974,
+      "first_author": "Bowerman",
+      "matched_paper_id": "bowerman_larimer_1974b",
+      "confidence": 0.6000000000000001,
+      "status": "suggested"
+    },
+    {
+      "id": 206,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 1,
+      "raw_text": "1) Akaike, H. (1974). IEEE Trans. Automat. Contr., 19, 716-723.",
+      "year": 1974,
+      "first_author": "Akaike",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 207,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 2,
+      "raw_text": "2) Atwood, H. & Wiersma, C. (1967). Command interneurons in the crayfish central nervous system. J. Exp. Biol., 46, 249-261.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 208,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 3,
+      "raw_text": "3) Bender, J. A., Pollack, A. J. & Ritzmann, R. E. (2010). Curr. Biol., 20, 921-926.",
+      "year": 2010,
+      "first_author": "Bender",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 209,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 4,
+      "raw_text": "4) Bowerman, R. & Larimer, J. (1974). J. Exp. Biol., 60, 119-134.",
+      "year": 1974,
+      "first_author": "Bowerman",
+      "matched_paper_id": "bowerman_larimer_1974b",
+      "confidence": 0.6000000000000001,
+      "status": "suggested"
+    },
+    {
+      "id": 210,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 5,
+      "raw_text": "5) Briggman, K. L., Abarbanel, H. D. I. & Kristan, W. B. (2005). Science, 307, 896-901.",
+      "year": 2005,
+      "first_author": "Briggman",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 211,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 6,
+      "raw_text": "6) Chapin, J. K., Moxon, K. A., Markowitz, R. S. & Nicolelis, M. A. (1999). Nat. Neurosci., 2, 664-670.",
+      "year": 1999,
+      "first_author": "Chapin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 212,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 7,
+      "raw_text": "7) Chikamoto, K., Kagaya, K. & Takahata, M. (2008). Zoolog. Sci., 25, 783-792.",
+      "year": 2008,
+      "first_author": "Chikamoto",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 213,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 8,
+      "raw_text": "8) Chrachri, A. & Clarac, F. (1990). J. Neurosci., 10, 707-719.",
+      "year": 1990,
+      "first_author": "Chrachri",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 214,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 9,
+      "raw_text": "9) Clarac, F. & Pearlstein, E. (2007). Brain Res. Rev., 54, 113-161.",
+      "year": 2007,
+      "first_author": "Clarac",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 215,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 10,
+      "raw_text": "10) Edwards, D. H., Heitler, W. J. & Krasne, F. B. (1999). Trends Neurosci., 22, 153-161.",
+      "year": 1999,
+      "first_author": "Edwards",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 216,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 11,
+      "raw_text": "11) Esch, T., Mesce, K. & Kristan, W. (2002). J. Neurosci., 22, 11045-11054.",
+      "year": 2002,
+      "first_author": "Esch",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 217,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 12,
+      "raw_text": "12) Hyland, B. (1998). Behav. Brain Res., 94, 255-269.",
+      "year": 1998,
+      "first_author": "Hyland",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 218,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 13,
+      "raw_text": "13) Isomura, Y., Harukuni, R., Takekawa, T., Aizawa, H. & Fukai, T. (2009). Nat. Neurosci., 12, 1586-1593.",
+      "year": 2009,
+      "first_author": "Isomura",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 219,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 14,
+      "raw_text": "14) Kagaya, K. & Takahata, M. (2010). J. Neurosci., 30, 1348-1362.",
+      "year": 2010,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_takahata_2010",
+      "confidence": 0.6000000000000001,
+      "status": "suggested"
+    },
+    {
+      "id": 220,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 15,
+      "raw_text": "15) Kagaya, K. & Takahata, M. (2011). Science, 332, 365-368.",
+      "year": 2011,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_takahata_2011",
+      "confidence": 0.6000000000000001,
+      "status": "suggested"
+    },
+    {
+      "id": 221,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 16,
+      "raw_text": "16) Kitagawa, G., Takanami, T. & Matsumoto, N. (2001). Int. Stat. Rev., 69, 129-152.",
+      "year": 2001,
+      "first_author": "Kitagawa",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 222,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 17,
+      "raw_text": "17) Lee, I. H. & Assad, J. A. (2003). J. Neurophysiol., 89, 2528-2537.",
+      "year": 2003,
+      "first_author": "Lee",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 223,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 18,
+      "raw_text": "18) Maimon, G. & Assad, J. A. (2006). J. Neurosci., 26, 2487-2498.",
+      "year": 2006,
+      "first_author": "Maimon",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 224,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 19,
+      "raw_text": "19) Martin, J. (2003). Behav. Process., 64, 145-160.",
+      "year": 2003,
+      "first_author": "Martin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 225,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 20,
+      "raw_text": "20) Martin, J. (2004). Behav. Process., 67, 207-219.",
+      "year": 2004,
+      "first_author": "Martin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 226,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 21,
+      "raw_text": "21) Martin, J., Ernst, R. & Heisenberg, M. (1998). Learn. Mem., 5, 179-191.",
+      "year": 1998,
+      "first_author": "Martin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 227,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 22,
+      "raw_text": "22) Martin, J., Ernst, R. & Heisenberg, M. (1999). J. Comp. Physiol. A, 184, 73-84.",
+      "year": 1999,
+      "first_author": "Martin",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 228,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 23,
+      "raw_text": "23) Maye, A., Hsieh, C.-H., Sugihara, G. & Brembs, B. (2007). PLoS One, 2, e443.",
+      "year": 2007,
+      "first_author": "Maye",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 229,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 24,
+      "raw_text": "24) Mink, J. W. & Thach, W. T. (1991). J. Neurophysiol., 65, 273-300.",
+      "year": 1991,
+      "first_author": "Mink",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 230,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 25,
+      "raw_text": "25) Mizunami, M., Okada, R., Li, Y. & Strausfeld, N. J. (1998). J. Comp. Neurol., 402, 501-519.",
+      "year": 1998,
+      "first_author": "Mizunami",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 231,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 26,
+      "raw_text": "26) Okada, R., Ikeda, J. & Mizunami, M. (1999). J. Comp. Physiol. A, 185, 115-129.",
+      "year": 1999,
+      "first_author": "Okada",
+      "confidence": 0.42000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 232,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 27,
+      "raw_text": "27) Okano, K. & Tanji, J. (1987). Exp. Brain Res., 66, 155-166.",
+      "year": 1987,
+      "first_author": "Okano",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 233,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 28,
+      "raw_text": "28) Perrins, R., Walford, A. & Roberts, A. (2002). J. Neurosci., 22, 4229-4240.",
+      "year": 2002,
+      "first_author": "Perrins",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 234,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 29,
+      "raw_text": "29) Romo, R., Scarnati, E. & Schultz, W. (1992). Exp. Brain Res., 91, 385-395.",
+      "year": 1992,
+      "first_author": "Romo",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 235,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 30,
+      "raw_text": "30) Roskies, A. L. (2010). Annu. Rev. Neurosci., 33, 109-130.",
+      "year": 2010,
+      "first_author": "Roskies",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 236,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 31,
+      "raw_text": "31) Sakurai, A., Newcomb, J. M., Lillvis, J. L. & Katz, P. S. (2011). Curr. Biol., 21, 1036-1043.",
+      "year": 2011,
+      "first_author": "Sakurai",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 237,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 32,
+      "raw_text": "32) Sandeman, D., Sandeman, R., Derby, C. & Schmidt, M. (1992). Biol. Bull., 183, 304-326.",
+      "year": 1992,
+      "first_author": "Sandeman",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 238,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 33,
+      "raw_text": "33) Schultz, W. & Romo, R. (1992). Exp. Brain Res., 91, 363-384.",
+      "year": 1992,
+      "first_author": "Schultz",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 239,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 34,
+      "raw_text": "34) 高畑雅一 (2000). 生物物理, 40, 239-243.",
+      "year": 2000,
+      "first_author": "高畑雅一",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 240,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 35,
+      "raw_text": "35) Tomioka, K. & Matsumoto, A. (2010). Cell. Mol. Life Sci., 67, 1397-1406.",
+      "year": 2010,
+      "first_author": "Tomioka",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 241,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 36,
+      "raw_text": "36) van Donkelaar, P., Stein, J. F., Passingham, R. E. & Miall, R. C. (1999). J. Neurophysiol., 82, 934-945.",
+      "year": 1999,
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 242,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 37,
+      "raw_text": "37) Wiersma, C. (1958). J. Comp. Neurol., 110, 421-471.",
+      "year": 1958,
+      "first_author": "Wiersma",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 243,
+      "source_paper_id": "kagaya_2012",
+      "ordinal": 38,
+      "raw_text": "38) Zelenin, P. V. (2011). J. Neurophysiol., 105, 1361-1371.",
+      "year": 2011,
+      "first_author": "Zelenin",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 244,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 1,
+      "raw_text": "1. Atwood, H. L. & Wiersma, C. A. G. (1967). Command interneurons in the crayfish central nervous system. Journal of Experimental Biology 46, 249-261.",
+      "year": 1967,
+      "first_author": "Atwood",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 245,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 2,
+      "raw_text": "2. Bovbjerg, R. V. (1956). Some factors affecting aggressive behavior in crayfish. Physiological Zoology 29, 127-136.",
+      "year": 1956,
+      "first_author": "Bovbjerg",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 246,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 3,
+      "raw_text": "3. Bowerman, R. F. & Larimer, J. L. (1974). Command fibres in the circumoesophageal connectives of crayfish. I. Tonic fibres. Journal of Experimental Biology 60, 95-117.",
+      "year": 1974,
+      "first_author": "Bowerman",
+      "matched_paper_id": "bowerman_larimer_1974a",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 247,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 4,
+      "raw_text": "4. Breithaupt, T. & Eger, P. (2002). Urine makes the difference: chemical communication in fighting crayfish made visible. Journal of Experimental Biology 205, 1221-1231.",
+      "year": 2002,
+      "first_author": "Breithaupt",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 248,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 5,
+      "raw_text": "5. Bruski, C. A. & Dunham, D. W. (1987). The importance of vision in agonistic communication of the crayfish Orconectes rusticus. I. An analysis of bout dynamics. Behaviour 103, 83-107.",
+      "year": 1987,
+      "first_author": "Bruski",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 249,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 6,
+      "raw_text": "6. Calabrese, R. L. (1976). Crayfish mechanoreceptive interneurons. I. The nature of ipsilateral excitatory inputs. Journal of Comparative Physiology 105, 83-102.",
+      "year": 1976,
+      "first_author": "Calabrese",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 250,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 7,
+      "raw_text": "7. Chiou, T.-H. et al. (2008). Circular polarization vision in a stomatopod crustacean. Current Biology 18, 429-434.",
+      "year": 2008,
+      "first_author": "Chiou",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 251,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 8,
+      "raw_text": "8. Edwards, D. H. (1984). Crayfish extraretinal photoreception. I. Behavioural and motoneuronal responses to abdominal illumination. Journal of Experimental Biology 109, 291-306.",
+      "year": 1984,
+      "first_author": "Edwards",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 252,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 9,
+      "raw_text": "9. Edwards, D. H., Issa, F. A. & Herberholz, J. (2003). The neural basis of dominance hierarchy formation in crayfish. Microscopy Research and Technique 60, 369-376.",
+      "year": 2003,
+      "first_author": "Edwards",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 253,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 10,
+      "raw_text": "10. Eguchi, E. (1965). Rhabdom structure and receptor potentials in single crayfish retinular cells. Journal of Cellular and Comparative Physiology 66, 411-430.",
+      "year": 1965,
+      "first_author": "Eguchi",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 254,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 11,
+      "raw_text": "11. Exner, S. von (1891). Die Physiologie der facettierten Augen von Krebsen und Insecten. Franz Deuticke, Vienna.",
+      "year": 1891,
+      "first_author": "Exner",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 255,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 12,
+      "raw_text": "12. Fernandez-de-Miguel, F. & Arechiga, H. (1992). Sensory inputs mediating two opposite behavioural responses to light in the crayfish Procambarus clarkii. Journal of Experimental Biology 164, 153-169.",
+      "year": 1992,
+      "first_author": "Fernandez-de-Miguel",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 256,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 13,
+      "raw_text": "13. Fraser, P. J. (1977). Directionality of a one-way movement detector in the crayfish Cherax destructor. Journal of Comparative Physiology 118, 187-193.",
+      "year": 1977,
+      "first_author": "Fraser",
+      "confidence": 0.3244444444444445,
+      "status": "unresolved"
+    },
+    {
+      "id": 257,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 14,
+      "raw_text": "14. Fujisawa, K. & Takahata, M. (2007). Disynaptic and polysynaptic statocyst pathways to an identified set of premotor nonspiking interneurons in the crayfish brain. Journal of Comparative Neurology 503, 560-572.",
+      "year": 2007,
+      "first_author": "Fujisawa",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 258,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 15,
+      "raw_text": "15. Furudate, H., Okada, Y. & Yamaguchi, T. (1996). Response of non-spiking giant interneurons to substrate tilt in the crayfish, with special reference to multisensory control in the compensatory eyestalk movement system. Journal of Comparative Physiology A 179, 635-643.",
+      "year": 1996,
+      "first_author": "Furudate",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 259,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 16,
+      "raw_text": "16. Glantz, R. M. (1974). Defense reflex and motion detector responsiveness to approaching targets: the motion detector trigger to the defense reflex pathway. Journal of Comparative Physiology 95, 297-314.",
+      "year": 1974,
+      "first_author": "Glantz",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 260,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 17,
+      "raw_text": "17. Glantz, R. M. (1977). Visual input and motor output of command interneurons of the defense reflex pathway in the crayfish. In G. Hoyle (Ed.), Identified Neurons and Behavior of Arthropods (pp. 259-274). Plenum Press.",
+      "year": 1977,
+      "first_author": "Glantz",
+      "confidence": 0.36888888888888893,
+      "status": "unresolved"
+    },
+    {
+      "id": 261,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 18,
+      "raw_text": "18. Glantz, R. M. (1991). Motion detection and adaptation in crayfish photoreceptors: a spatiotemporal analysis of linear movement sensitivity. Journal of General Physiology 97, 777-797.",
+      "year": 1991,
+      "first_author": "Glantz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 262,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 19,
+      "raw_text": "19. Glantz, R. M. (1994). Directional selectivity in a nonspiking interneuron of the crayfish optic lobe: evaluation of a linear model. Journal of Neurophysiology 72, 180-193.",
+      "year": 1994,
+      "first_author": "Glantz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 263,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 20,
+      "raw_text": "20. Glantz, R. M. (1996a). Polarization sensitivity in crayfish lamina monopolar neurons. Journal of Comparative Physiology A 178, 413-425.",
+      "year": 1996,
+      "first_author": "Glantz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 264,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 21,
+      "raw_text": "21. Glantz, R. M. (1996b). Polarization sensitivity in the crayfish optic lobe: peripheral contributions to opponency and directionally selective motion detection. Journal of Neurophysiology 76, 3404-3414.",
+      "year": 1996,
+      "first_author": "Glantz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 265,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 22,
+      "raw_text": "22. Glantz, R. M. (2001). Polarization analysis in the crayfish visual system. Journal of Experimental Biology 204, 2383-2390.",
+      "year": 2001,
+      "first_author": "Glantz",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 266,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 23,
+      "raw_text": "23. Glantz, R. M. (2007). The distribution of polarization sensitivity in the crayfish retinula. Journal of Comparative Physiology A 193, 893-901.",
+      "year": 2007,
+      "first_author": "Glantz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 267,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 24,
+      "raw_text": "24. Glantz, R. M. & Bartels, A. (1994). The spatiotemporal transfer function of the crayfish lamina monopolar neurons. Journal of Neurophysiology 71, 2168-2182.",
+      "year": 1994,
+      "first_author": "Glantz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 268,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 25,
+      "raw_text": "25. Glantz, R. M. & McIsaac, A. (1998). Two-channel polarization analyzer in the sustaining fiber-dimming fiber ensemble of crayfish visual system. Journal of Neurophysiology 80, 2571-2583.",
+      "year": 1998,
+      "first_author": "Glantz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 269,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 26,
+      "raw_text": "26. Glantz, R. M. & Schroeter, J. P. (2006). Polarization contrast and motion detection. Journal of Comparative Physiology A 192, 905-914.",
+      "year": 2006,
+      "first_author": "Glantz",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 270,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 27,
+      "raw_text": "27. Glantz, R. M. & Schroeter, J. P. (2007). Orientation by polarized light in the crayfish dorsal light reflex: behavioral and neurophysiological studies. Journal of Comparative Physiology A 193, 371-384.",
+      "year": 2007,
+      "first_author": "Glantz",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 271,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 28,
+      "raw_text": "28. Glantz, R. M., Kirk, M. & Viancour, T. (1981). Interneurons of the crayfish brain: the relationship between dendrite location and afferent input. Journal of Neurobiology 12, 311-328.",
+      "year": 1981,
+      "first_author": "Glantz",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 272,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 29,
+      "raw_text": "29. Glantz, R. M., Nudelman, H. B. & Waldrop, B. (1984). Linear integration of convergent visual inputs in an oculomotor reflex pathway. Journal of Neurophysiology 52, 1213-1225.",
+      "year": 1984,
+      "first_author": "Glantz",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 273,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 30,
+      "raw_text": "30. Glantz, R. M., Wyatt, C. & Mahncke, H. (1995). Directionally selective motion detection in the sustaining fibers of the crayfish optic nerve: linear and nonlinear mechanisms. Journal of Neurophysiology 74, 142-152.",
+      "year": 1995,
+      "first_author": "Glantz",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 274,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 31,
+      "raw_text": "31. Hama, N. & Takahata, M. (2005). Modification of statocyst input to local interneurons by behavioral condition in the crayfish brain. Journal of Comparative Physiology A 191, 747-759.",
+      "year": 2005,
+      "first_author": "Hama",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 275,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 32,
+      "raw_text": "32. Higuchi, T. (1973). The responses of oculomotor fibres in statocystectomized crayfish, Procambarus clarkii. Journal of the Faculty of Science, Hokkaido University, Series VI, Zoology 18, 507-515.",
+      "year": 1973,
+      "first_author": "Higuchi",
+      "confidence": 0.17142857142857143,
+      "status": "unresolved"
+    },
+    {
+      "id": 276,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 33,
+      "raw_text": "33. Hisada, M. & Higuchi, T. (1973). Basic response pattern and classification of oculomotor nerve in the crayfish, Procambarus clarkii. Journal of the Faculty of Science, Hokkaido University, Series VI, Zoology 18, 481-494.",
+      "year": 1973,
+      "first_author": "Hisada",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 277,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 34,
+      "raw_text": "34. Horridge, G. A. (1966). Optokinetic responses of the crab Carcinus to a single moving light. Journal of Experimental Biology 44, 263-274.",
+      "year": 1966,
+      "first_author": "Horridge",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 278,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 35,
+      "raw_text": "35. Issa, F. A., Adamson, D. J. & Edwards, D. H. (1999). Dominance hierarchy formation in juvenile crayfish, Procambarus clarkii. Journal of Experimental Biology 202, 3497-3506.",
+      "year": 1999,
+      "first_author": "Issa",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 279,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 36,
+      "raw_text": "36. Kaplan, L. J., Lowrance, C., Basil, J. & Atema, J. (1993). The role of chemical and visual cues in agonistic interactions of the American lobster. Biological Bulletin 185, 320-321.",
+      "year": 1993,
+      "first_author": "Kaplan",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 280,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 37,
+      "raw_text": "37. Kirk, M. D., Waldrop, B. & Glantz, R. M. (1982). The crayfish sustaining fibers. I. Morphological representation of visual receptive fields in the second optic neuropil. Journal of Comparative Physiology 146, 175-179.",
+      "year": 1982,
+      "first_author": "Kirk",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 281,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 38,
+      "raw_text": "38. Kirk, M. D., Waldrop, B. R. & Glantz, R. M. (1983). The crayfish sustaining fibers. II. Responses to illumination, membrane properties and adaptation. Journal of Comparative Physiology 150, 419-425.",
+      "year": 1983,
+      "first_author": "Kirk",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 282,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 39,
+      "raw_text": "39. Land, M. F. (1976). Superposition images are formed by reflection in the eyes of some oceanic decapod crustacea. Nature 263, 764-765.",
+      "year": 1976,
+      "first_author": "Land",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 283,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 40,
+      "raw_text": "40. Land, M. F. (1999). Motion and vision: why animals move their eyes. Journal of Comparative Physiology A 185, 341-352.",
+      "year": 1999,
+      "first_author": "Land",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 284,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 41,
+      "raw_text": "41. Mellon, D. F., Jr. (1977). The anatomy and motor nerve distribution of the eye muscles in the crayfish. Journal of Comparative Physiology 121, 349-366.",
+      "year": 1977,
+      "first_author": "Mellon",
+      "confidence": 0.3244444444444445,
+      "status": "unresolved"
+    },
+    {
+      "id": 285,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 42,
+      "raw_text": "42. Mellon, D. F., Tufty, M. R. & Lorton, E. D. (1976). Analysis of spatial constancy of oculomotor neurons in the crayfish. Brain Research 109, 587-594.",
+      "year": 1976,
+      "first_author": "Mellon",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 286,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 43,
+      "raw_text": "43. Miller, C. S., Johnson, D. H., Schroeter, J. P., Myint, L. L. & Glantz, R. M. (2002). Visual signals in an optomotor reflex: systems and information theoretic analysis. Journal of Computational Neuroscience 13, 5-21.",
+      "year": 2002,
+      "first_author": "Miller",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 287,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 44,
+      "raw_text": "44. Muller, K. (1973). Photoreceptors in the crayfish compound eye: electrical interactions between cells as related to polarized-light sensitivity. Journal of Physiology 232, 573-595.",
+      "year": 1973,
+      "first_author": "Muller",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 288,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 45,
+      "raw_text": "45. Nakagawa, H. & Hisada, M. (1992). Local spiking interneurons controlling the equilibrium response in the crayfish Procambarus clarkii. Journal of Comparative Physiology A 170, 291-302.",
+      "year": 1992,
+      "first_author": "Nakagawa",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 289,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 46,
+      "raw_text": "46. Nassel, D. R. (1976). The retina and retinal projection on the lamina ganglionaris of the crayfish Pacifastacus leniusculus (Dana). Journal of Comparative Neurology 167, 341-360.",
+      "year": 1976,
+      "first_author": "Nassel",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 290,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 47,
+      "raw_text": "47. Notvest, R. R. & Page, C. H. (1984). Role of the hemigiant neurons in the crayfish defense response. Brain Research 292, 57-62.",
+      "year": 1984,
+      "first_author": "Notvest",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 291,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 48,
+      "raw_text": "48. Okada, Y. & Yamaguchi, T. (1985). Eyestalk movements in the crayfish, Procambarus clarkii. Comparative Biochemistry and Physiology A 81, 157-164.",
+      "year": 1985,
+      "first_author": "Okada",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 292,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 49,
+      "raw_text": "49. Okada, Y. & Yamaguchi, T. (1988). Nonspiking giant interneurons in the crayfish brain: morphological and physiological characteristics of the neurons postsynaptic to visual interneurons. Journal of Comparative Physiology A 162, 705-714.",
+      "year": 1988,
+      "first_author": "Okada",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 293,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 50,
+      "raw_text": "50. Okada, Y., Furudate, H. & Yamaguchi, T. (1994). Multimodal responses of the nonspiking giant interneurons in the brain of the crayfish Procambarus clarkii. Journal of Comparative Physiology A 174, 411-419.",
+      "year": 1994,
+      "first_author": "Okada",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 294,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 51,
+      "raw_text": "51. Prosser, C. L. (1934). Action potentials in the nervous system of the crayfish. Journal of Cellular and Comparative Physiology 4, 363-377.",
+      "year": 1934,
+      "first_author": "Prosser",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 295,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 52,
+      "raw_text": "52. Ramon, F., Hernandez, O. H. & Bullock, T. H. (2001). Event-related potentials in an invertebrate: crayfish emit omitted stimulus potentials. Journal of Experimental Biology 204, 4291-4300.",
+      "year": 2001,
+      "first_author": "Ramon",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 296,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 53,
+      "raw_text": "53. Robinson, C. A. & Nunnemacher, R. F. (1966). The musculature of the eyestalk of the crayfish, Orconectes virilis. Crustaceana 11, 77-82.",
+      "year": 1966,
+      "first_author": "Robinson",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 297,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 54,
+      "raw_text": "54. Rubenstein, D. I. & Hazlett, B. A. (1974). Examination of the agonistic behaviour of the crayfish Orconectes virilis by character analysis. Behaviour 50, 193-216.",
+      "year": 1974,
+      "first_author": "Rubenstein",
+      "confidence": 0.3371428571428572,
+      "status": "unresolved"
+    },
+    {
+      "id": 298,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 55,
+      "raw_text": "55. Sabra, R. & Glantz, R. M. (1985). Polarization sensitivity of crayfish photoreceptors is correlated with their termination sites in the lamina ganglionaris. Journal of Comparative Physiology A 156, 315-318.",
+      "year": 1985,
+      "first_author": "Sabra",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 299,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 56,
+      "raw_text": "56. Sandeman, D. C. (1982). Organization of the central nervous system. In The Biology of Crustacea, Vol. 3 (pp. 1-61). Academic Press.",
+      "year": 1982,
+      "first_author": "Sandeman",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 300,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 57,
+      "raw_text": "57. Sandeman, D. C., Kien, J. & Erber, J. (1975). Optokinetic eye movements in the crab Carcinus maenas. II. Responses of optokinetic interneurons. Journal of Comparative Physiology 101, 259-274.",
+      "year": 1975,
+      "first_author": "Sandeman",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 301,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 58,
+      "raw_text": "58. Schone, H. & Schone, H. (1961). Eyestalk movements induced by polarized light in the ghost crab, Ocypode quadrata. Science 134, 675-676.",
+      "year": 1961,
+      "first_author": "Schone",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 302,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 59,
+      "raw_text": "59. Shimozawa, T. (1975). Response entrainment of movement fibers in the optic tract of crayfish. Biological Cybernetics 20, 213-222.",
+      "year": 1975,
+      "first_author": "Shimozawa",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 303,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 60,
+      "raw_text": "60. Shimozawa, T., Takeda, T. & Yamaguchi, T. (1977). Response entrainment and memory of temporal pattern by movement fibers in the crayfish visual system. Journal of Comparative Physiology 114, 267-287.",
+      "year": 1977,
+      "first_author": "Shimozawa",
+      "confidence": 0.36888888888888893,
+      "status": "unresolved"
+    },
+    {
+      "id": 304,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 61,
+      "raw_text": "61. Simon, T. W. & Edwards, D. H. (1990). Light-evoked walking in crayfish: behavioral and neuronal responses triggered by the caudal photoreceptor. Journal of Comparative Physiology A 166, 745-755.",
+      "year": 1990,
+      "first_author": "Simon",
+      "confidence": 0.13333333333333333,
+      "status": "unresolved"
+    },
+    {
+      "id": 305,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 62,
+      "raw_text": "62. Strausfeld, N. J. & Nassel, D. R. (1981). Neuroarchitectures serving compound eyes of crustacea and insects. In Handbook of Sensory Physiology, Vol. VII/6B (pp. 1-132). Springer-Verlag.",
+      "year": 1981,
+      "first_author": "Strausfeld",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 306,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 63,
+      "raw_text": "63. Sugawara, K., Hisada, M. & Higuchi, T. (1971). Eyestalk musculature of the crayfish, Procambarus clarkii. Journal of the Faculty of Science, Hokkaido University, Series VI, Zoology 18, 45-50.",
+      "year": 1971,
+      "first_author": "Sugawara",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 307,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 64,
+      "raw_text": "64. Tuthill, J. C. & Johnsen, S. (2006). Polarization sensitivity in the red swamp crayfish Procambarus clarkii enhances the detection of moving transparent objects. Journal of Experimental Biology 209, 1612-1616.",
+      "year": 2006,
+      "first_author": "Tuthill",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 308,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 65,
+      "raw_text": "65. Vogt, K. (1975). Zur Optik des Flusskrebsauges. Zeitschrift fur Naturforschung C 30, 691.",
+      "year": 1975,
+      "first_author": "Vogt",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 309,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 66,
+      "raw_text": "66. Vogt, K. (1977). Ray path and reflection mechanisms in crayfish eyes. Zeitschrift fur Naturforschung C 32, 466-468.",
+      "year": 1977,
+      "first_author": "Vogt",
+      "confidence": 0.3244444444444445,
+      "status": "unresolved"
+    },
+    {
+      "id": 310,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 67,
+      "raw_text": "67. Vogt, K. (1980). Die Spiegeloptik des Flusskrebsauges. Journal of Comparative Physiology 135, 1-19.",
+      "year": 1980,
+      "first_author": "Vogt",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 311,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 68,
+      "raw_text": "68. Walcott, B. (1974). Unit studies on light-adaptation in the retina of the crayfish, Cherax destructor. Journal of Comparative Physiology 94, 207-218.",
+      "year": 1974,
+      "first_author": "Walcott",
+      "confidence": 0.3371428571428572,
+      "status": "unresolved"
+    },
+    {
+      "id": 312,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 69,
+      "raw_text": "69. Waldrop, B. & Glantz, R. M. (1985). Nonspiking local interneurons mediate surround inhibition of crayfish sustaining fibers. Journal of Comparative Physiology A 156, 763-774.",
+      "year": 1985,
+      "first_author": "Waldrop",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 313,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 70,
+      "raw_text": "70. Wang-Bennett, L. T. & Glantz, R. M. (1987a). The functional organization of the crayfish lamina ganglionaris. I. Nonspiking monopolar cells. Journal of Comparative Physiology A 161, 131-145.",
+      "year": 1987,
+      "first_author": "Wang-Bennett",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 314,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 71,
+      "raw_text": "71. Wang-Bennett, L. T. & Glantz, R. M. (1987b). The functional organization of the crayfish lamina ganglionaris. II. Large-field spiking and nonspiking cells. Journal of Comparative Physiology A 161, 147-160.",
+      "year": 1987,
+      "first_author": "Wang-Bennett",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 315,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 72,
+      "raw_text": "72. Waterman, T. H. (1981). Polarization sensitivity. In Handbook of Sensory Physiology, Vol. VII/6B (pp. 281-469). Springer-Verlag.",
+      "year": 1981,
+      "first_author": "Waterman",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 316,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 73,
+      "raw_text": "73. Waterman, T. H. (1984). Natural polarized light and vision. In Photoreception and Vision in Invertebrates (pp. 63-114). Plenum Press.",
+      "year": 1984,
+      "first_author": "Waterman",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 317,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 74,
+      "raw_text": "74. Waterman, T. H. & Fernandez, H. R. (1970). E-vector and wavelength discrimination by retinular cells of the crayfish Procambarus. Zeitschrift fur vergleichende Physiologie 68, 154-174.",
+      "year": 1970,
+      "first_author": "Waterman",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 318,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 75,
+      "raw_text": "75. Wehner, R. & Labhart, T. (2006). Polarization vision. In Invertebrate Vision (pp. 291-348). Cambridge University Press.",
+      "year": 2006,
+      "first_author": "Wehner",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 319,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 76,
+      "raw_text": "76. Welsh, J. H. (1934). The caudal photoreceptor and responses of the crayfish to light. Journal of Cellular and Comparative Physiology 4, 379-388.",
+      "year": 1934,
+      "first_author": "Welsh",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 320,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 77,
+      "raw_text": "77. Wiersma, C. A. G. & Mill, P. J. (1965). Descending neuronal units in the commissure of the crayfish central nervous system; and their integration of visual, tactile, and proprioceptive stimuli. Journal of Comparative Neurology 125, 67-94.",
+      "year": 1965,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 321,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 78,
+      "raw_text": "78. Wiersma, C. A. G. & Oberjat, T. (1968). The selective responsiveness of various crayfish oculomotor fibers to sensory stimuli. Comparative Biochemistry and Physiology 26, 1-16.",
+      "year": 1968,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 322,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 79,
+      "raw_text": "79. Wiersma, C. A. G. & Yamaguchi, T. (1966). The neuronal components of the optic nerve of the crayfish as studied by single unit analysis. Journal of Comparative Neurology 128, 333-358.",
+      "year": 1966,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 323,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 80,
+      "raw_text": "80. Wiersma, C. A. G. & Yamaguchi, T. (1967). Integration of visual stimuli by the crayfish central nervous system. Journal of Experimental Biology 47, 409-431.",
+      "year": 1967,
+      "first_author": "Wiersma",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 324,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 81,
+      "raw_text": "81. Wilson, R. S. et al. (2007). Dishonest signals of strength in male slender crayfish (Cherax dispar) during agonistic encounters. American Naturalist 170, 284-291.",
+      "year": 2007,
+      "first_author": "Wilson",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 325,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 82,
+      "raw_text": "82. Wood, H. L. & Glantz, R. M. (1980). Distributed processing by visual interneuron of crayfish brain. I. Response characteristics and synaptic interactions. Journal of Neurophysiology 43, 729-740.",
+      "year": 1980,
+      "first_author": "Wood",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 326,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 83,
+      "raw_text": "83. Yamaguchi, T., Ohtsuka, T., Katagiri, Y. & Shimozawa, T. (1973). Some spatial and temporal properties of movement fibers in the optic tract of the crayfish. Journal of the Faculty of Science, Hokkaido University, Series VI, Zoology 19, 31-49.",
+      "year": 1973,
+      "first_author": "Yamaguchi",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 327,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 84,
+      "raw_text": "84. Yamaguchi, T. & Okada, Y. (1990). Giant brain neurons of the crayfish: their functional roles in the compensatory oculomotor system. In Frontiers in Crustacean Neurobiology (pp. 193-199). Birkhauser.",
+      "year": 1990,
+      "first_author": "Yamaguchi",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 328,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 85,
+      "raw_text": "85. Yamaguchi, T., Okada, Y., Nakatani, K. & Ohta, N. (1984). Functional morphology of visual interneurons in the crayfish central nervous system. In Animal Behavior: Neuro-Physiological and Ethological Approaches (pp. 109-122). Springer-Verlag.",
+      "year": 1984,
+      "first_author": "Yamaguchi",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 329,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 86,
+      "raw_text": "86. Yoshino, M., Kondoh, Y. & Hisada, M. (1983). Projection of statocyst sensory neurons associated with crescent hairs in the crayfish Procambarus clarkii Girard. Cell and Tissue Research 230, 37-48.",
+      "year": 1983,
+      "first_author": "Yoshino",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 330,
+      "source_paper_id": "okada_chapter_2010",
+      "ordinal": 87,
+      "raw_text": "87. Zeil, J., Nalbach, G. & Nalbach, H.-O. (1986). Eyes, eye stalks and the visual world of semi-terrestrial crabs. Journal of Comparative Physiology A 159, 801-811. OCR note Several Japanese-language citations printed in the source were not reliably machine-readable with the available English OCR model; the Roman-alphabet reference list above is transcribed and normalized from the scanned pages. Refer to the source PDF for the few Japanese-only entries.",
+      "year": 1986,
+      "first_author": "Zeil",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 331,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 1,
+      "raw_text": "1. Nagayama, T. & Hisada, M. (1987). Opposing parallel connections through crayfish local nonspiking interneurons. Journal of Comparative Neurology 257, 347-358.",
+      "year": 1987,
+      "first_author": "Nagayama",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 332,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 2,
+      "raw_text": "2. Nagayama, T. & Hisada, M. (1988). Bilateral local non-spiking interneurons in the terminal (sixth) abdominal ganglion of crayfish, Procambarus clarkii Girard. Journal of Comparative Physiology A 163, 601-607.",
+      "year": 1988,
+      "first_author": "Nagayama",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 333,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 3,
+      "raw_text": "3. Nagayama, T. & Newland, P. L. (1993). A sensory map based on velocity thresholds of sensory neurones from a chordotonal organ in the tailfan of the crayfish. Journal of Comparative Physiology A 172, 7-15.",
+      "year": 1993,
+      "first_author": "Nagayama",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 334,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 4,
+      "raw_text": "4. Nagayama, T. & Sato, M. (1993). The organization of exteroceptive information from the uropod to ascending interneurones of the crayfish. Journal of Comparative Physiology A 172, 281-294.",
+      "year": 1993,
+      "first_author": "Nagayama",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 335,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 5,
+      "raw_text": "5. Nagayama, T., Takahata, M. & Hisada, M. (1984). Functional characteristics of local non-spiking interneurons as the pre-motor elements in crayfish. Journal of Comparative Physiology A 154, 499-510.",
+      "year": 1984,
+      "first_author": "Nagayama",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 336,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 6,
+      "raw_text": "6. Nagayama, T., Takahata, M. & Hisada, M. (1986). Behavioral transition of crayfish avoidance reaction in response to uropod stimulation. Experimental Biology 46, 75-82.",
+      "year": 1986,
+      "first_author": "Nagayama",
+      "confidence": 0.30000000000000004,
+      "status": "unresolved"
+    },
+    {
+      "id": 337,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 7,
+      "raw_text": "7. Nagayama, T., Isogai, Y., Sato, M. & Hisada, M. (1993a). Intersegmental ascending interneurones controlling uropod movements of the crayfish Procambarus clarkii. Journal of Comparative Neurology 332, 155-174.",
+      "year": 1993,
+      "first_author": "Nagayama",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 338,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 8,
+      "raw_text": "8. Nagayama, T., Isogai, Y. & Namba, H. (1993b). Physiology and morphology of spiking local interneurones in the terminal abdominal ganglion of the crayfish. Journal of Comparative Neurology 337, 584-599.",
+      "year": 1993,
+      "first_author": "Nagayama",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 339,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 9,
+      "raw_text": "9. Nagayama, T., Namba, H. & Aonuma, H. (1994). Morphological and physiological bases of crayfish local circuit neurones. Histology and Histopathology 9, 791-805.",
+      "year": 1994,
+      "first_author": "Nagayama",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 340,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 10,
+      "raw_text": "10. Nagayama, T., Namba, H. & Aonuma, H. (1997). Distribution of GABAergic premotor nonspiking local interneurones in the terminal abdominal ganglion of the crayfish. Journal of Comparative Neurology 389, 139-148.",
+      "year": 1997,
+      "first_author": "Nagayama",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 341,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 11,
+      "raw_text": "11. Nagayama, T., Araki, M. & Newland, P. L. (2002). Lateral giant fibre activation of exopodite motor neurones in the crayfish tailfan. Journal of Comparative Physiology A 188, 621-630.",
+      "year": 2002,
+      "first_author": "Nagayama",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 342,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 12,
+      "raw_text": "12. Namba, H. & Nagayama, T. (2004). Synaptic interactions between nonspiking local interneurones in the terminal abdominal ganglion of the crayfish. Journal of Comparative Physiology A 190, 615-622.",
+      "year": 2004,
+      "first_author": "Namba",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 343,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 13,
+      "raw_text": "13. Namba, H., Nagayama, T. & Hisada, M. (1994). Descending control of nonspiking local interneurons in the terminal abdominal ganglion of the crayfish. Journal of Neurophysiology 72, 235-247.",
+      "year": 1994,
+      "first_author": "Namba",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 344,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 14,
+      "raw_text": "14. Namba, H., Nagayama, T. & Takahata, M. (1995). Terminal projection of descending interneurones controlling uropod movements of the crayfish Procambarus clarkii Girard. Zoological Science 12, 523-534.",
+      "year": 1995,
+      "first_author": "Namba",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 345,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 15,
+      "raw_text": "15. Namba, H., Nagayama, T. & Takahata, M. (1997). Non-spiking local interneurones mediate abdominal extension-related descending control of uropod motor neurones in the crayfish terminal abdominal ganglion. Journal of Comparative Physiology A 180, 463-472.",
+      "year": 1997,
+      "first_author": "Namba",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 346,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 16,
+      "raw_text": "16. Newland, P. L., Aonuma, H. & Nagayama, T. (2000). The role of proprioceptive signals in the crayfish escape circuit. Zoological Science 17, 1185-1195.",
+      "year": 2000,
+      "first_author": "Newland",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 347,
+      "source_paper_id": "nagayama_chapter_2010",
+      "ordinal": 17,
+      "raw_text": "17. Ushizawa, T., Nagayama, T. & Takahata, M. (1996). Cholinergic transmission of mechanosensory afferents in the crayfish terminal abdominal ganglion. Journal of Comparative Physiology A 178, 1-13.",
+      "year": 1996,
+      "first_author": "Ushizawa",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 348,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 1,
+      "raw_text": "1. Hama, N. & Takahata, M. (2003). Effects of leg movements on the synaptic activity of descending statocyst interneurons in crayfish, Procambarus clarkii. Journal of Comparative Physiology A 189, 877-888.",
+      "year": 2003,
+      "first_author": "Hama",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 349,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 2,
+      "raw_text": "2. Hama, N. & Takahata, M. (2005). Modification of statocyst input to local interneurons by behavioral condition in the crayfish brain. Journal of Comparative Physiology A 191, 747-759.",
+      "year": 2005,
+      "first_author": "Hama",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 350,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 3,
+      "raw_text": "3. Hama, N., Tsuchida, Y. & Takahata, M. (2007). Behavioral context dependent modulation of descending statocyst pathways during free walking as revealed by optical telemetry in crayfish. Journal of Experimental Biology 210, 2199-2211.",
+      "year": 2007,
+      "first_author": "Hama",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 351,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 4,
+      "raw_text": "4. Hikosaka, R., Takahashi, M. & Takahata, M. (1996). Variability and invariability in the structure of an identified nonspiking interneuron of crayfish as revealed by three-dimensional morphometry. Zoological Science 13, 69-78.",
+      "year": 1996,
+      "first_author": "Hikosaka",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 352,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 5,
+      "raw_text": "5. Hikosaka, R. & Takahata, M. (2001). Quantitative analyses of anatomical and electrotonic structures of local spiking interneurons by three-dimensional morphometry in crayfish. Journal of Comparative Neurology 432, 269-284.",
+      "year": 2001,
+      "first_author": "Hikosaka",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 353,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 6,
+      "raw_text": "6. Hisada, M., Takahata, M. & Nagayama, T. (1984). Local non-spiking interneurons in the arthropod motor control systems: characterization and their functional significance. Zoological Science 1, 681-700.",
+      "year": 1984,
+      "first_author": "Hisada",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 354,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 7,
+      "raw_text": "7. Kennedy, D. (1971). Fifteenth Bowditch Lecture: Crayfish interneurons. Physiologist 14, 5-30.",
+      "year": 1971,
+      "first_author": "Kennedy",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 355,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 8,
+      "raw_text": "8. Mellon, D. F., Jr. (1977). The anatomy and motor nerve distribution of the eye muscles in the crayfish. Journal of Comparative Physiology 121, 349-366.",
+      "year": 1977,
+      "first_author": "Mellon",
+      "confidence": 0.3244444444444445,
+      "status": "unresolved"
+    },
+    {
+      "id": 356,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 9,
+      "raw_text": "9. Menzel, R., Brembs, B. & Giurfa, M. (2007). Cognition in invertebrates. In Evolution of Nervous Systems, Vol. 1 (pp. 403-442). Academic Press.",
+      "year": 2007,
+      "first_author": "Menzel",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 357,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 10,
+      "raw_text": "10. Murayama, M. & Takahata, M. (1998). Neuronal mechanisms underlying the facilitatory control of uropod steering behaviour during treadmill walking in crayfish. I. Antagonistically regulated background excitability of uropod motoneurones. Journal of Experimental Biology 201, 1283-1294.",
+      "year": 1998,
+      "first_author": "Murayama",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 358,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 11,
+      "raw_text": "11. Nakagawa, H. & Hisada, M. (1992). Local spiking interneurons controlling the equilibrium response in the crayfish Procambarus clarkii. Journal of Comparative Physiology A 170, 291-302.",
+      "year": 1992,
+      "first_author": "Nakagawa",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 359,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 12,
+      "raw_text": "12. Okada, Y. & Yamaguchi, T. (1988). Nonspiking giant interneurons in the crayfish brain: morphological and physiological characteristics of the neurons postsynaptic to visual interneurons. Journal of Comparative Physiology A 162, 705-714.",
+      "year": 1988,
+      "first_author": "Okada",
+      "confidence": 0.52,
+      "status": "unresolved"
+    },
+    {
+      "id": 360,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 13,
+      "raw_text": "13. Rexed, B. (1954). A cytoarchitectonic atlas of the spinal cord in the cat. Journal of Comparative Neurology 100, 297-379.",
+      "year": 1954,
+      "first_author": "Rexed",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 361,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 14,
+      "raw_text": "14. Sakuraba, T. & Takahata, M. (1999). Effects of visual and leg proprioceptor inputs on recovery of eyestalk posture following unilateral statolith removal in the crayfish. Naturwissenschaften 86, 346-349.",
+      "year": 1999,
+      "first_author": "Sakuraba",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 362,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 15,
+      "raw_text": "15. Sakuraba, T. & Takahata, M. (2000). Motor pattern changes during central compensation of eyestalk posture after unilateral statolith removal in crayfish. Zoological Science 17, 19-26.",
+      "year": 2000,
+      "first_author": "Sakuraba",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 363,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 16,
+      "raw_text": "16. Sandeman, D., Sandeman, R., Derby, C. & Schmidt, M. (1992). Morphology of the brain of crayfish, crabs, and spiny lobsters: a common nomenclature for homologous structures. Biological Bulletin 183, 304-326.",
+      "year": 1992,
+      "first_author": "Sandeman",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 364,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 17,
+      "raw_text": "17. Snodgrass, R. E. (1938). Evolution of the Annelida, Onychophora and Arthropoda. Smithsonian Miscellaneous Collections 97, 1-159.",
+      "year": 1938,
+      "first_author": "Snodgrass",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 365,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 18,
+      "raw_text": "18. Strausfeld, N. J. (1998). Crustacean-insect relationships: the use of brain characters to derive phylogeny amongst segmented invertebrates. Brain, Behavior and Evolution 52, 186-206.",
+      "year": 1998,
+      "first_author": "Strausfeld",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 366,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 19,
+      "raw_text": "19. Takahata, M. (1981). Functional differentiation of crayfish statocyst receptors in sensory adaptation. Comparative Biochemistry and Physiology A 68, 17-23.",
+      "year": 1981,
+      "first_author": "Takahata",
+      "confidence": 0.38666666666666666,
+      "status": "unresolved"
+    },
+    {
+      "id": 367,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 20,
+      "raw_text": "20. Takahata, M., Nagayama, T. & Hisada, M. (1981). Physiological and morphological characterization of anaxonic non-spiking interneurons in the crayfish motor control system. Brain Research 226, 309-314.",
+      "year": 1981,
+      "first_author": "Takahata",
+      "confidence": 0.38666666666666666,
+      "status": "unresolved"
+    },
+    {
+      "id": 368,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 21,
+      "raw_text": "21. Tautz, J. & Muller-Tautz, R. (1983). Antennal neuropile in the brain of the crayfish: morphology of neurons. Journal of Comparative Neurology 218, 415-425.",
+      "year": 1983,
+      "first_author": "Tautz",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 369,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 22,
+      "raw_text": "22. Wiersma, C. A. G. (1958). On the functional connections of single units in the central nervous system of the crayfish, Procambarus clarkii (Girard). Journal of Comparative Neurology 110, 421-471.",
+      "year": 1958,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 370,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 23,
+      "raw_text": "23. Wiersma, C. A. G. & Bush, B. M. H. (1963). Functional neuronal connections between the thoracic and abdominal cords of the crayfish, Procambarus clarkii (Girard). Journal of Comparative Neurology 121, 207-235.",
+      "year": 1963,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 371,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 24,
+      "raw_text": "24. Wiersma, C. A. G. & Hughes, G. M. (1961). On the functional anatomy of neuronal units in the abdominal cord of the crayfish Procambarus clarkii (Girard). Journal of Comparative Neurology 116, 209-228.",
+      "year": 1961,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 372,
+      "source_paper_id": "takahata_chapter_2010",
+      "ordinal": 25,
+      "raw_text": "25. Yoshino, M., Kondoh, Y. & Hisada, M. (1983). Projection of statocyst sensory neurons associated with crescent hairs in the crayfish Procambarus clarkii Girard. Cell and Tissue Research 230, 37-48.",
+      "year": 1983,
+      "first_author": "Yoshino",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 373,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 1,
+      "raw_text": "1. Abe, M. S. (2020). Functional advantages of Levy walks emerging near a critical point. Proceedings of the National Academy of Sciences, 117(39), 24336-24344.",
+      "year": 2020,
+      "first_author": "Abe",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 374,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 2,
+      "raw_text": "2. Asada, M. (1998). Shintaisei ni yoru chinou no hatsugen [Emergence of intelligence through embodiment]. Journal of the Japanese Society for Artificial Intelligence, 12(1), 14-15. [Japanese]",
+      "year": 1998,
+      "first_author": "Asada",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 375,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 3,
+      "raw_text": "3. Baerends, G. P. (1976). On drive, conflict and instinct, and the functional organization of behavior. Progress in Brain Research, 45, 427-447.",
+      "year": 1976,
+      "first_author": "Baerends",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 376,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 4,
+      "raw_text": "4. Bak, P. (1996). How Nature Works. Springer Science & Business Media.",
+      "year": 1996,
+      "first_author": "Bak",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 377,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 5,
+      "raw_text": "5. Beal, D. N., Hover, F. S., Triantafyllou, M. S., Liao, J. C., & Lauder, G. V. (2006). Passive propulsion in vortex wakes. Journal of Fluid Mechanics, 549, 385.",
+      "year": 2006,
+      "first_author": "Beal",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 378,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 6,
+      "raw_text": "6. Brooks, R. A. (1991). Intelligence without representation. Artificial Intelligence, 47(1-3), 139-159.",
+      "year": 1991,
+      "first_author": "Brooks",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 379,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 7,
+      "raw_text": "7. Crapse, T. B., & Sommer, M. A. (2008). Corollary discharge across the animal kingdom. Nature Reviews Neuroscience, 9(8), 587-600.",
+      "year": 2008,
+      "first_author": "Crapse",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 380,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 8,
+      "raw_text": "8. Davis, W. J., Mpitsos, G. J., & Pinneo, J. M. (1974). The behavioral hierarchy of the mollusk Pleurobranchaea. Journal of Comparative Physiology, 90(3), 207-224.",
+      "year": 1974,
+      "first_author": "Davis",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 381,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 9,
+      "raw_text": "9. Edwards, D. (2017). Crayfish escape. Oxford Research Encyclopedia of Neuroscience.",
+      "year": 2017,
+      "first_author": "Edwards",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 382,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 10,
+      "raw_text": "10. Fukutomi, M., & Carlson, B. A. (2020). A history of corollary discharge: contributions of mormyrid weakly electric fish. Frontiers in Integrative Neuroscience, 14, 42.",
+      "year": 2020,
+      "first_author": "Fukutomi",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 383,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 11,
+      "raw_text": "11. von Holst, E., & Mittelstaedt, H. (1971). The principle of reafference: Interactions between the central nervous system and the peripheral organs. In Perceptual Processing: Stimulus Equivalence and Pattern Recognition (pp. 41-72).",
+      "year": 1971,
+      "first_author": "von Holst",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 384,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 12,
+      "raw_text": "12. Hosoda, K. (2012). Shintai-teki kyoso chinou: Junan na shintai kozo to kankyo tono sogo sayo kara umareru tekiosei [Embodied co-creative intelligence]. Journal of the Japanese Society for Artificial Intelligence, 27(1), 28-33. [Japanese]",
+      "year": 2012,
+      "first_author": "Hosoda",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 385,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 13,
+      "raw_text": "13. Jaeger, H. (2021). Towards a generalized theory comprising digital, neuromorphic and unconventional computing. Neuromorphic Computing and Engineering, 1(1), 012002.",
+      "year": 2021,
+      "first_author": "Jaeger",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 386,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 14,
+      "raw_text": "14. Jensen, H. J. (1998). Self-Organized Criticality: Emergent Complex Behavior in Physical and Biological Systems (Vol. 10). Cambridge University Press.",
+      "year": 1998,
+      "first_author": "Jensen",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 387,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 15,
+      "raw_text": "15. Kagaya, K., & Takahata, M. (2010). Readiness discharge for spontaneous initiation of walking in crayfish. Journal of Neuroscience, 30(4), 1348-1362.",
+      "year": 2010,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_takahata_2010",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 388,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 16,
+      "raw_text": "16. Kagaya, K., & Takahata, M. (2011). Sequential synaptic excitation and inhibition shape readiness discharge for voluntary behavior. Science, 332(6027), 365-368.",
+      "year": 2011,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_takahata_2011",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 389,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 17,
+      "raw_text": "17. Kagaya, K. (2012). Zari-gani ni miru jihatsusei kodo seigyo no shinkei kairo kiko [Neural circuit mechanisms of spontaneous behavior control in crayfish]. Comparative Physiology and Biochemistry, 29(1), 3-10. [Japanese]",
+      "year": 2012,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_2012",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 390,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 18,
+      "raw_text": "18. Kagaya, K., Yu, B., Minami, Y., & Nakajima, K. (2022). Echo state property and memory in octopus-inspired soft robotic arm. 2022 IEEE 5th International Conference on Soft Robotics (RoboSoft), 224-230.",
+      "year": 2022,
+      "first_author": "Kagaya",
+      "confidence": 0.32,
+      "status": "unresolved"
+    },
+    {
+      "id": 391,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 19,
+      "raw_text": "19. Kawai, Y., & Takahata, M. (Eds.). (2010). Zari-gani no Seibutsugaku [Biology of Crayfish]. Hokkaido University Press. [Japanese]",
+      "year": 2010,
+      "first_author": "Kawai",
+      "matched_paper_id": "takahata_chapter_2010",
+      "confidence": 0.5800000000000001,
+      "status": "suggested"
+    },
+    {
+      "id": 392,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 20,
+      "raw_text": "20. Kornhuber, H. H., & Deecke, L. (1965). Hirnpotentialanderungen bei Willkurbewegungen und passiven Bewegungen des Menschen: Bereitschaftspotential und reafferente Potentiale. Pfluger's Archiv fur die gesamte Physiologie des Menschen und der Tiere, 284(1), 1-17.",
+      "year": 1965,
+      "first_author": "Kornhuber",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 393,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 21,
+      "raw_text": "21. Kuniyoshi, Y. (2008). Chiteki kodo no hassei genri [Principles of the emergence of intelligent behavior]. Journal of the Japanese Society for Artificial Intelligence, 23(2), 283-293. [Japanese]",
+      "year": 2008,
+      "first_author": "Kuniyoshi",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 394,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 22,
+      "raw_text": "22. Martin, J. R., Ernst, R., & Heisenberg, M. (1999). Temporal pattern of locomotor activity in Drosophila melanogaster. Journal of Comparative Physiology A, 184(1), 73-84.",
+      "year": 1999,
+      "first_author": "Martin",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 395,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 23,
+      "raw_text": "23. Maye, A., Hsieh, C. H., Sugihara, G., & Brembs, B. (2007). Order in spontaneous behavior. PLoS ONE, 2(5), e443.",
+      "year": 2007,
+      "first_author": "Maye",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 396,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 24,
+      "raw_text": "24. Nakajima, K., Li, T., Hauser, H., & Pfeifer, R. (2014). Exploiting short-term memory in soft body dynamics as a computational resource. Journal of the Royal Society Interface, 11(100), 20140437.",
+      "year": 2014,
+      "first_author": "Nakajima",
+      "confidence": 0.32,
+      "status": "unresolved"
+    },
+    {
+      "id": 397,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 25,
+      "raw_text": "25. Nakajima, K., Hauser, H., Li, T., & Pfeifer, R. (2015). Information processing via physical soft body. Scientific Reports, 5(1), 1-11.",
+      "year": 2015,
+      "first_author": "Nakajima",
+      "confidence": 0.32,
+      "status": "unresolved"
+    },
+    {
+      "id": 398,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 26,
+      "raw_text": "26. Nakajima, K. (2020). Physical reservoir computing: An introductory perspective. Japanese Journal of Applied Physics, 59(6), 060501.",
+      "year": 2020,
+      "first_author": "Nakajima",
+      "confidence": 0.32,
+      "status": "unresolved"
+    },
+    {
+      "id": 399,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 27,
+      "raw_text": "27. Nakajima, K., & Fischer, I. (Eds.). (2021). Reservoir Computing. Springer Singapore.",
+      "year": 2021,
+      "first_author": "Nakajima",
+      "confidence": 0.32,
+      "status": "unresolved"
+    },
+    {
+      "id": 400,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 28,
+      "raw_text": "28. Numata, H., & Momoki, A. (2022). Hajimete no jiyu keizoku rhythm o mita hito, de Mairan to sono jidai [The first observer of free-running rhythms: de Mairan and his era]. Journal of the Society for Chronobiology, 28(1), 17-21. [Japanese]",
+      "year": 2022,
+      "first_author": "Numata",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 401,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 29,
+      "raw_text": "29. Pfeifer, R., & Bongard, J. (2010). Chino no genri: Shintaisei ni motozuku koseiron-teki approach [How the Body Shapes the Way We Think; Japanese translation by K. Hosoda & A. Ishiguro]. Kyoritsu Shuppan. [Japanese]",
+      "year": 2010,
+      "first_author": "Pfeifer",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 402,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 30,
+      "raw_text": "30. Schmidt-Nielsen, K. (2007). Dobutsu seirigaku: Kankyo e no tekiou [Animal Physiology: Adaptation to Environment; Japanese translation supervised by H. Numata & Y. Nakajima]. University of Tokyo Press. [Japanese]",
+      "year": 2007,
+      "first_author": "Schmidt-Nielsen",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 403,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 31,
+      "raw_text": "31. Schurger, A., Hu, P. B., Pak, J., & Roskies, A. L. (2021). What is the readiness potential? Trends in Cognitive Sciences, 25, 558-570.",
+      "year": 2021,
+      "first_author": "Schurger",
+      "confidence": 0.13333333333333333,
+      "status": "unresolved"
+    },
+    {
+      "id": 404,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 32,
+      "raw_text": "32. Tinbergen, N. (1951). The Study of Instinct. Pygmalion Press, an imprint of Plunkett Lake Press.",
+      "year": 1951,
+      "first_author": "Tinbergen",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 405,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 33,
+      "raw_text": "33. Tomina, Y., Kibayashi, A., Yoshii, T., & Takahata, M. (2013). Chronic electromyographic analysis of circadian locomotor activity in crayfish. Behavioural Brain Research, 249, 90-103.",
+      "year": 2013,
+      "first_author": "Tomina",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 406,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 34,
+      "raw_text": "34. Tomioka, K., Numata, H., & Inoue, S. (2003). Jikan seibutsugaku no kiso [Fundamentals of Chronobiology]. Shokabo. [Japanese]",
+      "year": 2003,
+      "first_author": "Tomioka",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 407,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 35,
+      "raw_text": "35. Wine, J. J., & Krasne, F. B. (1972). The organization of escape behaviour in the crayfish. Journal of Experimental Biology, 56(1), 1-18.",
+      "year": 1972,
+      "first_author": "Wine",
+      "matched_paper_id": "wine_krasne_1972",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 408,
+      "source_paper_id": "kagaya_2022_ai",
+      "ordinal": 36,
+      "raw_text": "36. Wine, J. J., & Mistick, D. C. (1977). Temporal organization of crayfish escape behavior: Delayed recruitment of peripheral inhibition. Journal of Neurophysiology, 40(4), 904-925.",
+      "year": 1977,
+      "first_author": "Wine",
+      "matched_paper_id": "wine_mistick_1977",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 409,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 1,
+      "raw_text": "1. Abe, M. S. (2020). Functional advantages of Levy walks emerging near a critical point. Proceedings of the National Academy of Sciences 117(39), 24336-24344.",
+      "year": 2020,
+      "first_author": "Abe",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 410,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 2,
+      "raw_text": "2. Arata, Y., Shiga, I., Ikeda, Y., Jurica, P., Kimura, H., Kiyono, K. & Sako, Y. (2022). Insulin signaling shapes fractal scaling of C. elegans behavior. Scientific Reports 12, 10481.",
+      "year": 2022,
+      "first_author": "Arata",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 411,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 3,
+      "raw_text": "3. Bak, P., Tang, C. & Wiesenfeld, K. (1987). Self-organized criticality: an explanation of the 1/f noise. Physical Review Letters 59(4), 381.",
+      "year": 1987,
+      "first_author": "Bak",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 412,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 4,
+      "raw_text": "4. Bak, P., Tang, C. & Wiesenfeld, K. (1988). Self-organized criticality. Physical Review A 38(1), 364.",
+      "year": 1988,
+      "first_author": "Bak",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 413,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 5,
+      "raw_text": "5. Bartumeus, F., Campos, D., Ryu, W. S., Lloret-Cabot, R., Mendez, V. & Catalan, J. (2016). Foraging success under uncertainty: search tradeoffs and optimal space use. Ecology Letters 19(11), 1299-1313.",
+      "year": 2016,
+      "first_author": "Bartumeus",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 414,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 6,
+      "raw_text": "6. Chialvo, D. R. & Bak, P. (1999). Learning from mistakes. Neuroscience 90(4), 1137-1148.",
+      "year": 1999,
+      "first_author": "Chialvo",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 415,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 7,
+      "raw_text": "7. Chikamoto, K., Kagaya, K. & Takahata, M. (2008). Electromyographic characterization of walking behavior initiated spontaneously in crayfish. Zoological Science 25(8), 783-792.",
+      "year": 2008,
+      "first_author": "Chikamoto",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 416,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 8,
+      "raw_text": "8. Daliparthi, V. K. et al. (2019). Transitioning between preparatory and precisely sequenced neuronal activity in production of a skilled behavior. eLife 8, e43732.",
+      "year": 2019,
+      "first_author": "Daliparthi",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 417,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 9,
+      "raw_text": "9. Edwards, D. H., Heitler, W. J. & Krasne, F. B. (1999). Fifty years of a command neuron: the neurobiology of escape behavior in the crayfish. Trends in Neurosciences 22(4), 153-161.",
+      "year": 1999,
+      "first_author": "Edwards",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 418,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 10,
+      "raw_text": "10. Fontenele, A. J. et al. (2019). Criticality between cortical states. Physical Review Letters 122(20), 208101.",
+      "year": 2019,
+      "first_author": "Fontenele",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 419,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 11,
+      "raw_text": "11. Fosque, L. J., Williams-Garcia, R. V., Beggs, J. M. & Ortiz, G. (2021). Evidence for quasicritical brain dynamics. Physical Review Letters 126(9), 098101.",
+      "year": 2021,
+      "first_author": "Fosque",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 420,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 12,
+      "raw_text": "12. Friedman, N. et al. (2012). Universal critical dynamics in high resolution neuronal avalanche data. Physical Review Letters 108(20), 208102.",
+      "year": 2012,
+      "first_author": "Friedman",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 421,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 13,
+      "raw_text": "13. Fujisawa, K. & Takahata, M. (2007a). Disynaptic and polysynaptic statocyst pathways to an identified set of premotor nonspiking interneurons in the crayfish brain. Journal of Comparative Neurology 503(4), 560-572.",
+      "year": 2007,
+      "first_author": "Fujisawa",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 422,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 14,
+      "raw_text": "14. Fujisawa, K. & Takahata, M. (2007b). Physiological changes of premotor nonspiking interneurons in the central compensation of eyestalk posture following unilateral sensory ablation in crayfish. Journal of Comparative Physiology A 193, 127-140.",
+      "year": 2007,
+      "first_author": "Fujisawa",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 423,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 15,
+      "raw_text": "15. Garcia-Perez, E., Mazzoni, A. & Torre, V. (2007). Spontaneous electrical activity and behavior in the leech Hirudo medicinalis. Frontiers in Integrative Neuroscience 1, 8.",
+      "year": 2007,
+      "first_author": "Garcia-Perez",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 424,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 16,
+      "raw_text": "16. Hama, N. & Takahata, M. (2003). Effects of leg movements on the synaptic activity of descending statocyst interneurons in crayfish, Procambarus clarkii. Journal of Comparative Physiology A 189, 877-888.",
+      "year": 2003,
+      "first_author": "Hama",
+      "confidence": 0.2,
+      "status": "unresolved"
+    },
+    {
+      "id": 425,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 17,
+      "raw_text": "17. Helmrich, S. et al. (2020). Signatures of self-organized criticality in an ultracold atomic gas. Nature 577(7791), 481-486.",
+      "year": 2020,
+      "first_author": "Helmrich",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 426,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 18,
+      "raw_text": "18. Jensen, H. J. (1998). Self-Organized Criticality: Emergent Complex Behavior in Physical and Biological Systems. Cambridge University Press.",
+      "year": 1998,
+      "first_author": "Jensen",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 427,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 19,
+      "raw_text": "19. Jones, S. A., Barfield, J. H., Kindler Norman, V. & Shew, W. L. (2023). Scale-free behavioral dynamics directly linked with scale-free cortical dynamics. eLife 12, e79950.",
+      "year": 2023,
+      "first_author": "Jones",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 428,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 20,
+      "raw_text": "20. Kagaya, K. & Takahata, M. (2010). Readiness discharge for spontaneous initiation of walking in crayfish. Journal of Neuroscience 30(4), 1348-1362.",
+      "year": 2010,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_takahata_2010",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 429,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 21,
+      "raw_text": "21. Kagaya, K. & Takahata, M. (2011). Sequential synaptic excitation and inhibition shape readiness discharge for voluntary behavior. Science 332(6027), 365-368.",
+      "year": 2011,
+      "first_author": "Kagaya",
+      "matched_paper_id": "kagaya_takahata_2011",
+      "confidence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 430,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 22,
+      "raw_text": "22. Kornhuber, H. H. & Deecke, L. (1965). Changes in brain potentials with wilful and passive movements in humans: the readiness potential and reafferent potential. Pflugers Archiv 284, 2-17.",
+      "year": 1965,
+      "first_author": "Kornhuber",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 431,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 23,
+      "raw_text": "23. Mariani, B., Nicoletti, G., Bisio, M., Maschietto, M., Vassanelli, S. & Suweis, S. (2022). Disentangling the critical signatures of neural activity. Scientific Reports 12, 1-12.",
+      "year": 2022,
+      "first_author": "Mariani",
+      "confidence": 0.28,
+      "status": "unresolved"
+    },
+    {
+      "id": 432,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 24,
+      "raw_text": "24. Martin, J. R., Ernst, R. & Heisenberg, M. (1999). Temporal pattern of locomotor activity in Drosophila melanogaster. Journal of Comparative Physiology A 184(1), 73-84.",
+      "year": 1999,
+      "first_author": "Martin",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 433,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 25,
+      "raw_text": "25. Maye, A., Hsieh, C.-H., Sugihara, G. & Brembs, B. (2007). Order in spontaneous behavior. PLOS ONE 2(5), e443.",
+      "year": 2007,
+      "first_author": "Maye",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 434,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 26,
+      "raw_text": "26. Murakami, M., Vicente, M. I., Costa, G. M. & Mainen, Z. F. (2014). Neural antecedents of self-initiated actions in secondary motor cortex. Nature Neuroscience 17(11), 1574-1582.",
+      "year": 2014,
+      "first_author": "Murakami",
+      "confidence": 0.05714285714285714,
+      "status": "unresolved"
+    },
+    {
+      "id": 435,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 27,
+      "raw_text": "27. Nakagawa, H. & Hisada, M. (1989). Morphology of descending statocyst interneurons in the crayfish Procambarus clarkii Girard. Cell and Tissue Research 255, 539-551.",
+      "year": 1989,
+      "first_author": "Nakagawa",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 436,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 28,
+      "raw_text": "28. Okada, Y. & Yamaguchi, T. (1988). Nonspiking giant interneurons in the crayfish brain: morphological and physiological characteristics of the neurons postsynaptic to visual interneurons. Journal of Comparative Physiology A 162(6), 705-714.",
+      "year": 1988,
+      "first_author": "Okada",
+      "confidence": 0.52,
+      "status": "unresolved"
+    },
+    {
+      "id": 437,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 29,
+      "raw_text": "29. O'Byrne, J. & Jerbi, K. (2022). How critical is brain criticality? Trends in Neurosciences. https://doi.org/10.1016/j.tins.2022.08.007",
+      "doi": "10.1016/j.tins.2022.08.007",
+      "year": 2022,
+      "first_author": "O'Byrne",
+      "confidence": 0.3244444444444445,
+      "status": "unresolved"
+    },
+    {
+      "id": 438,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 30,
+      "raw_text": "30. Ramirez, A. D. & Aksay, E. R. F. (2021). Ramp-to-threshold dynamics in a hindbrain population controls the timing of spontaneous saccades. Nature Communications 12, 1-19.",
+      "year": 2021,
+      "first_author": "Ramirez",
+      "confidence": 0.11428571428571428,
+      "status": "unresolved"
+    },
+    {
+      "id": 439,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 31,
+      "raw_text": "31. Reynolds, A. M. (2018). Current status and future directions of Levy walk research. Biology Open 7(1), bio030106.",
+      "year": 2018,
+      "first_author": "Reynolds",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 440,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 32,
+      "raw_text": "32. Sandeman, D. C., Sandeman, R., Derby, C. & Schmidt, M. (1992). Morphology of the brain of crayfish, crabs, and spiny lobsters: a common nomenclature for homologous structures. Biological Bulletin 183(2), 304-326.",
+      "year": 1992,
+      "first_author": "Sandeman",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 441,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 33,
+      "raw_text": "33. Schurger, A. & Uithol, S. (2015). Nowhere and everywhere: the causal origin of voluntary action. Review of Philosophy and Psychology 6(4), 761-778.",
+      "year": 2015,
+      "first_author": "Schurger",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 442,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 34,
+      "raw_text": "34. Schurger, A., Sitt, J. D. & Dehaene, S. (2012). An accumulator model for spontaneous neural activity prior to self-initiated movement. Proceedings of the National Academy of Sciences 109(42), E2904-E2913.",
+      "year": 2012,
+      "first_author": "Schurger",
+      "confidence": 0.3942857142857143,
+      "status": "unresolved"
+    },
+    {
+      "id": 443,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 35,
+      "raw_text": "35. Schurger, A., Pak, J., Roskies, A. L. et al. (2021). What is the readiness potential? Trends in Cognitive Sciences 25(7), 558-570.",
+      "year": 2021,
+      "first_author": "Schurger",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 444,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 36,
+      "raw_text": "36. Sethna, J. P., Dahmen, K. A. & Myers, C. R. (2001). Crackling noise. Nature 410(6825), 242-250.",
+      "year": 2001,
+      "first_author": "Sethna",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 445,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 37,
+      "raw_text": "37. Sims, D. W., Humphries, N. E., Hu, N., Medan, V. & Berni, J. (2019). Optimal searching behaviour generated intrinsically by the central pattern generator for locomotion. eLife 8, e50316.",
+      "year": 2019,
+      "first_author": "Sims",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 446,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 38,
+      "raw_text": "38. Tinbergen, N. (1951). The Study of Instinct. Clarendon Press.",
+      "year": 1951,
+      "first_author": "Tinbergen",
+      "confidence": 0,
+      "status": "unresolved"
+    },
+    {
+      "id": 447,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 39,
+      "raw_text": "39. Travers, E., Friedemann, M. & Haggard, P. (2021). The readiness potential reflects planning-based expectation, not uncertainty, in the timing of action. Cognitive Neuroscience 12(1), 14-27.",
+      "year": 2021,
+      "first_author": "Travers",
+      "confidence": 0.06666666666666667,
+      "status": "unresolved"
+    },
+    {
+      "id": 448,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 40,
+      "raw_text": "40. Wiersma, C. A. G. (1947). Giant nerve fiber system of the crayfish: a contribution to comparative physiology of synapse. Journal of Neurophysiology 10(1), 23-38.",
+      "year": 1947,
+      "first_author": "Wiersma",
+      "confidence": 0.1,
+      "status": "unresolved"
+    },
+    {
+      "id": 449,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 41,
+      "raw_text": "41. Williams-Garcia, R. V., Moore, M., Beggs, J. M. & Ortiz, G. (2014). Quasicritical brain dynamics on a nonequilibrium Widom line. Physical Review E 90(6), 062714.",
+      "year": 2014,
+      "first_author": "Williams-Garcia",
+      "confidence": 0.044444444444444446,
+      "status": "unresolved"
+    },
+    {
+      "id": 450,
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "ordinal": 42,
+      "raw_text": "42. Wine, J. J. & Krasne, F. B. (1972). The organization of escape behaviour in the crayfish. Journal of Experimental Biology 56(1), 1-18.",
+      "year": 1972,
+      "first_author": "Wine",
+      "matched_paper_id": "wine_krasne_1972",
+      "confidence": 1,
+      "status": "confirmed"
+    }
+  ],
+  "citations": [
+    {
+      "source_paper_id": "bowerman_larimer_1974a",
+      "target_paper_id": "bowerman_larimer_1974b",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "bowerman_larimer_1974a",
+      "target_paper_id": "wine_krasne_1972",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "bowerman_larimer_1974b",
+      "target_paper_id": "bowerman_larimer_1974a",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "bowerman_larimer_1974b",
+      "target_paper_id": "wine_krasne_1972",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "wine_mistick_1977",
+      "target_paper_id": "wine_krasne_1972",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_takahata_2010",
+      "target_paper_id": "bowerman_larimer_1974a",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_takahata_2010",
+      "target_paper_id": "bowerman_larimer_1974b",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_takahata_2011",
+      "target_paper_id": "kagaya_takahata_2010",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_takahata_2011",
+      "target_paper_id": "bowerman_larimer_1974b",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2012",
+      "target_paper_id": "kagaya_takahata_2010",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2012",
+      "target_paper_id": "kagaya_takahata_2011",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2012",
+      "target_paper_id": "bowerman_larimer_1974b",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "okada_chapter_2010",
+      "target_paper_id": "bowerman_larimer_1974a",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2022_ai",
+      "target_paper_id": "wine_krasne_1972",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2022_ai",
+      "target_paper_id": "wine_mistick_1977",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2022_ai",
+      "target_paper_id": "kagaya_takahata_2010",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2022_ai",
+      "target_paper_id": "kagaya_takahata_2011",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_2022_ai",
+      "target_paper_id": "kagaya_2012",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "target_paper_id": "wine_krasne_1972",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "target_paper_id": "kagaya_takahata_2010",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    },
+    {
+      "source_paper_id": "kagaya_kubota_nakajima_2024",
+      "target_paper_id": "kagaya_takahata_2011",
+      "status": "confirmed",
+      "created_at": "2026-08-02T09:09:46+00:00"
+    }
+  ],
+  "updated_at": "2026-08-02T10:28:23Z"
+}
