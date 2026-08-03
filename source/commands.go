@@ -62,16 +62,16 @@ func newFlagSet(name string) *flag.FlagSet {
 
 func requireNoArgs(fs *flag.FlagSet) error {
 	if fs.NArg() != 0 {
-		return fmt.Errorf("余分な引数があります: %s", strings.Join(fs.Args(), " "))
+		return fmt.Errorf("unexpected arguments: %s", strings.Join(fs.Args(), " "))
 	}
 	return nil
 }
 
 func cmdInit(store *Store, g globalOptions, args []string) error {
 	fs := newFlagSet("init")
-	name := fs.String("name", "Untitled Citation Project", "プロジェクト名")
-	reset := fs.Bool("reset", false, "既存台帳を初期化")
-	seed := fs.Bool("seed-crayfish", false, "ザリガニ神経行動学の同梱例を使用")
+	name := fs.String("name", "Untitled Citation Project", "project name")
+	reset := fs.Bool("reset", false, "replace an existing ledger")
+	seed := fs.Bool("seed-crayfish", false, "use the bundled crayfish neuroethology example")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -79,7 +79,7 @@ func cmdInit(store *Store, g globalOptions, args []string) error {
 		return err
 	}
 	if store.exists() && !*reset {
-		return fmt.Errorf("台帳はすでにあります。置き換える場合は --reset を指定してください: %s", store.LedgerPath)
+		return fmt.Errorf("a ledger already exists; use --reset to replace it: %s", store.LedgerPath)
 	}
 	var l *Ledger
 	var err error
@@ -100,13 +100,13 @@ func cmdInit(store *Store, g globalOptions, args []string) error {
 	if g.JSON {
 		return printJSON(map[string]any{"project_name": l.ProjectName, "database": store.LedgerPath})
 	}
-	fmt.Printf("プロジェクトを用意しました: %s\n台帳: %s\n", l.ProjectName, store.LedgerPath)
+	fmt.Printf("Project ready: %s\nLedger: %s\n", l.ProjectName, store.LedgerPath)
 	return nil
 }
 
 func cmdProject(store *Store, g globalOptions, args []string) error {
 	fs := newFlagSet("project")
-	name := fs.String("name", "", "新しいプロジェクト名")
+	name := fs.String("name", "", "new project name")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -133,7 +133,7 @@ func cmdProject(store *Store, g globalOptions, args []string) error {
 
 func cmdStatus(store *Store, g globalOptions, args []string) error {
 	if len(args) != 0 {
-		return fmt.Errorf("status は引数を取りません")
+		return fmt.Errorf("status takes no arguments")
 	}
 	l, err := store.load()
 	if err != nil {
@@ -144,12 +144,12 @@ func cmdStatus(store *Store, g globalOptions, args []string) error {
 		return printJSON(map[string]any{"project": l.ProjectName, "stats": s, "ledger": store.LedgerPath})
 	}
 	fmt.Printf("%s: %s\n", appName, l.ProjectName)
-	fmt.Printf("  収集済み文献       %d\n", s.Collected)
-	fmt.Printf("  未収集候補ノード   %d\n", s.Candidates)
-	fmt.Printf("  確認済み引用辺     %d\n", s.Edges)
-	fmt.Printf("  参考文献原文       %d\n", s.RawRefs)
-	fmt.Printf("  照合待ち           %d\n", s.Unresolved)
-	fmt.Printf("  台帳               %s\n", store.LedgerPath)
+	fmt.Printf("  Collected papers   %d\n", s.Collected)
+	fmt.Printf("  Candidate nodes    %d\n", s.Candidates)
+	fmt.Printf("  Confirmed edges    %d\n", s.Edges)
+	fmt.Printf("  Raw references     %d\n", s.RawRefs)
+	fmt.Printf("  Unresolved         %d\n", s.Unresolved)
+	fmt.Printf("  Ledger             %s\n", store.LedgerPath)
 	return nil
 }
 
@@ -182,7 +182,7 @@ func paperLabel(p Paper) string {
 func cmdPapers(store *Store, g globalOptions, args []string) error {
 	fs := newFlagSet("papers")
 	status := fs.String("status", "all", "all|collected|candidate")
-	search := fs.String("search", "", "検索語")
+	search := fs.String("search", "", "search term")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -190,7 +190,7 @@ func cmdPapers(store *Store, g globalOptions, args []string) error {
 		return err
 	}
 	if *status != "all" && *status != "collected" && *status != "candidate" {
-		return fmt.Errorf("--status は all, collected, candidate のいずれかです")
+		return fmt.Errorf("--status must be all, collected, or candidate")
 	}
 	l, err := store.load()
 	if err != nil {
@@ -218,7 +218,7 @@ func cmdPapers(store *Store, g globalOptions, args []string) error {
 
 func cmdShow(store *Store, g globalOptions, args []string) error {
 	if len(args) != 1 {
-		return fmt.Errorf("使い方: show PAPER_ID")
+		return fmt.Errorf("usage: show PAPER_ID")
 	}
 	l, err := store.load()
 	if err != nil {
@@ -226,7 +226,7 @@ func cmdShow(store *Store, g globalOptions, args []string) error {
 	}
 	p := l.paper(args[0])
 	if p == nil {
-		return fmt.Errorf("文献IDが見つかりません: %s", args[0])
+		return fmt.Errorf("paper ID not found: %s", args[0])
 	}
 	var cites, citedBy []Paper
 	for _, c := range l.Citations {
@@ -245,15 +245,15 @@ func cmdShow(store *Store, g globalOptions, args []string) error {
 		return printJSON(map[string]any{"paper": p, "cites": cites, "cited_by": citedBy})
 	}
 	fmt.Println(paperLabel(*p))
-	fmt.Printf("掲載誌: %s\nタグ: %s\n", p.Venue, p.Tags)
+	fmt.Printf("Venue: %s\nTags: %s\n", p.Venue, p.Tags)
 	if p.DriveURL != "" {
 		fmt.Printf("Drive: %s\n", p.DriveURL)
 	}
-	fmt.Println("引用先:")
+	fmt.Println("Cites:")
 	for _, x := range cites {
 		fmt.Printf("  -> %s\n", paperLabel(x))
 	}
-	fmt.Println("この文献を引用:")
+	fmt.Println("Cited by:")
 	for _, x := range citedBy {
 		fmt.Printf("  <- %s\n", paperLabel(x))
 	}
@@ -262,7 +262,7 @@ func cmdShow(store *Store, g globalOptions, args []string) error {
 
 func cmdEdges(store *Store, g globalOptions, args []string) error {
 	fs := newFlagSet("edges")
-	dot := fs.Bool("dot", false, "Graphviz DOT形式")
+	dot := fs.Bool("dot", false, "Graphviz DOT format")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -304,8 +304,8 @@ type queueItem struct {
 
 func cmdQueue(store *Store, g globalOptions, args []string) error {
 	fs := newFlagSet("queue")
-	limit := fs.Int("n", 30, "表示件数")
-	fs.IntVar(limit, "limit", 30, "表示件数")
+	limit := fs.Int("n", 30, "number of items")
+	fs.IntVar(limit, "limit", 30, "number of items")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -357,7 +357,7 @@ func cmdQueue(store *Store, g globalOptions, args []string) error {
 	if g.JSON {
 		return printJSON(items)
 	}
-	fmt.Println("被引用元数\t著者・年\t参考文献例")
+	fmt.Println("Citing papers\tAuthor/year\tReference example")
 	for _, x := range items {
 		fmt.Printf("%d\t%s %s\t%s\n", x.CitedByCount, x.KeyAuthor, yearText(x.Year), short(x.Example, 92))
 	}
@@ -366,9 +366,9 @@ func cmdQueue(store *Store, g globalOptions, args []string) error {
 
 func cmdUnresolved(store *Store, g globalOptions, args []string) error {
 	fs := newFlagSet("unresolved")
-	limit := fs.Int("n", 50, "表示件数")
-	fs.IntVar(limit, "limit", 50, "表示件数")
-	source := fs.String("source", "", "引用元文献ID")
+	limit := fs.Int("n", 50, "number of items")
+	fs.IntVar(limit, "limit", 50, "number of items")
+	source := fs.String("source", "", "source paper ID")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -393,11 +393,11 @@ func cmdUnresolved(store *Store, g globalOptions, args []string) error {
 	if g.JSON {
 		return printJSON(refs)
 	}
-	fmt.Println("ID\t状態\t引用元\t参考文献")
+	fmt.Println("ID\tStatus\tSource\tReference")
 	for _, r := range refs {
 		suggestion := ""
 		if r.MatchedPaperID != "" {
-			suggestion = fmt.Sprintf(" [候補: %s %.0f%%]", r.MatchedPaperID, r.Confidence*100)
+			suggestion = fmt.Sprintf(" [candidate: %s %.0f%%]", r.MatchedPaperID, r.Confidence*100)
 		}
 		fmt.Printf("%d\t%s\t%s\t%s%s\n", r.ID, r.Status, r.SourcePaperID, short(r.RawText, 92), suggestion)
 	}
@@ -407,20 +407,20 @@ func cmdUnresolved(store *Store, g globalOptions, args []string) error {
 func cmdExtract(g globalOptions, args []string) error {
 	args = leadingPositionalLast(args)
 	fs := newFlagSet("extract")
-	output := fs.String("o", "", "出力テキストファイル")
-	fs.StringVar(output, "output", "", "出力テキストファイル")
+	output := fs.String("o", "", "output text file")
+	fs.StringVar(output, "output", "", "output text file")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
 	if fs.NArg() != 1 {
-		return fmt.Errorf("使い方: extract PDF [-o references.txt]")
+		return fmt.Errorf("usage: extract PDF [-o references.txt]")
 	}
 	pdf, err := filepath.Abs(fs.Arg(0))
 	if err != nil {
 		return err
 	}
 	if _, err := os.Stat(pdf); err != nil {
-		return fmt.Errorf("PDFが見つかりません: %s", pdf)
+		return fmt.Errorf("PDF not found: %s", pdf)
 	}
 	text, err := extractPDFText(pdf)
 	if err != nil {
@@ -432,43 +432,43 @@ func cmdExtract(g globalOptions, args []string) error {
 		if err := os.WriteFile(*output, []byte(section), 0o644); err != nil {
 			return err
 		}
-		fmt.Printf("%s に保存しました（候補 %d 件）\n", *output, count)
+		fmt.Printf("Saved %s (%d candidates)\n", *output, count)
 		return nil
 	}
 	if g.JSON {
 		return printJSON(map[string]any{"pdf": pdf, "candidate_count": count, "references_text": section})
 	}
 	fmt.Print(section)
-	fmt.Fprintf(os.Stderr, "\n[検出候補: %d件]\n", count)
+	fmt.Fprintf(os.Stderr, "\n[Detected candidates: %d]\n", count)
 	return nil
 }
 
 func cmdAdd(store *Store, g globalOptions, args []string) error {
 	args = leadingPositionalLast(args)
 	fs := newFlagSet("add")
-	title := fs.String("title", "", "論文名（必須）")
-	authors := fs.String("authors", "", "著者（必須）")
-	year := fs.Int("year", 0, "出版年（必須）")
-	venue := fs.String("venue", "", "掲載誌")
+	title := fs.String("title", "", "paper title (required)")
+	authors := fs.String("authors", "", "authors (required)")
+	year := fs.Int("year", 0, "publication year (required)")
+	venue := fs.String("venue", "", "venue")
 	doi := fs.String("doi", "", "DOI")
-	tags := fs.String("tags", "", "タグ")
+	tags := fs.String("tags", "", "tags")
 	driveURL := fs.String("drive-url", "", "Google Drive URL")
-	notes := fs.String("notes", "", "注記")
-	refsFile := fs.String("references", "", "確認済み参考文献テキスト")
-	yes := fs.Bool("y", false, "確認せず登録")
-	fs.BoolVar(yes, "yes", false, "確認せず登録")
+	notes := fs.String("notes", "", "notes")
+	refsFile := fs.String("references", "", "checked reference text")
+	yes := fs.Bool("y", false, "register without confirmation")
+	fs.BoolVar(yes, "yes", false, "register without confirmation")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
 	if fs.NArg() != 1 || strings.TrimSpace(*title) == "" || strings.TrimSpace(*authors) == "" || *year <= 0 {
-		return fmt.Errorf("使い方: add PDF --title TITLE --authors AUTHORS --year YEAR [--references FILE]")
+		return fmt.Errorf("usage: add PDF --title TITLE --authors AUTHORS --year YEAR [--references FILE]")
 	}
 	pdf, err := filepath.Abs(fs.Arg(0))
 	if err != nil {
 		return err
 	}
 	if _, err := os.Stat(pdf); err != nil {
-		return fmt.Errorf("PDFが見つかりません: %s", pdf)
+		return fmt.Errorf("PDF not found: %s", pdf)
 	}
 	var refText string
 	if *refsFile != "" {
@@ -485,20 +485,20 @@ func cmdAdd(store *Store, g globalOptions, args []string) error {
 		refText = referenceSection(text)
 	}
 	refs := splitReferences(refText)
-	fmt.Printf("PDF: %s\n参考文献候補: %d件\n", pdf, len(refs))
+	fmt.Printf("PDF: %s\nReference candidates: %d\n", pdf, len(refs))
 	for i, r := range refs {
 		if i == 5 {
-			fmt.Printf("  …ほか %d件\n", len(refs)-5)
+			fmt.Printf("  ...and %d more\n", len(refs)-5)
 			break
 		}
 		fmt.Printf("  %s\n", short(r, 92))
 	}
 	if !*yes {
-		fmt.Print("この内容で台帳へ登録しますか [y/N]: ")
+	fmt.Print("Register this in the ledger? [y/N]: ")
 		answer, _ := bufio.NewReader(os.Stdin).ReadString('\n')
 		answer = strings.ToLower(strings.TrimSpace(answer))
 		if answer != "y" && answer != "yes" {
-			fmt.Println("登録しませんでした")
+			fmt.Println("Not registered")
 			return nil
 		}
 	}
@@ -522,13 +522,13 @@ func cmdAdd(store *Store, g globalOptions, args []string) error {
 	if target != nil {
 		id = target.ID
 	} else if l.paper(id) != nil {
-		return fmt.Errorf("同じ文献IDがすでにあります: %s", id)
+		return fmt.Errorf("paper ID already exists: %s", id)
 	}
 	safeName := safeFilename(filepath.Base(pdf))
 	dstName := id + "_" + safeName
 	dst := filepath.Join(store.PDFDir, dstName)
 	if err := copyFileAtomic(pdf, dst); err != nil {
-		return fmt.Errorf("PDFをコピーできません: %w", err)
+		return fmt.Errorf("cannot copy PDF: %w", err)
 	}
 	p := Paper{ID: id, Title: strings.TrimSpace(*title), Authors: strings.TrimSpace(*authors), Year: *year,
 		Venue: *venue, DOI: *doi, Tags: *tags, Status: "collected", PDFPath: filepath.ToSlash(filepath.Join("pdfs", dstName)),
@@ -552,17 +552,17 @@ func cmdAdd(store *Store, g globalOptions, args []string) error {
 	if g.JSON {
 		return printJSON(result)
 	}
-	fmt.Printf("登録完了: %s（参考文献 %d件）\n", id, len(refs))
+	fmt.Printf("Registered: %s (%d references)\n", id, len(refs))
 	return nil
 }
 
 func cmdResolve(store *Store, g globalOptions, args []string) error {
 	if len(args) != 2 {
-		return fmt.Errorf("使い方: resolve REFERENCE_ID TARGET_PAPER_ID")
+		return fmt.Errorf("usage: resolve REFERENCE_ID TARGET_PAPER_ID")
 	}
 	id, err := strconv.ParseInt(args[0], 10, 64)
 	if err != nil {
-		return fmt.Errorf("参考文献IDが不正です: %s", args[0])
+		return fmt.Errorf("invalid reference ID: %s", args[0])
 	}
 	l, err := store.load()
 	if err != nil {
@@ -570,10 +570,10 @@ func cmdResolve(store *Store, g globalOptions, args []string) error {
 	}
 	r := l.reference(id)
 	if r == nil {
-		return fmt.Errorf("参考文献IDが見つかりません: %d", id)
+		return fmt.Errorf("reference ID not found: %d", id)
 	}
 	if l.paper(args[1]) == nil {
-		return fmt.Errorf("照合先文献IDが見つかりません: %s", args[1])
+		return fmt.Errorf("target paper ID not found: %s", args[1])
 	}
 	l.removeCitationForReference(r.ID)
 	r.MatchedPaperID, r.Confidence, r.Status = args[1], 1, "confirmed"
@@ -584,25 +584,25 @@ func cmdResolve(store *Store, g globalOptions, args []string) error {
 	if g.JSON {
 		return printJSON(map[string]any{"reference_id": id, "target_paper_id": args[1]})
 	}
-	fmt.Printf("参考文献 %d を %s に結びました\n", id, args[1])
+	fmt.Printf("Linked reference %d to %s\n", id, args[1])
 	return nil
 }
 
 func cmdCandidate(store *Store, g globalOptions, args []string) error {
 	args = leadingPositionalLast(args)
 	fs := newFlagSet("candidate")
-	title := fs.String("title", "", "候補文献名")
-	authors := fs.String("authors", "", "候補著者")
-	year := fs.Int("year", 0, "候補出版年")
+	title := fs.String("title", "", "candidate paper title")
+	authors := fs.String("authors", "", "candidate authors")
+	year := fs.Int("year", 0, "candidate publication year")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
 	if fs.NArg() != 1 {
-		return fmt.Errorf("使い方: candidate REFERENCE_ID [--title TITLE --authors AUTHORS --year YEAR]")
+		return fmt.Errorf("usage: candidate REFERENCE_ID [--title TITLE --authors AUTHORS --year YEAR]")
 	}
 	id, err := strconv.ParseInt(fs.Arg(0), 10, 64)
 	if err != nil {
-		return fmt.Errorf("参考文献IDが不正です")
+		return fmt.Errorf("invalid reference ID")
 	}
 	l, err := store.load()
 	if err != nil {
@@ -610,7 +610,7 @@ func cmdCandidate(store *Store, g globalOptions, args []string) error {
 	}
 	r := l.reference(id)
 	if r == nil {
-		return fmt.Errorf("参考文献IDが見つかりません: %d", id)
+		return fmt.Errorf("reference ID not found: %d", id)
 	}
 	if *title == "" {
 		*title = r.RawText
@@ -634,15 +634,15 @@ func cmdCandidate(store *Store, g globalOptions, args []string) error {
 	if g.JSON {
 		return printJSON(map[string]any{"reference_id": id, "candidate_paper_id": pid})
 	}
-	fmt.Printf("参考文献 %d を候補ノード %s にしました\n", id, pid)
+	fmt.Printf("Promoted reference %d to candidate node %s\n", id, pid)
 	return nil
 }
 
 func cmdExport(store *Store, g globalOptions, args []string) error {
 	fs := newFlagSet("export")
-	output := fs.String("o", "citation_ledger_export.zip", "出力ZIP")
-	fs.StringVar(output, "output", "citation_ledger_export.zip", "出力ZIP")
-	includePDFs := fs.Bool("include-pdfs", false, "PDFもZIPに含める")
+	output := fs.String("o", "citation_ledger_export.zip", "output ZIP")
+	fs.StringVar(output, "output", "citation_ledger_export.zip", "output ZIP")
+	includePDFs := fs.Bool("include-pdfs", false, "include PDFs in the ZIP")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -666,7 +666,7 @@ func cmdExport(store *Store, g globalOptions, args []string) error {
 
 func cmdValidate(store *Store, g globalOptions, args []string) error {
 	if len(args) != 0 {
-		return fmt.Errorf("validate は引数を取りません")
+		return fmt.Errorf("validate takes no arguments")
 	}
 	l, err := store.load()
 	if err != nil {
@@ -680,15 +680,15 @@ func cmdValidate(store *Store, g globalOptions, args []string) error {
 		for _, e := range errs {
 			fmt.Printf("ERROR: %s\n", e)
 		}
-		return fmt.Errorf("整合性エラーが %d 件あります", len(errs))
+		return fmt.Errorf("found %d integrity errors", len(errs))
 	}
-	fmt.Println("OK: 台帳の参照整合性に問題はありません")
+	fmt.Println("OK: ledger references are consistent")
 	return nil
 }
 
 func cmdDoctor(store *Store, g globalOptions, args []string) error {
 	if len(args) != 0 {
-		return fmt.Errorf("doctor は引数を取りません")
+		return fmt.Errorf("doctor takes no arguments")
 	}
 	tool := func(name, missing string) string {
 		if path, err := exec.LookPath(name); err == nil {
