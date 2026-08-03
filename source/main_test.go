@@ -60,6 +60,28 @@ func TestStoreRoundTrip(t *testing.T) {
 	}
 }
 
+func TestStoreSaveReplacesLedger(t *testing.T) {
+	store, err := newStore(filepath.Join(t.TempDir(), "project"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	ledger := newLedger("First Name")
+	if err := store.save(ledger); err != nil {
+		t.Fatal(err)
+	}
+	ledger.ProjectName = "Replacement Name"
+	if err := store.save(ledger); err != nil {
+		t.Fatal(err)
+	}
+	got, err := store.load()
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got.ProjectName != "Replacement Name" {
+		t.Fatalf("replacement failed: got %q", got.ProjectName)
+	}
+}
+
 func TestReconcileExactDOI(t *testing.T) {
 	l := newLedger("Test")
 	l.Papers = []Paper{
