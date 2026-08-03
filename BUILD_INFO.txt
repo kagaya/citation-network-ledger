@@ -18,7 +18,7 @@ Targets:
 
 Verification performed:
 - gofmt
-- go test ./... (7 tests)
+- go test ./... (8 tests)
 - go vet ./...
 - Bundled crayfish seed integrity: 12 papers, 450 raw references, 21 edges
 - Real Wine & Krasne 1972 PDF extraction through pdftotext: 35 candidates
