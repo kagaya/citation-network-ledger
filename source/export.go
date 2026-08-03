@@ -127,7 +127,7 @@ func exportBundle(store *Store, l *Ledger, output string, includePDFs bool) erro
 		return err
 	}
 	if err := os.Rename(tmpName, abs); err != nil {
-		return fmt.Errorf("ZIPを保存できません: %w", err)
+		return fmt.Errorf("cannot save ZIP: %w", err)
 	}
 	return nil
 }
