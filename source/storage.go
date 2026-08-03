@@ -51,7 +51,7 @@ func (s *Store) load() (*Ledger, error) {
 	b, err := os.ReadFile(s.LedgerPath)
 	if err != nil {
 		if errors.Is(err, os.ErrNotExist) {
-		return nil, fmt.Errorf("ledger not found; run init first: %s", s.LedgerPath)
+			return nil, fmt.Errorf("ledger not found; run init first: %s", s.LedgerPath)
 		}
 		return nil, err
 	}
