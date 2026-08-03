@@ -17,7 +17,7 @@ func parseGlobals(args []string) (globalOptions, []string, error) {
 			g.JSON = true
 		case a == "--data-dir":
 			if i+1 >= len(args) {
-				return g, nil, fmt.Errorf("--data-dir にはパスが必要です")
+				return g, nil, fmt.Errorf("--data-dir requires a path")
 			}
 			i++
 			g.DataDir = args[i]
@@ -38,30 +38,30 @@ Contact: %s
 %s
 License: %s
 
-PDFを一つずつ追加しながら育てる、ブラウザー不要の引用ネットワーク台帳。
+Build a citation network one PDF at a time without a browser.
 
-使い方:
+Usage:
   citation-ledger-go [--data-dir DIR] [--json] COMMAND [OPTIONS]
 
-コマンド:
-  init            空のプロジェクトを作成
-  project         プロジェクト名を表示・変更
-  status          台帳の件数を表示
-  papers          文献一覧・検索
-  show            文献詳細と前後の引用
-  edges           確認済み引用辺（--dot対応）
-  queue           次に収集する候補
-  unresolved      照合待ち参考文献
-  extract         pdftotextで参考文献節を抽出
-  add             PDFと参考文献を登録
-  resolve         参考文献を既存文献へ結ぶ
-  candidate       未収集参考文献を候補ノード化
-  export          JSON・CSVをZIP出力
-  validate        台帳の参照整合性を検査
-  doctor          実行環境を点検
-  version         バージョン表示
+Commands:
+  init            create an empty project
+  project         show or change the project name
+  status          show ledger counts
+  papers          list and search papers
+  show            show paper details and citation context
+  edges           show confirmed citation edges (supports --dot)
+  queue           show the next collection candidates
+  unresolved      show unresolved references
+  extract         extract a reference section with pdftotext
+  add             register a PDF and its references
+  resolve         connect a reference to an existing paper
+  candidate       promote an uncollected reference to a candidate node
+  export          export JSON and CSV files as a ZIP
+  validate        check ledger reference integrity
+  doctor          inspect the execution environment
+  version         show the version
 
-例:
+Examples:
   citation-ledger-go --data-dir ~/citation_projects/crayfish init --seed-crayfish
   citation-ledger-go --data-dir ~/citation_projects/crayfish status
   citation-ledger-go --data-dir ~/citation_projects/crayfish add paper.pdf \
@@ -119,7 +119,7 @@ func run(args []string) error {
 	case "doctor":
 		return cmdDoctor(store, g, commandArgs)
 	default:
-		return fmt.Errorf("不明なコマンドです: %s（helpで一覧を表示）", args[0])
+		return fmt.Errorf("unknown command: %s (use help to list commands)", args[0])
 	}
 }
 
