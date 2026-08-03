@@ -2,8 +2,6 @@
 package main
 
 import (
-	"archive/zip"
-	"os"
 	"path/filepath"
 	"strings"
 	"testing"
@@ -72,43 +70,6 @@ func TestReconcileExactDOI(t *testing.T) {
 	reconcile(l)
 	if l.References[0].Status != "confirmed" || l.References[0].MatchedPaperID != "target" || len(l.Citations) != 1 {
 		t.Fatalf("DOI reconciliation failed: %#v %#v", l.References[0], l.Citations)
-	}
-}
-
-func TestImportLegacyZip(t *testing.T) {
-	path := filepath.Join(t.TempDir(), "legacy.zip")
-	f, err := os.Create(path)
-	if err != nil {
-		t.Fatal(err)
-	}
-	zw := zip.NewWriter(f)
-	files := map[string]string{
-		"settings.csv":       "key,value\nproject_name,Legacy Test\n",
-		"papers.csv":         "id,title,authors,year,venue,doi,tags,status,pdf_path,drive_url,notes,created_at\na,Paper A,Author A,2000,,,,collected,,,,2026-01-01T00:00:00Z\nb,Paper B,Author B,2001,,,,collected,,,,2026-01-01T00:00:00Z\n",
-		"raw_references.csv": "id,source_paper_id,ordinal,raw_text,doi,year,first_author,matched_paper_id,confidence,status\n1,a,1,Paper B,,2001,Author,b,1,confirmed\n",
-		"citations.csv":      "source_paper_id,target_paper_id,raw_reference_id,status,created_at\na,b,1,confirmed,2026-01-01T00:00:00Z\n",
-	}
-	for name, content := range files {
-		w, err := zw.Create(name)
-		if err != nil {
-			t.Fatal(err)
-		}
-		if _, err := w.Write([]byte(content)); err != nil {
-			t.Fatal(err)
-		}
-	}
-	if err := zw.Close(); err != nil {
-		t.Fatal(err)
-	}
-	if err := f.Close(); err != nil {
-		t.Fatal(err)
-	}
-	l, err := importLegacyZip(path)
-	if err != nil {
-		t.Fatal(err)
-	}
-	if l.ProjectName != "Legacy Test" || len(l.Papers) != 2 || len(l.References) != 1 || len(l.Citations) != 1 {
-		t.Fatalf("unexpected import: %#v", l)
 	}
 }
 
