@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: source/go.mod
+          cache: false
+
+      - name: Run race detector
+        working-directory: source
+        run: go test -race -count=1 ./...
+
+      - name: Verify and cross-build
+        working-directory: source
+        run: sh build_all.sh
+
+      - name: Verify checksums
+        working-directory: source/dist
+        run: sha256sum -c SHA256SUMS.txt

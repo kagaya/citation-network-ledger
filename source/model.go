@@ -5,7 +5,7 @@ import "time"
 
 const (
 	appName       = "Citation Network Ledger Go"
-	appVersion    = "3.0.2"
+	appVersion    = "3.0.3"
 	appAuthor     = "Katsushi Kagaya"
 	appContact    = "kkagaya@excyberlab.com"
 	appCopyright  = "Copyright (c) 2026 Katsushi Kagaya"

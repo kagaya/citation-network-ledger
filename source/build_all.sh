@@ -4,6 +4,11 @@ set -eu
 
 cd "$(dirname "$0")"
 mkdir -p dist
+for artifact in dist/citation-ledger-go-* dist/SHA256SUMS.txt; do
+  if [ -e "$artifact" ]; then
+    rm -f "$artifact"
+  fi
+done
 
 version=$(sed -n 's/.*appVersion[[:space:]]*=[[:space:]]*"\([^"]*\)".*/\1/p' model.go)
 if [ -z "$version" ]; then
@@ -36,6 +41,11 @@ build darwin arm64 ""
 
 if command -v sha256sum >/dev/null 2>&1; then
   (cd dist && sha256sum citation-ledger-go-*) > dist/SHA256SUMS.txt
+elif command -v shasum >/dev/null 2>&1; then
+  (cd dist && shasum -a 256 citation-ledger-go-*) > dist/SHA256SUMS.txt
+else
+  echo "sha256sum or shasum is required to create release checksums" >&2
+  exit 1
 fi
 
 echo "Built artifacts in dist/"
