@@ -1,4 +1,4 @@
-# Citation Network Ledger Go 3.0.2
+# Citation Network Ledger Go 3.0.3
 
 **Author:** Katsushi Kagaya  
 **Contact:** kkagaya@excyberlab.com  
@@ -27,12 +27,12 @@ Running `source/build_all.sh` creates the following binaries in `source/dist/`:
 
 | Environment | Binary |
 |---|---|
-| Windows 64-bit | `citation-ledger-go-3.0.2-windows-amd64.exe` |
-| WSL / Linux 64-bit | `citation-ledger-go-3.0.2-linux-amd64` |
-| Intel Mac | `citation-ledger-go-3.0.2-darwin-amd64` |
-| Apple Silicon Mac | `citation-ledger-go-3.0.2-darwin-arm64` |
+| Windows 64-bit | `citation-ledger-go-3.0.3-windows-amd64.exe` |
+| WSL / Linux 64-bit | `citation-ledger-go-3.0.3-linux-amd64` |
+| Intel Mac | `citation-ledger-go-3.0.3-darwin-amd64` |
+| Apple Silicon Mac | `citation-ledger-go-3.0.3-darwin-arm64` |
 
-Prebuilt binaries are not stored in this GitHub source repository. The commands below assume that a locally built or separately obtained executable has been renamed to `citation-ledger-go`.
+Prebuilt binaries and `SHA256SUMS.txt` are published on the [GitHub Releases page](https://github.com/kagaya/citation-network-ledger/releases). They are not stored in the source repository. The commands below assume that a downloaded or locally built executable has been renamed to `citation-ledger-go`.
 
 ## WSL/Linux
 
@@ -62,9 +62,9 @@ If `--data-dir` is omitted, the program creates `citation-ledger-data/` in the c
 Run the program from PowerShell or Command Prompt. WSL is not required.
 
 ```powershell
-.\citation-ledger-go-3.0.2-windows-amd64.exe doctor
-.\citation-ledger-go-3.0.2-windows-amd64.exe --data-dir C:\citation_projects\crayfish init --seed-crayfish
-.\citation-ledger-go-3.0.2-windows-amd64.exe --data-dir C:\citation_projects\crayfish status
+.\citation-ledger-go-3.0.3-windows-amd64.exe doctor
+.\citation-ledger-go-3.0.3-windows-amd64.exe --data-dir C:\citation_projects\crayfish init --seed-crayfish
+.\citation-ledger-go-3.0.3-windows-amd64.exe --data-dir C:\citation_projects\crayfish status
 ```
 
 The build is not commercially code-signed, so Windows may display a warning on first launch. Compare a separately distributed binary with its published SHA-256 checksum before running it. The Linux binary used in WSL does not produce this Windows warning.
@@ -185,6 +185,8 @@ sh build_all.sh
 ```
 
 The script checks formatting, runs the test suite and `go vet`, cross-builds all four targets, and writes `SHA256SUMS.txt` in `source/dist/`. The build uses no external Go modules and depends only on the standard library.
+
+GitHub Actions repeats these checks on every push and pull request. A change to `VERSION` on the `main` branch builds the four release binaries, creates the matching version tag, and publishes the verified files on GitHub Releases.
 
 ## Author, copyright, and licenses
 

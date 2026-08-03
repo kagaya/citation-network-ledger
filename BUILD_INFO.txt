@@ -1,11 +1,11 @@
-Citation Network Ledger Go 3.0.2
+Citation Network Ledger Go 3.0.3
 Author: Katsushi Kagaya
 Contact: kkagaya@excyberlab.com
 Copyright: Copyright (c) 2026 Katsushi Kagaya
 Code and executables: MIT License; see LICENSE.
 Original documentation and curation: CC BY 4.0; see DATA_LICENSE.txt.
 Third-party literature content and PDFs: not included and not licensed by this distribution.
-Build date: 2026-08-02
+Build date: 2026-08-03
 Compiler: Go 1.26.5
 Source dependencies: Go standard library only
 CGO: disabled
@@ -18,11 +18,15 @@ Targets:
 
 Verification performed:
 - gofmt
-- go test ./... (8 tests)
+- go test ./... (16 top-level tests, including table-driven subtests)
+- go test -race ./...
 - go vet ./...
 - Bundled crayfish seed integrity: 12 papers, 450 raw references, 21 edges
-- Real Wine & Krasne 1972 PDF extraction through pdftotext: 35 candidates
-- Real PDF registration, ledger validation, JSON output, DOT output, and ZIP export
+- Automated init, PDF registration, candidate promotion, manual resolution, validation, JSON output, and ZIP export
+- UTF-8 project paths containing spaces and Japanese text
+- Malformed ledger, unsupported format, missing PDF, missing pdftotext, and overwrite failure paths
 - Cross-build file-format inspection for Linux, Windows, and macOS targets
+
+Runtime verification was performed on Linux. Windows and macOS artifacts were cross-built and file-format checked, but not executed on those operating systems.
 
 Checksums are included with binary distribution archives when those archives are published.
