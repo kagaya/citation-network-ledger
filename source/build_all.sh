@@ -20,7 +20,15 @@ build() {
     go build -buildvcs=false -trimpath -ldflags="-s -w" -o "dist/citation-ledger-go-${version}-${target_os}-${target_arch}${suffix}" .
 }
 
-go test ./...
+unformatted=$(gofmt -l .)
+if [ -n "$unformatted" ]; then
+  echo "Go source is not formatted:" >&2
+  echo "$unformatted" >&2
+  exit 1
+fi
+
+go test -count=1 ./...
+go vet ./...
 build linux amd64 ""
 build windows amd64 ".exe"
 build darwin amd64 ""
