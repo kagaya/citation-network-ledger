@@ -8,7 +8,6 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"runtime"
 )
 
 type Store struct {
@@ -104,9 +103,6 @@ func (s *Store) save(l *Ledger) error {
 	if err := tmp.Close(); err != nil {
 		return err
 	}
-	if runtime.GOOS == "windows" {
-		_ = os.Remove(s.LedgerPath)
-	}
 	if err := os.Rename(tmpName, s.LedgerPath); err != nil {
 		return fmt.Errorf("cannot update ledger: %w", err)
 	}
@@ -138,9 +134,6 @@ func copyFileAtomic(src, dst string) error {
 	}
 	if err := tmp.Close(); err != nil {
 		return err
-	}
-	if runtime.GOOS == "windows" {
-		_ = os.Remove(dst)
 	}
 	return os.Rename(tmpName, dst)
 }
