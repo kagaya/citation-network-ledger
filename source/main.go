@@ -57,7 +57,6 @@ PDFを一つずつ追加しながら育てる、ブラウザー不要の引用�
   resolve         参考文献を既存文献へ結ぶ
   candidate       未収集参考文献を候補ノード化
   export          JSON・CSVをZIP出力
-  import-legacy   Python版のexport ZIPを移行
   validate        台帳の参照整合性を検査
   doctor          実行環境を点検
   version         バージョン表示
@@ -115,8 +114,6 @@ func run(args []string) error {
 		return cmdCandidate(store, g, commandArgs)
 	case "export":
 		return cmdExport(store, g, commandArgs)
-	case "import-legacy":
-		return cmdImportLegacy(store, g, commandArgs)
 	case "validate":
 		return cmdValidate(store, g, commandArgs)
 	case "doctor":
