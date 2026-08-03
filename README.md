@@ -1,63 +1,63 @@
 # Citation Network Ledger Go 3.0.2
 
-**作成者:** Katsushi Kagaya  
-**連絡先:** kkagaya@excyberlab.com  
-**著作権:** Copyright (c) 2026 Katsushi Kagaya  
-**コードライセンス:** MIT License
+**Author:** Katsushi Kagaya  
+**Contact:** kkagaya@excyberlab.com  
+**Copyright:** Copyright (c) 2026 Katsushi Kagaya  
+**Code license:** MIT License
 
-PDFを一つずつ追加しながら引用ネットワークを育てる、ブラウザー不要のCUI台帳です。研究分野には依存しません。
+A browser-free command-line ledger for building a citation network one PDF at a time. It is domain-independent.
 
-## 公開版に含まれるデータ
+## Data included in the public release
 
-同梱のザリガニ神経行動学サンプル台帳には、書誌情報、参考文献、引用辺、照合状態を含めています。論文PDF、Google Driveリンク、ローカルPDFパスは含めていません。
+The bundled crayfish neuroethology sample ledger contains bibliographic records, raw references, citation edges, and matching status. It contains no paper PDFs, Google Drive links, or local PDF paths.
 
-## 特徴
+## Features
 
-- 台帳操作は単一の実行ファイルだけで動作
-- 追加の言語ランタイムやパッケージ管理ツールのインストールは不要
-- Windows、WSL/Linux、Intel Mac、Apple Silicon Mac用バイナリ
-- 台帳は可読なUTF-8 `ledger.json` として原子的に更新
-- PDFはプロジェクト内の `pdfs/` にコピー
-- CSV、JSON、Graphviz DOT形式で書き出し
-- ザリガニ神経行動学の既存台帳をサンプルとして実行ファイルに内蔵
+- Runs as a single executable
+- Requires no additional language runtime or package manager
+- Binaries for Windows, WSL/Linux, Intel Mac, and Apple Silicon Mac
+- Atomically updates the human-readable UTF-8 `ledger.json`
+- Copies PDFs into the project's `pdfs/` directory
+- Exports CSV, JSON, and Graphviz DOT
+- Embeds the existing crayfish neuroethology ledger as a sample project
 
-## 実行ファイルの選択
+## Choose a binary
 
-| 環境 | 実行ファイル |
+| Environment | Binary |
 |---|---|
 | Windows 64-bit | `citation-ledger-go-3.0.2-windows-amd64.exe` |
 | WSL / Linux 64-bit | `citation-ledger-go-3.0.2-linux-amd64` |
 | Intel Mac | `citation-ledger-go-3.0.2-darwin-amd64` |
 | Apple Silicon Mac | `citation-ledger-go-3.0.2-darwin-arm64` |
 
-以下では実行ファイルを `citation-ledger-go` に改名したものとして説明します。
+The commands below assume that the selected executable has been renamed to `citation-ledger-go`.
 
-## WSL/Linuxで使う
+## WSL/Linux
 
 ```sh
 chmod +x citation-ledger-go
 ./citation-ledger-go doctor
 ```
 
-空のプロジェクトを作成します。
+Create an empty project:
 
 ```sh
 ./citation-ledger-go --data-dir ~/citation_projects/limpet \
   init --name "Limpet Homing"
 ```
 
-同梱されているザリガニ文献台帳から開始する場合は次のようにします。
+Start with the bundled crayfish literature ledger:
 
 ```sh
 ./citation-ledger-go --data-dir ~/citation_projects/crayfish \
   init --seed-crayfish
 ```
 
-`--data-dir`を省略すると、現在のディレクトリに `citation-ledger-data/` を作ります。環境変数 `CITATION_LEDGER_DATA_DIR`でも指定できます。
+If `--data-dir` is omitted, the program creates `citation-ledger-data/` in the current directory. The data directory can also be set with `CITATION_LEDGER_DATA_DIR`.
 
-## Windowsで使う
+## Windows
 
-PowerShellまたはコマンドプロンプトで実行できます。WSLは不要です。
+Run the program from PowerShell or Command Prompt. WSL is not required.
 
 ```powershell
 .\citation-ledger-go-3.0.2-windows-amd64.exe doctor
@@ -65,36 +65,36 @@ PowerShellまたはコマンドプロンプトで実行できます。WSLは不�
 .\citation-ledger-go-3.0.2-windows-amd64.exe --data-dir C:\citation_projects\crayfish status
 ```
 
-この配布物には商用コード署名を付けていないため、Windowsが初回実行時に警告することがあります。`SHA256SUMS.txt`の値と照合してから実行してください。WSLではLinux版を使うため、この警告はありません。
+The binaries are not commercially code-signed, so Windows may display a warning on first launch. Compare the binary with the published SHA-256 checksum before running it. The Linux binary used in WSL does not produce this Windows warning.
 
-## 基本コマンド
+## Basic commands
 
 ```sh
-# 状態
+# Status
 ./citation-ledger-go --data-dir PROJECT status
 
-# 文献一覧と検索
+# List and search papers
 ./citation-ledger-go --data-dir PROJECT papers
 ./citation-ledger-go --data-dir PROJECT papers --search "readiness"
 
-# 文献の詳細と前後の引用
+# Paper details and citation context
 ./citation-ledger-go --data-dir PROJECT show kagaya_takahata_2010
 
-# 未解決参考文献と収集優先順位
+# Unresolved references and collection priority
 ./citation-ledger-go --data-dir PROJECT unresolved -n 30
 ./citation-ledger-go --data-dir PROJECT queue -n 30
 
-# 引用辺
+# Citation edges
 ./citation-ledger-go --data-dir PROJECT edges
 ./citation-ledger-go --data-dir PROJECT edges --dot > network.dot
 
-# JSON出力
+# JSON output
 ./citation-ledger-go --json --data-dir PROJECT status
 ```
 
-## PDFと参考文献の登録
+## Register a PDF and its references
 
-確認・修正済み参考文献テキストがある場合は、外部プログラムを一切使いません。
+When a checked and corrected reference list is available, no external program is needed:
 
 ```sh
 ./citation-ledger-go --data-dir PROJECT add paper.pdf \
@@ -107,51 +107,51 @@ PowerShellまたはコマンドプロンプトで実行できます。WSLは不�
   --references references.txt
 ```
 
-`--references`を省略すると、`pdftotext -layout`でPDF本文を抽出します。WSL/Ubuntuでは必要に応じて次を実行します。
+If `--references` is omitted, the program extracts text from the PDF with `pdftotext -layout`. On WSL/Ubuntu, install it if needed:
 
 ```sh
 sudo apt install poppler-utils
 ```
 
-PDFから参考文献節だけを確認用ファイルへ出すこともできます。
+Extract only the reference section to a file for inspection:
 
 ```sh
 ./citation-ledger-go extract paper.pdf -o references.txt
 ```
 
-画像だけのスキャンPDFにはOCRが必要です。OCRmyPDFまたはTesseractで文字層を付けてから登録してください。OCRは自動実行しません。
+Scanned image-only PDFs require OCR. Add a text layer with OCRmyPDF or Tesseract before registration; OCR is not run automatically.
 
-## 引用の確認
+## Confirm citations
 
-照合待ちIDを既存文献へ結びます。
+Connect an unresolved reference to an existing paper:
 
 ```sh
 ./citation-ledger-go --data-dir PROJECT resolve 123 wine_krasne_1972
 ```
 
-未収集文献を候補ノードにします。
+Promote an uncollected reference to a candidate node:
 
 ```sh
 ./citation-ledger-go --data-dir PROJECT candidate 123 \
   --title "Candidate paper" --authors "Author" --year 1974
 ```
 
-DOI完全一致、著者・年・表題語の一致から登録時に自動照合も行います。自動確定されなかった項目は `unresolved` で確認できます。
+Registration performs automatic matching using exact DOI matches and author/year/title-token matches. Review anything not automatically confirmed with `unresolved`.
 
-## 書き出しとバックアップ
+## Export and backup
 
 ```sh
 ./citation-ledger-go --data-dir PROJECT export -o ledger_backup.zip
 ./citation-ledger-go --data-dir PROJECT export -o ledger_with_pdfs.zip --include-pdfs
 ```
 
-ZIPには `ledger.json`、`papers.csv`、`raw_references.csv`、`citations.csv`、`settings.csv` が入ります。通常の書き出しにはPDFを含めません。
+An export ZIP contains `ledger.json`, `papers.csv`, `raw_references.csv`, `citations.csv`, and `settings.csv`. PDFs are excluded from ordinary exports.
 
 ```sh
 ./citation-ledger-go --data-dir PROJECT validate
 ```
 
-## データ形式
+## Data layout
 
 ```text
 PROJECT/
@@ -160,36 +160,36 @@ PROJECT/
     └── paper_id_original_name.pdf
 ```
 
-`ledger.json`には文献、参考文献原文、照合状態、引用辺が入ります。保存時には一時ファイルを書き終えてから置き換えるため、途中終了で半端なJSONを残しにくい設計です。同じプロジェクトを複数端末から同時に編集することは避けてください。
+`ledger.json` contains papers, raw references, matching status, and citation edges. Writes complete a temporary file before replacement, reducing the chance of leaving a partial JSON file after interruption. Avoid editing one project from multiple terminals or devices at the same time.
 
-## 依存関係
+## Dependencies
 
-台帳操作、検索、照合、書き出しには追加依存がありません。
+Ledger operations, search, matching, and export have no additional dependencies.
 
-| プログラム | 必須性 | 用途 |
+| Program | Required | Purpose |
 |---|---|---|
-| `pdftotext`（Poppler） | 任意 | 文字PDFの本文抽出 |
-| `qpdf` | 任意 | 壊れたPDFの修復・正規化 |
-| OCRmyPDF / Tesseract | 任意 | スキャンPDFのOCR |
-| Graphviz | 任意 | DOTファイルの画像化 |
+| `pdftotext` (Poppler) | Optional | Extract text from text-based PDFs |
+| `qpdf` | Optional | Repair or normalize damaged PDFs |
+| OCRmyPDF / Tesseract | Optional | OCR scanned PDFs |
+| Graphviz | Optional | Render DOT files as images |
 
-## ソースからビルド
+## Build from source
 
-利用者はGoを導入する必要はありません。ソースを変更して再ビルドする場合だけGo 1.22以上を使用します。
+Users do not need to install Go to run the supplied binaries. Go 1.22 or later is needed only to modify and rebuild the source.
 
 ```sh
 sh build_all.sh
 ```
 
-Goの外部モジュールは使っていません。標準ライブラリだけでビルドします。
+The build uses no external Go modules and depends only on the standard library.
 
-## 作成者・著作権・ライセンス
+## Author, copyright, and licenses
 
-- 作成者: Katsushi Kagaya
-- 連絡先: kkagaya@excyberlab.com
-- 著作権: Copyright (c) 2026 Katsushi Kagaya
-- コード・実行ファイル: MIT License（`LICENSE.txt`）
-- 先生が作成した説明・引用辺・注釈: CC BY 4.0（`DATA_LICENSE.txt`）
-- 出版社PDF・第三者由来の文献内容: 同梱せず、本配布物からはライセンスしません。
+- Author: Katsushi Kagaya
+- Contact: kkagaya@excyberlab.com
+- Copyright: Copyright (c) 2026 Katsushi Kagaya
+- Code and executables: MIT License (`LICENSE`)
+- Original documentation, citation edges, and annotations: CC BY 4.0 (`DATA_LICENSE.txt`)
+- Publisher PDFs and third-party literature content: not included and not relicensed by this distribution
 
-ソースコードは研究成果の確認可能性と将来の保守のために同梱しています。MIT Licenseの条件に従い、利用・改変・再配布できます。
+The source is included to support reproducibility and future maintenance. It may be used, modified, and redistributed under the MIT License.
