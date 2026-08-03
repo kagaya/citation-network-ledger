@@ -664,38 +664,6 @@ func cmdExport(store *Store, g globalOptions, args []string) error {
 	return nil
 }
 
-func cmdImportLegacy(store *Store, g globalOptions, args []string) error {
-	args = leadingPositionalLast(args)
-	fs := newFlagSet("import-legacy")
-	reset := fs.Bool("reset", false, "既存台帳を置き換える")
-	name := fs.String("name", "", "移行後のプロジェクト名")
-	if err := fs.Parse(args); err != nil {
-		return err
-	}
-	if fs.NArg() != 1 {
-		return fmt.Errorf("使い方: import-legacy PYTHON_EXPORT.zip [--reset]")
-	}
-	if store.exists() && !*reset {
-		return fmt.Errorf("台帳はすでにあります。置き換える場合は --reset を指定してください")
-	}
-	l, err := importLegacyZip(fs.Arg(0))
-	if err != nil {
-		return err
-	}
-	if *name != "" {
-		l.ProjectName = *name
-	}
-	if err := store.save(l); err != nil {
-		return err
-	}
-	s := ledgerStats(l)
-	if g.JSON {
-		return printJSON(map[string]any{"project": l.ProjectName, "stats": s, "ledger": store.LedgerPath})
-	}
-	fmt.Printf("移行完了: %s（文献 %d、参考文献 %d、引用辺 %d）\n", l.ProjectName, len(l.Papers), len(l.References), len(l.Citations))
-	return nil
-}
-
 func cmdValidate(store *Store, g globalOptions, args []string) error {
 	if len(args) != 0 {
 		return fmt.Errorf("validate は引数を取りません")
