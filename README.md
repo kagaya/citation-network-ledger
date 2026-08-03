@@ -15,13 +15,15 @@ The bundled crayfish neuroethology sample ledger contains bibliographic records,
 
 - Runs as a single executable
 - Requires no additional language runtime or package manager
-- Binaries for Windows, WSL/Linux, Intel Mac, and Apple Silicon Mac
+- Cross-build script for Windows, WSL/Linux, Intel Mac, and Apple Silicon Mac
 - Atomically updates the human-readable UTF-8 `ledger.json`
 - Copies PDFs into the project's `pdfs/` directory
 - Exports CSV, JSON, and Graphviz DOT
 - Embeds the existing crayfish neuroethology ledger as a sample project
 
-## Choose a binary
+## Build targets
+
+Running `source/build_all.sh` creates the following binaries in `source/dist/`:
 
 | Environment | Binary |
 |---|---|
@@ -30,7 +32,7 @@ The bundled crayfish neuroethology sample ledger contains bibliographic records,
 | Intel Mac | `citation-ledger-go-3.0.2-darwin-amd64` |
 | Apple Silicon Mac | `citation-ledger-go-3.0.2-darwin-arm64` |
 
-The commands below assume that the selected executable has been renamed to `citation-ledger-go`.
+Prebuilt binaries are not stored in this GitHub source repository. The commands below assume that a locally built or separately obtained executable has been renamed to `citation-ledger-go`.
 
 ## WSL/Linux
 
@@ -65,7 +67,7 @@ Run the program from PowerShell or Command Prompt. WSL is not required.
 .\citation-ledger-go-3.0.2-windows-amd64.exe --data-dir C:\citation_projects\crayfish status
 ```
 
-The binaries are not commercially code-signed, so Windows may display a warning on first launch. Compare the binary with the published SHA-256 checksum before running it. The Linux binary used in WSL does not produce this Windows warning.
+The build is not commercially code-signed, so Windows may display a warning on first launch. Compare a separately distributed binary with its published SHA-256 checksum before running it. The Linux binary used in WSL does not produce this Windows warning.
 
 ## Basic commands
 
@@ -175,13 +177,14 @@ Ledger operations, search, matching, and export have no additional dependencies.
 
 ## Build from source
 
-Users do not need to install Go to run the supplied binaries. Go 1.22 or later is needed only to modify and rebuild the source.
+This GitHub repository contains source code rather than prebuilt binaries. Building requires Go 1.22 or later.
 
 ```sh
+cd source
 sh build_all.sh
 ```
 
-The build uses no external Go modules and depends only on the standard library.
+The script checks formatting, runs the test suite and `go vet`, cross-builds all four targets, and writes `SHA256SUMS.txt` in `source/dist/`. The build uses no external Go modules and depends only on the standard library.
 
 ## Author, copyright, and licenses
 
