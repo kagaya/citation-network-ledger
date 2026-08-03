@@ -42,7 +42,7 @@ func (s *Store) exists() bool {
 
 func (s *Store) ensureDirs() error {
 	if err := os.MkdirAll(s.PDFDir, 0o755); err != nil {
-		return fmt.Errorf("データディレクトリを作成できません: %w", err)
+		return fmt.Errorf("cannot create data directory: %w", err)
 	}
 	return nil
 }
@@ -51,16 +51,16 @@ func (s *Store) load() (*Ledger, error) {
 	b, err := os.ReadFile(s.LedgerPath)
 	if err != nil {
 		if errors.Is(err, os.ErrNotExist) {
-			return nil, fmt.Errorf("台帳がありません。先に init を実行してください: %s", s.LedgerPath)
+		return nil, fmt.Errorf("ledger not found; run init first: %s", s.LedgerPath)
 		}
 		return nil, err
 	}
 	var l Ledger
 	if err := json.Unmarshal(b, &l); err != nil {
-		return nil, fmt.Errorf("ledger.jsonを読めません: %w", err)
+		return nil, fmt.Errorf("cannot read ledger.json: %w", err)
 	}
 	if l.FormatVersion != formatVersion {
-		return nil, fmt.Errorf("未対応の台帳形式です: %d", l.FormatVersion)
+		return nil, fmt.Errorf("unsupported ledger format: %d", l.FormatVersion)
 	}
 	if l.NextRefID < 1 {
 		l.NextRefID = 1
@@ -108,7 +108,7 @@ func (s *Store) save(l *Ledger) error {
 		_ = os.Remove(s.LedgerPath)
 	}
 	if err := os.Rename(tmpName, s.LedgerPath); err != nil {
-		return fmt.Errorf("台帳を更新できません: %w", err)
+		return fmt.Errorf("cannot update ledger: %w", err)
 	}
 	return nil
 }
