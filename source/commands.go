@@ -494,7 +494,7 @@ func cmdAdd(store *Store, g globalOptions, args []string) error {
 		fmt.Printf("  %s\n", short(r, 92))
 	}
 	if !*yes {
-	fmt.Print("Register this in the ledger? [y/N]: ")
+		fmt.Print("Register this in the ledger? [y/N]: ")
 		answer, _ := bufio.NewReader(os.Stdin).ReadString('\n')
 		answer = strings.ToLower(strings.TrimSpace(answer))
 		if answer != "y" && answer != "yes" {
