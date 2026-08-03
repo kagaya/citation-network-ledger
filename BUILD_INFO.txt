@@ -2,7 +2,7 @@ Citation Network Ledger Go 3.0.2
 Author: Katsushi Kagaya
 Contact: kkagaya@excyberlab.com
 Copyright: Copyright (c) 2026 Katsushi Kagaya
-Code and executables: MIT License; see LICENSE.txt.
+Code and executables: MIT License; see LICENSE.
 Original documentation and curation: CC BY 4.0; see DATA_LICENSE.txt.
 Third-party literature content and PDFs: not included and not licensed by this distribution.
 Build date: 2026-08-02
