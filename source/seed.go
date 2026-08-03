@@ -13,10 +13,10 @@ var seedCrayfishJSON []byte
 func seedCrayfishLedger() (*Ledger, error) {
 	var l Ledger
 	if err := json.Unmarshal(seedCrayfishJSON, &l); err != nil {
-		return nil, fmt.Errorf("同梱サンプルを読めません: %w", err)
+		return nil, fmt.Errorf("cannot read bundled sample: %w", err)
 	}
 	if l.FormatVersion != formatVersion {
-		return nil, fmt.Errorf("同梱サンプルの形式が不正です")
+		return nil, fmt.Errorf("invalid bundled sample format")
 	}
 	return &l, nil
 }
