@@ -7,7 +7,7 @@ mkdir -p dist
 
 version=$(sed -n 's/.*appVersion[[:space:]]*=[[:space:]]*"\([^"]*\)".*/\1/p' model.go)
 if [ -z "$version" ]; then
-  echo "appVersionを取得できません" >&2
+  echo "could not determine appVersion" >&2
   exit 1
 fi
 
@@ -30,4 +30,4 @@ if command -v sha256sum >/dev/null 2>&1; then
   (cd dist && sha256sum citation-ledger-go-*) > dist/SHA256SUMS.txt
 fi
 
-echo "dist/ に作成しました"
+echo "Built artifacts in dist/"
