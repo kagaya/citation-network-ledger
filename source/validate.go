@@ -9,27 +9,27 @@ func validateLedger(l *Ledger) []string {
 	refs := map[int64]bool{}
 	for _, p := range l.Papers {
 		if p.ID == "" {
-			errs = append(errs, "IDが空の文献があります")
+			errs = append(errs, "a paper has an empty ID")
 		} else if papers[p.ID] {
-			errs = append(errs, "文献IDが重複しています: "+p.ID)
+			errs = append(errs, "duplicate paper ID: "+p.ID)
 		}
 		papers[p.ID] = true
 	}
 	for _, r := range l.References {
 		if refs[r.ID] {
-			errs = append(errs, fmt.Sprintf("参考文献IDが重複しています: %d", r.ID))
+			errs = append(errs, fmt.Sprintf("duplicate reference ID: %d", r.ID))
 		}
 		refs[r.ID] = true
 		if !papers[r.SourcePaperID] {
-			errs = append(errs, fmt.Sprintf("参考文献%dの引用元がありません: %s", r.ID, r.SourcePaperID))
+			errs = append(errs, fmt.Sprintf("reference %d has no source paper: %s", r.ID, r.SourcePaperID))
 		}
 		if r.MatchedPaperID != "" && !papers[r.MatchedPaperID] {
-			errs = append(errs, fmt.Sprintf("参考文献%dの照合先がありません: %s", r.ID, r.MatchedPaperID))
+			errs = append(errs, fmt.Sprintf("reference %d has no matched paper: %s", r.ID, r.MatchedPaperID))
 		}
 	}
 	for _, c := range l.Citations {
 		if !papers[c.SourcePaperID] || !papers[c.TargetPaperID] {
-			errs = append(errs, fmt.Sprintf("引用辺の端点がありません: %s -> %s", c.SourcePaperID, c.TargetPaperID))
+			errs = append(errs, fmt.Sprintf("citation edge has a missing endpoint: %s -> %s", c.SourcePaperID, c.TargetPaperID))
 		}
 	}
 	return errs
