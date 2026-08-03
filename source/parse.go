@@ -192,17 +192,17 @@ func referenceSection(text string) string {
 func extractPDFText(path string) (string, error) {
 	pdftotext, err := exec.LookPath("pdftotext")
 	if err != nil {
-		return "", fmt.Errorf("pdftotextが見つかりません。Popplerを導入するか、add --references FILE を使ってください")
+		return "", fmt.Errorf("pdftotext was not found; install Poppler or use add --references FILE")
 	}
 	cmd := exec.Command(pdftotext, "-layout", path, "-")
 	var stdout, stderr bytes.Buffer
 	cmd.Stdout = &stdout
 	cmd.Stderr = &stderr
 	if err := cmd.Run(); err != nil {
-		return "", fmt.Errorf("pdftotextに失敗しました: %v: %s", err, strings.TrimSpace(stderr.String()))
+		return "", fmt.Errorf("pdftotext failed: %v: %s", err, strings.TrimSpace(stderr.String()))
 	}
 	if strings.TrimSpace(stdout.String()) == "" {
-		return "", fmt.Errorf("PDFから文字を抽出できませんでした。画像PDFなら先にOCRしてください")
+		return "", fmt.Errorf("could not extract text from PDF; run OCR first for an image-only PDF")
 	}
 	return stdout.String(), nil
 }
