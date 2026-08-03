@@ -18,12 +18,11 @@ Targets:
 
 Verification performed:
 - gofmt
-- go test ./... (8 tests)
+- go test ./... (7 tests)
 - go vet ./...
-- Python 2.1 export migration: 12 papers, 450 raw references, 21 edges
 - Bundled crayfish seed integrity: 12 papers, 450 raw references, 21 edges
 - Real Wine & Krasne 1972 PDF extraction through pdftotext: 35 candidates
 - Real PDF registration, ledger validation, JSON output, DOT output, and ZIP export
 - Cross-build file-format inspection for Linux, Windows, and macOS targets
 
-Checksums are in bin/SHA256SUMS.txt.
+Checksums are included with binary distribution archives when those archives are published.
